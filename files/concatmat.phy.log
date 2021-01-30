@@ -1,0 +1,90 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Mac OS X 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    eemb-micro-room.eemb.ucsb.edu (AVX2, FMA3, 64 GB RAM)
+Command: iqtree2 -s ../files/concatmat.phy -st AA -bb 1000 -bnni -alrt 1000 -T AUTO -ntmax 12
+Seed:    499153 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jan 29 15:57:33 2021
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file ../files/concatmat.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 47 sequences with 395232 columns, 162032 distinct patterns
+52459 parsimony-informative, 57861 singleton sites, 284912 constant sites
+                                                  Gap/Ambiguity  Composition  p-value
+   1  JaAU_S56                                           58.80%    failed      0.00%
+   2  BothJaOBD_clean.fasta.transdecoder.pep             64.02%    failed      0.00%
+   3  PRLMH_clean.fasta.transdecoder.pep                 99.42%    failed      1.29%
+   4  AllRoDU_clean.fasta.transdecoder.pep               56.85%    failed      0.00%
+   5  AllBzVAD_clean.fasta.transdecoder.pep              76.26%    failed      0.00%
+   6  LongWhiteEye_clean.fasta.transdecoder.pep          80.02%    failed      0.00%
+   7  LIRSCyp2_clean                                     68.42%    failed      0.00%
+   8  K_marleyi_clean                                    98.07%    failed      0.00%
+   9  BothPmorini_clean.fasta.transdecoder.pep           96.04%    failed      0.00%
+  10  BothJamescasei_clean.fasta.transdecoder.pep        99.57%    failed      0.63%
+  11  BothJaJimGun_clean.fasta.transdecoder.pep          97.63%    failed      0.00%
+  12  Vhilg_clean.fasta.transdecoder.pep                 89.10%    failed      0.00%
+  13  Jp_Melavar22_clean.fasta.transdecoder.pep          96.92%    failed      0.00%
+  14  FatWhiteEye_clean                                  72.98%    failed      0.00%
+  15  Allmacelroy_clean.fasta.transdecoder.pep           94.72%    failed      0.00%
+  16  BothRoCMU_clean.fasta.transdecoder.pep             52.82%    failed      0.00%
+  17  RO-AG_S10                                          54.74%    failed      0.00%
+  18  Vtsu_clean.fasta.transdecoder.pep                  75.56%    failed      0.00%
+  19  PSKO_clean.fasta.transdecoder.pep                  67.26%    failed      0.00%
+  20  PMMFU_clean.fasta.transdecoder.pep                 81.08%    failed      0.00%
+  21  ROWLU_2018                                         52.49%    failed      0.00%
+  22  Gigantocypris_clean                                82.92%    failed      0.00%
+  23  BothJaVAD_clean.fasta.transdecoder.pep             67.86%    failed      0.00%
+  24  BothRoODH_clean.fasta.transdecoder.pep             60.76%    failed      0.00%
+  25  JaWTF_S54                                          66.28%    failed      0.00%
+  26  BothGPH_clean.fasta.transdecoder.pep               82.30%    failed      0.00%
+  27  Chlorica_clean.fasta.transdecoder.pep              86.40%    failed      0.00%
+  28  AllRoRD_clean.fasta.transdecoder.pep               57.56%    failed      0.00%
+  29  BothSVD_clean.fasta.transdecoder.pep               82.94%    failed      0.00%
+  30  BothVhilg_shim_clean.fasta.transdecoder.pep        88.84%    failed      0.00%
+  31  BothJaSVD_clean.fasta.transdecoder.pep             64.95%    failed      0.00%
+  32  GlovSkog_clean                                     95.92%    failed      0.00%
+  33  curacao_clean.fasta.transdecoder.pep               78.96%    failed      0.00%
+  34  AllBzSVU_clean.fasta.transdecoder.pep              90.48%    failed      0.00%
+  35  Harb_slatteryi_clean.fasta.transdecoder.pep        73.57%    failed      0.00%
+  36  Cylindroleberidinae_clean.fasta.transdecoder.pep   65.54%    failed      0.00%
+  37  BothJaLSZZ_clean.fasta.transdecoder.pep            86.25%    failed      0.00%
+  38  Gruber_Pannecohenae_clean.fasta.transdecoder.pep   60.14%    failed      0.00%
+  39  jpcyp2b_clean.fasta.transdecoder.pep               82.56%    failed      0.00%
+  40  BothPara_w_clean.fasta.transdecoder.pep            91.92%    failed      0.00%
+  41  JaWLU_S67                                          52.14%    failed      0.00%
+  42  Korn_hast_c_clean.fasta.transdecoder.pep           68.62%    failed      0.00%
+  43  AltLiz_clean.fasta.transdecoder.pep                91.72%    failed      0.00%
+  44  WhiteVanessaLIRS_clean                             82.27%    failed      0.00%
+  45  RoIR_S66                                           56.12%    failed      0.00%
+  46  LIRSCyp1_clean                                     94.29%    failed      0.00%
+  47  Euph_microasciformis_clean                         69.77%    failed      0.00%
+WARNING: 47 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                              76.89%  47 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000253016 for long alignment
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.640 seconds
+Measuring multi-threading efficiency up to 4 CPU cores
+2 trees examined
+Threads: 1 / Time: 30.125 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2567004
+Threads: 2 / Time: 18.249 sec / Speedup: 1.651 / Efficiency: 83% / LogL: -2567004
+Threads: 3 / Time: 14.766 sec / Speedup: 2.040 / Efficiency: 68% / LogL: -2567004
+Threads: 4 / Time: 12.931 sec / Speedup: 2.330 / Efficiency: 58% / LogL: -2567004
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2224456.630
+2. Current log-likelihood: -2224441.813
+3. Current log-likelihood: -2224429.843
+4. Current log-likelihood: -2224422.410
+5. Current log-likelihood: -2224418.219
+6. Current log-likelihood: -2224414.327
+7. Current log-likelihood: -2224410.733
+8. Current log-likelihood: -2224407.412
+9. Current log-likelihood: -2224404.332
+10. Current log-likelihood: -2224401.467
