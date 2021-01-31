@@ -1,0 +1,1270 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Mac OS X 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    eemb-micro-room.eemb.ucsb.edu (AVX2, FMA3, 64 GB RAM)
+Command: iqtree2 -s ../files/concatmat.phy -spp ../files/partition_modified.nex --date dates_file.txt -te euph_rooted_concat.tre --date-tip 0 --redo-tree
+Seed:    545447 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jan 30 16:21:13 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file ../files/partition_modified.nex ...
+Reading alignment file ../files/concatmat.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 47 sequences with 395232 columns, 162032 distinct patterns
+52459 parsimony-informative, 57861 singleton sites, 284912 constant sites
+                                                  Gap/Ambiguity  Composition  p-value
+   1  JaAU_S56                                           58.80%    failed      0.00%
+   2  BothJaOBD_clean.fasta.transdecoder.pep             64.02%    failed      0.00%
+   3  PRLMH_clean.fasta.transdecoder.pep                 99.42%    failed      1.29%
+   4  AllRoDU_clean.fasta.transdecoder.pep               56.85%    failed      0.00%
+   5  AllBzVAD_clean.fasta.transdecoder.pep              76.26%    failed      0.00%
+   6  LongWhiteEye_clean.fasta.transdecoder.pep          80.02%    failed      0.00%
+   7  LIRSCyp2_clean                                     68.42%    failed      0.00%
+   8  K_marleyi_clean                                    98.07%    failed      0.00%
+   9  BothPmorini_clean.fasta.transdecoder.pep           96.04%    failed      0.00%
+  10  BothJamescasei_clean.fasta.transdecoder.pep        99.57%    failed      0.63%
+  11  BothJaJimGun_clean.fasta.transdecoder.pep          97.63%    failed      0.00%
+  12  Vhilg_clean.fasta.transdecoder.pep                 89.10%    failed      0.00%
+  13  Jp_Melavar22_clean.fasta.transdecoder.pep          96.92%    failed      0.00%
+  14  FatWhiteEye_clean                                  72.98%    failed      0.00%
+  15  Allmacelroy_clean.fasta.transdecoder.pep           94.72%    failed      0.00%
+  16  BothRoCMU_clean.fasta.transdecoder.pep             52.82%    failed      0.00%
+  17  RO-AG_S10                                          54.74%    failed      0.00%
+  18  Vtsu_clean.fasta.transdecoder.pep                  75.56%    failed      0.00%
+  19  PSKO_clean.fasta.transdecoder.pep                  67.26%    failed      0.00%
+  20  PMMFU_clean.fasta.transdecoder.pep                 81.08%    failed      0.00%
+  21  ROWLU_2018                                         52.49%    failed      0.00%
+  22  Gigantocypris_clean                                82.92%    failed      0.00%
+  23  BothJaVAD_clean.fasta.transdecoder.pep             67.86%    failed      0.00%
+  24  BothRoODH_clean.fasta.transdecoder.pep             60.76%    failed      0.00%
+  25  JaWTF_S54                                          66.28%    failed      0.00%
+  26  BothGPH_clean.fasta.transdecoder.pep               82.30%    failed      0.00%
+  27  Chlorica_clean.fasta.transdecoder.pep              86.40%    failed      0.00%
+  28  AllRoRD_clean.fasta.transdecoder.pep               57.56%    failed      0.00%
+  29  BothSVD_clean.fasta.transdecoder.pep               82.94%    failed      0.00%
+  30  BothVhilg_shim_clean.fasta.transdecoder.pep        88.84%    failed      0.00%
+  31  BothJaSVD_clean.fasta.transdecoder.pep             64.95%    failed      0.00%
+  32  GlovSkog_clean                                     95.92%    failed      0.00%
+  33  curacao_clean.fasta.transdecoder.pep               78.96%    failed      0.00%
+  34  AllBzSVU_clean.fasta.transdecoder.pep              90.48%    failed      0.00%
+  35  Harb_slatteryi_clean.fasta.transdecoder.pep        73.57%    failed      0.00%
+  36  Cylindroleberidinae_clean.fasta.transdecoder.pep   65.54%    failed      0.00%
+  37  BothJaLSZZ_clean.fasta.transdecoder.pep            86.25%    failed      0.00%
+  38  Gruber_Pannecohenae_clean.fasta.transdecoder.pep   60.14%    failed      0.00%
+  39  jpcyp2b_clean.fasta.transdecoder.pep               82.56%    failed      0.00%
+  40  BothPara_w_clean.fasta.transdecoder.pep            91.92%    failed      0.00%
+  41  JaWLU_S67                                          52.14%    failed      0.00%
+  42  Korn_hast_c_clean.fasta.transdecoder.pep           68.62%    failed      0.00%
+  43  AltLiz_clean.fasta.transdecoder.pep                91.72%    failed      0.00%
+  44  WhiteVanessaLIRS_clean                             82.27%    failed      0.00%
+  45  RoIR_S66                                           56.12%    failed      0.00%
+  46  LIRSCyp1_clean                                     94.29%    failed      0.00%
+  47  Euph_microasciformis_clean                         69.77%    failed      0.00%
+WARNING: 47 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                              76.89%  47 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Loading 767 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	AA	16	627	25	575	JTTDCMUT+G+F	Subset1
+2	AA	19	1951	341	1135	WAG+G+F	Subset2
+3	AA	9	348	8	313	VT+G+F	Subset3
+4		38	160	61	54	LG4X	Subset4
+5	AA	33	273	87	138	JTT+G	Subset5
+6	AA	5	746	2	739	LG	Subset6
+7	AA	21	478	122	341	LG+G+F	Subset7
+8	AA	30	142	46	42	WAG+G	Subset8
+9	AA	25	202	35	117	JTTDCMUT+G	Subset9
+10	AA	5	483	7	460	JTT+G	Subset10
+11		7	965	164	608	LG4X	Subset11
+12	AA	14	672	115	490	WAG+G	Subset12
+13	AA	7	408	1	394	JTT	Subset13
+14		8	627	112	429	LG4M+G	Subset14
+15	AA	13	885	183	574	JTT+G+F	Subset15
+16	AA	18	317	1	312	MTMAM+G+F	Subset16
+17	AA	32	174	39	110	JTT+G	Subset17
+18		34	233	72	82	LG4X	Subset18
+19	AA	24	260	15	218	VT+G+F	Subset19
+20	AA	9	193	27	72	LG	Subset20
+21		8	287	63	185	LG4X	Subset21
+22	AA	27	225	88	99	JTT+G	Subset22
+23	AA	7	190	2	175	LG	Subset23
+24	AA	6	797	144	522	JTT+G	Subset24
+25	AA	24	155	21	127	HIVB+G	Subset25
+26	AA	17	581	45	476	JTT+G+F	Subset26
+27	AA	8	1252	23	796	JTT+G	Subset27
+28	AA	13	446	102	321	JTT+G	Subset28
+29	AA	21	434	163	224	JTT+G+F	Subset29
+30	AA	32	157	32	77	JTT+G	Subset30
+31		12	647	192	309	LG4X	Subset31
+32	AA	4	365	0	353	LG	Subset32
+WARNING: No parsimony-informative sites in partition Subset32
+33	AA	7	617	93	482	WAG+G	Subset33
+34	AA	7	951	2	943	BLOSUM62	Subset34
+35	AA	25	984	175	738	JTT+G	Subset35
+36		23	178	57	58	LG4M+G	Subset36
+37	AA	6	289	23	190	JTTDCMUT+G+F	Subset37
+38	AA	15	300	25	259	JTT+G	Subset38
+39		10	1036	171	771	LG4X	Subset39
+40		18	639	218	274	LG4X	Subset40
+41	AA	23	956	331	498	JTTDCMUT+G+F	Subset41
+42	AA	4	223	1	216	JTT+G	Subset42
+43	AA	7	797	21	716	LG+G	Subset43
+44	AA	9	264	21	231	JTTDCMUT+G	Subset44
+45	AA	16	402	31	302	JTTDCMUT+G	Subset45
+46	AA	13	259	58	171	LG+G	Subset46
+47	AA	8	954	0	944	DAYHOFF+G+F	Subset47
+WARNING: No parsimony-informative sites in partition Subset47
+48	AA	7	223	6	210	JTTDCMUT+G	Subset48
+49	AA	21	151	3	147	LG+G	Subset49
+50	AA	17	459	63	277	JTT+G+F	Subset50
+51	AA	5	386	9	286	JTT+G	Subset51
+52		4	212	0	209	LG4M+G	Subset52
+WARNING: No parsimony-informative sites in partition Subset52
+53	AA	24	199	70	91	JTT+G	Subset53
+54		7	207	32	119	LG4X	Subset54
+55		6	506	25	462	LG4M+G	Subset55
+56	AA	6	713	51	557	JTTDCMUT+G+F	Subset56
+57	AA	22	296	64	206	JTTDCMUT+G+F	Subset57
+58	AA	6	1169	3	1148	JTTDCMUT	Subset58
+59	AA	7	358	39	210	LG+G	Subset59
+60	AA	8	119	57	29	WAG+G	Subset60
+61		6	153	66	41	LG4X	Subset61
+62	AA	31	126	11	104	FLU+G	Subset62
+63	AA	18	146	1	139	LG	Subset63
+64	AA	8	303	24	175	LG+G	Subset64
+65	AA	25	615	54	535	JTT+G	Subset65
+66		18	517	223	181	LG4X	Subset66
+67	AA	13	671	304	203	WAG+G	Subset67
+68	AA	8	328	1	296	BLOSUM62	Subset68
+69	AA	4	1016	49	337	VT	Subset69
+70	AA	5	548	30	300	LG+G	Subset70
+71	AA	16	989	155	783	JTTDCMUT+G+F	Subset71
+72	AA	6	175	1	167	WAG	Subset72
+73	AA	15	1658	141	1334	JTTDCMUT+G+F	Subset73
+74	AA	10	499	65	335	LG+G	Subset74
+75		6	281	41	193	LG4X	Subset75
+76	AA	19	632	59	442	JTTDCMUT+G	Subset76
+77		10	374	11	359	LG4X	Subset77
+78	AA	14	293	35	195	LG+G+F	Subset78
+79	AA	16	864	288	439	JTTDCMUT+G+F	Subset79
+80	AA	7	705	13	569	JTT+G	Subset80
+81	AA	26	1334	225	979	JTT+G+F	Subset81
+82	AA	4	714	121	545	LG	Subset82
+83	AA	9	1342	136	1109	JTT+G	Subset83
+84	AA	30	516	140	291	JTTDCMUT+G	Subset84
+85	AA	10	514	88	368	LG+G	Subset85
+86		5	627	69	468	LG4X	Subset86
+87	AA	23	138	15	55	WAG+G	Subset87
+88		4	1220	16	907	LG4X	Subset88
+89	AA	5	193	0	192	JTT	Subset89
+WARNING: No parsimony-informative sites in partition Subset89
+90	AA	21	213	4	203	LG	Subset90
+91	AA	12	510	51	284	DAYHOFF+G+F	Subset91
+92	AA	6	343	8	307	DAYHOFF+G	Subset92
+93	AA	7	1005	19	955	JTT	Subset93
+94	AA	13	485	65	327	JTT+G	Subset94
+95		15	155	55	67	LG4X	Subset95
+96	AA	7	364	2	344	WAG	Subset96
+97	AA	13	517	56	430	MTZOA+G+F	Subset97
+98	AA	6	204	0	194	BLOSUM62	Subset98
+WARNING: No parsimony-informative sites in partition Subset98
+99	AA	8	449	56	322	JTT+G+F	Subset99
+100	AA	25	166	52	68	JTTDCMUT+G	Subset100
+101	AA	8	397	2	395	LG	Subset101
+102	AA	13	2285	21	2190	JTT+G	Subset102
+103	AA	8	319	130	126	LG+G	Subset103
+104	AA	26	283	70	177	LG+G	Subset104
+105	AA	15	501	265	162	JTT+G	Subset105
+106		21	579	88	423	LG4X	Subset106
+107	AA	27	300	66	174	JTT+G	Subset107
+108	AA	22	122	12	102	JTT+G	Subset108
+109		12	229	3	219	LG4M+G	Subset109
+110	AA	14	499	2	495	CPREV	Subset110
+111	AA	7	410	31	225	PMB+G	Subset111
+112		12	519	47	357	LG4X	Subset112
+113	AA	11	749	236	404	JTT+G+F	Subset113
+114	AA	22	344	134	154	JTT+G	Subset114
+115	AA	17	689	252	350	JTT+G+F	Subset115
+116	AA	22	253	111	107	LG+G	Subset116
+117	AA	23	298	35	254	LG+I+G+F	Subset117
+118	AA	25	617	79	467	JTTDCMUT+G	Subset118
+119	AA	13	208	113	76	WAG+G	Subset119
+120	AA	5	615	27	507	JTT+G	Subset120
+121	AA	20	264	46	173	LG+G	Subset121
+122	AA	5	1027	0	991	MTMAM+G+F	Subset122
+WARNING: No parsimony-informative sites in partition Subset122
+123		33	433	115	250	LG4X	Subset123
+124		16	418	9	384	LG4X	Subset124
+125	AA	5	210	1	198	LG+G	Subset125
+126		8	619	130	369	LG4X	Subset126
+127	AA	5	408	8	378	FLU+G+F	Subset127
+128	AA	8	328	25	184	VT+G+F	Subset128
+129	AA	20	398	166	156	LG+G	Subset129
+130		40	164	63	54	LG4X	Subset130
+131	AA	7	441	6	412	JTT	Subset131
+132	AA	10	211	9	199	JTT	Subset132
+133	AA	22	360	123	134	LG+G	Subset133
+134	AA	19	689	321	311	JTT+G+F	Subset134
+135	AA	24	330	57	258	JTT+G	Subset135
+136		31	312	107	153	LG4X	Subset136
+137		11	313	177	117	LG4X	Subset137
+138	AA	23	246	10	231	MTZOA+G+F	Subset138
+139	AA	6	386	72	174	JTT+G	Subset139
+140	AA	11	317	15	284	RTREV+G+F	Subset140
+141	AA	13	724	273	420	JTTDCMUT+G+F	Subset141
+142	AA	5	277	14	242	HIVB+G	Subset142
+143	AA	16	336	64	201	JTTDCMUT+G	Subset143
+144	AA	13	1120	254	769	JTT+G+F	Subset144
+145		14	578	86	454	LG4X	Subset145
+146		10	623	98	470	LG4X	Subset146
+147		25	511	94	321	LG4X	Subset147
+148	AA	16	1175	267	668	LG+G+F	Subset148
+149		7	382	84	218	LG4X	Subset149
+150	AA	26	723	159	434	JTT+G+F	Subset150
+151		9	499	131	251	LG4X	Subset151
+152	AA	21	872	163	594	JTTDCMUT+G+F	Subset152
+153	AA	11	268	70	159	JTT+G	Subset153
+154		21	751	111	534	LG4X	Subset154
+155	AA	25	1121	131	815	JTT+G	Subset155
+156		5	320	2	293	LG4X	Subset156
+157	AA	8	567	1	542	JTTDCMUT+G	Subset157
+158	AA	8	434	5	423	LG+G	Subset158
+159	AA	12	432	199	148	JTT+G+F	Subset159
+160	AA	12	1101	141	712	JTT+G+F	Subset160
+161		31	306	81	168	LG4X	Subset161
+162	AA	25	1889	502	1222	JTTDCMUT+G+F	Subset162
+163	AA	14	159	16	131	LG+G	Subset163
+164		8	313	49	199	LG4X	Subset164
+165		7	414	98	183	LG4X	Subset165
+166		9	614	235	293	LG4X	Subset166
+167	AA	4	340	0	331	PMB	Subset167
+WARNING: No parsimony-informative sites in partition Subset167
+168		11	423	160	84	LG4X	Subset168
+169	AA	7	326	2	286	JTTDCMUT+G+F	Subset169
+170	AA	14	808	193	508	JTTDCMUT+G	Subset170
+171	AA	13	418	80	302	JTT+G+F	Subset171
+172	AA	20	430	85	307	LG+G	Subset172
+173	AA	15	350	100	192	JTTDCMUT+G+F	Subset173
+174		14	369	92	132	LG4X	Subset174
+175	AA	29	547	135	337	LG+G	Subset175
+176		4	893	1	886	LG4X	Subset176
+177	AA	9	394	76	281	JTTDCMUT+G	Subset177
+178	AA	8	629	59	408	JTT+G+F	Subset178
+179	AA	34	287	88	148	JTT+G	Subset179
+180	AA	7	287	38	224	JTTDCMUT+G+F	Subset180
+181		30	133	19	108	LG4M+G	Subset181
+182	AA	8	1276	55	1038	JTT+G+F	Subset182
+183	AA	4	528	0	527	RTREV	Subset183
+WARNING: No parsimony-informative sites in partition Subset183
+184	AA	14	578	83	396	LG+G+F	Subset184
+185	AA	13	316	26	267	JTTDCMUT+G	Subset185
+186	AA	19	682	162	387	MTZOA+G+F	Subset186
+187	AA	14	1008	402	305	VT+G+F	Subset187
+188	AA	5	981	108	753	JTT+G	Subset188
+189	AA	5	448	3	433	LG+G	Subset189
+190		11	248	41	135	LG4X	Subset190
+191		16	379	51	252	LG4M+G	Subset191
+192	AA	9	1244	249	806	LG+G	Subset192
+193	AA	30	1311	188	1012	JTT+G+F	Subset193
+194	AA	5	812	35	667	HIVW+G+F	Subset194
+195		28	243	43	169	LG4X	Subset195
+196	AA	27	454	121	214	JTT+G+F	Subset196
+197	AA	7	529	22	445	JTT+G	Subset197
+198		11	249	38	144	LG4X	Subset198
+199		15	686	88	522	LG4X	Subset199
+200	AA	7	845	13	814	LG	Subset200
+201	AA	13	875	347	476	JTT+G+F	Subset201
+202	AA	5	531	6	367	JTTDCMUT	Subset202
+203	AA	10	146	16	122	JTT+G	Subset203
+204	AA	12	597	42	516	HIVB+G+F	Subset204
+205	AA	5	604	39	464	LG+G	Subset205
+206		29	386	145	188	LG4X	Subset206
+207	AA	14	494	33	442	MTZOA+G+F	Subset207
+208	AA	11	350	95	153	JTT+G+F	Subset208
+209	AA	26	206	79	88	JTT+G	Subset209
+210	AA	23	162	10	136	FLU+G	Subset210
+211	AA	29	550	122	383	JTTDCMUT+G	Subset211
+212	AA	12	828	7	642	VT+G+F	Subset212
+213	AA	8	468	2	465	LG+G	Subset213
+214		6	572	49	458	LG4M+G	Subset214
+215	AA	9	618	111	428	JTTDCMUT+G+F	Subset215
+216	AA	16	228	22	164	JTTDCMUT+G	Subset216
+217	AA	5	565	1	550	FLU	Subset217
+218	AA	18	157	16	129	JTTDCMUT+G	Subset218
+219	AA	22	1265	62	1119	JTT+G+F	Subset219
+220	AA	25	306	162	120	JTT+G+F	Subset220
+221	AA	5	555	5	533	BLOSUM62+G	Subset221
+222		7	442	13	414	LG4X	Subset222
+223	AA	31	240	73	134	JTTDCMUT+G	Subset223
+224	AA	8	1705	15	1657	LG+G	Subset224
+225	AA	26	1333	145	1003	JTT+G	Subset225
+226	AA	7	368	77	154	WAG+G	Subset226
+227	AA	9	422	91	296	LG+G	Subset227
+228	AA	23	321	76	189	JTT+G	Subset228
+229	AA	19	816	206	451	JTT+G	Subset229
+230	AA	15	290	34	193	LG+G	Subset230
+231	AA	19	179	59	108	DAYHOFF+G+F	Subset231
+232	AA	28	224	6	207	BLOSUM62+G	Subset232
+233	AA	35	304	138	132	JTT+G+F	Subset233
+234	AA	9	422	31	385	JTT+G	Subset234
+235		12	392	41	289	LG4X	Subset235
+236	AA	10	302	76	200	JTTDCMUT+G+F	Subset236
+237	AA	17	738	5	706	MTMAM+G+F	Subset237
+238	AA	7	472	40	272	LG+G	Subset238
+239		5	209	7	123	LG4M+G	Subset239
+240	AA	11	266	52	191	JTT+G	Subset240
+241	AA	13	156	15	132	DAYHOFF+G	Subset241
+242		10	952	57	743	LG4X	Subset242
+243		32	377	62	278	LG4X	Subset243
+244	AA	6	235	25	135	JTT+G	Subset244
+245	AA	9	589	146	252	JTTDCMUT+G+F	Subset245
+246	AA	11	354	35	226	LG+G+F	Subset246
+247	AA	12	341	92	201	JTT+G	Subset247
+248	AA	34	109	7	69	RTREV	Subset248
+249	AA	19	160	1	157	HIVB	Subset249
+250	AA	8	494	18	470	LG+G	Subset250
+251	AA	11	574	34	528	RTREV+G+F	Subset251
+252	AA	5	395	26	313	JTTDCMUT+G	Subset252
+253		10	703	166	460	LG4X	Subset253
+254	AA	13	212	3	208	LG+G	Subset254
+255	AA	8	286	38	202	HIVB+G+F	Subset255
+256	AA	12	544	4	526	JTT+G	Subset256
+257	AA	5	369	0	369	BLOSUM62	Subset257
+WARNING: No variant sites in partition Subset257
+258	AA	7	775	2	754	JTTDCMUT	Subset258
+259	AA	4	337	4	317	FLU+G	Subset259
+260	AA	4	717	0	478	VT	Subset260
+WARNING: No parsimony-informative sites in partition Subset260
+261	AA	23	229	16	187	VT+G	Subset261
+262	AA	7	380	9	361	JTTDCMUT+G	Subset262
+263		33	277	130	95	LG4X	Subset263
+264		31	413	193	158	LG4X	Subset264
+265	AA	30	148	0	138	BLOSUM62	Subset265
+WARNING: No parsimony-informative sites in partition Subset265
+266		15	141	16	97	LG4X	Subset266
+267		14	464	96	302	LG4X	Subset267
+268	AA	17	962	42	833	JTTDCMUT+G+F	Subset268
+269	AA	16	250	0	248	LG	Subset269
+WARNING: No parsimony-informative sites in partition Subset269
+270	AA	8	519	28	377	JTT+G	Subset270
+271	AA	27	823	119	644	JTTDCMUT+G+F	Subset271
+272	AA	11	377	1	356	PMB+G+F	Subset272
+273	AA	5	190	1	184	JTTDCMUT	Subset273
+274		20	215	30	172	LG4X	Subset274
+275	AA	6	467	34	315	JTT+G+F	Subset275
+276	AA	6	459	18	293	DCMUT+G+F	Subset276
+277	AA	14	477	78	302	LG+G	Subset277
+278		9	623	124	369	LG4X	Subset278
+279		31	256	122	101	LG4X	Subset279
+280	AA	33	326	104	171	JTT+G	Subset280
+281	AA	22	1295	131	815	JTTDCMUT+G+F	Subset281
+282	AA	8	504	6	453	JTT+G	Subset282
+283		27	402	137	207	LG4X	Subset283
+284	AA	4	341	1	329	JTT	Subset284
+285		13	275	10	252	LG4M+G	Subset285
+286	AA	33	822	163	478	JTTDCMUT+G+F	Subset286
+287	AA	8	120	5	99	PMB+G	Subset287
+288	AA	15	146	5	139	LG	Subset288
+289	AA	23	334	39	247	JTTDCMUT+G	Subset289
+290		29	488	81	336	LG4X	Subset290
+291		6	413	128	154	LG4X	Subset291
+292	AA	4	1765	89	1171	JTT+G+F	Subset292
+293	AA	27	412	26	295	VT+G	Subset293
+294	AA	11	470	84	353	LG+G	Subset294
+295	AA	14	407	133	239	LG+G	Subset295
+296	AA	16	324	2	319	BLOSUM62	Subset296
+297	AA	14	2083	112	1760	JTT+G+F	Subset297
+298		7	1006	234	715	LG4X	Subset298
+299	AA	10	1736	33	1579	JTTDCMUT+G	Subset299
+300	AA	26	168	18	128	JTTDCMUT+G+F	Subset300
+301	AA	14	260	4	246	DAYHOFF+G+F	Subset301
+302	AA	19	384	106	221	JTT+G	Subset302
+303	AA	7	1088	7	1039	JTT	Subset303
+304		8	555	83	431	LG4X	Subset304
+305		17	184	8	172	LG4X	Subset305
+306		14	1455	1	1454	LG4X	Subset306
+307	AA	7	535	55	335	JTT+G	Subset307
+308	AA	18	247	72	118	JTT+G+F	Subset308
+309	AA	8	1188	141	768	JTTDCMUT+G+F	Subset309
+310	AA	12	721	36	558	JTTDCMUT+G	Subset310
+311	AA	20	224	14	202	JTT+G	Subset311
+312	AA	13	252	59	88	LG+G	Subset312
+313	AA	7	444	83	279	JTT+G	Subset313
+314	AA	21	1118	120	872	JTT+G+F	Subset314
+315	AA	5	914	68	455	LG+G	Subset315
+316	AA	27	192	52	117	JTT+G	Subset316
+317	AA	8	814	119	628	JTT+G+F	Subset317
+318	AA	28	1190	249	706	JTTDCMUT+G+F	Subset318
+319	AA	17	227	58	118	JTT+G+F	Subset319
+320	AA	4	1982	43	1249	WAG+G	Subset320
+321		6	631	68	401	LG4X	Subset321
+322		4	538	3	518	LG4X	Subset322
+323	AA	19	821	100	523	JTT+G+F	Subset323
+324	AA	26	341	78	210	JTT+G	Subset324
+325		7	769	82	416	LG4X	Subset325
+326	AA	10	1243	173	810	JTTDCMUT+G+F	Subset326
+327	AA	14	395	33	336	DCMUT+G+F	Subset327
+328		11	1077	6	977	LG4X	Subset328
+329	AA	6	391	11	262	JTTDCMUT+G	Subset329
+330	AA	10	898	9	885	LG+G	Subset330
+331	AA	15	248	4	234	LG+I+G	Subset331
+332		37	358	80	240	LG4X	Subset332
+333	AA	15	334	6	317	JTTDCMUT+G	Subset333
+334		8	615	90	401	LG4X	Subset334
+335		8	890	336	274	LG4X	Subset335
+336		4	1439	2	1317	LG4X	Subset336
+337	AA	11	275	64	162	LG+G	Subset337
+338	AA	29	932	59	795	JTT+G	Subset338
+339	AA	5	497	16	299	LG+G	Subset339
+340		20	272	36	196	LG4X	Subset340
+341	AA	12	646	22	610	JTT+G+F	Subset341
+342	AA	14	462	2	454	FLU+G+F	Subset342
+343	AA	6	177	0	172	LG	Subset343
+WARNING: No parsimony-informative sites in partition Subset343
+344	AA	27	570	83	458	JTT+G	Subset344
+345	AA	16	284	140	104	JTT+G	Subset345
+346	AA	8	559	78	368	LG+G	Subset346
+347	AA	10	336	24	246	JTT+G	Subset347
+348	AA	8	377	33	317	JTTDCMUT+G+F	Subset348
+349	AA	7	496	3	485	LG+G	Subset349
+350	AA	14	708	33	573	LG+G	Subset350
+351		29	500	91	318	LG4X	Subset351
+352	AA	5	126	12	89	CPREV+G	Subset352
+353	AA	6	608	28	523	LG+G	Subset353
+354	AA	12	216	81	76	JTTDCMUT+G+F	Subset354
+355	AA	8	439	111	225	LG+G	Subset355
+356	AA	28	228	52	155	JTT+G	Subset356
+357		20	826	128	582	LG4X	Subset357
+358	AA	6	523	176	279	LG+G	Subset358
+359	AA	8	650	4	632	CPREV	Subset359
+360	AA	24	837	21	789	JTTDCMUT+G	Subset360
+361	AA	16	439	10	400	JTTDCMUT+G+F	Subset361
+362	AA	5	521	32	292	LG+G	Subset362
+363	AA	21	471	15	434	LG+G	Subset363
+364	AA	6	1279	2	1268	VT+I+G	Subset364
+365	AA	23	458	57	388	MTZOA+G+F	Subset365
+366		5	763	17	678	LG4X	Subset366
+367	AA	8	155	22	99	LG+G+F	Subset367
+368	AA	10	320	71	163	CPREV+G	Subset368
+369	AA	7	629	67	517	JTTDCMUT+G	Subset369
+370	AA	16	1839	373	852	JTT+G+F	Subset370
+371	AA	14	690	53	566	LG+G	Subset371
+372		36	444	140	230	LG4X	Subset372
+373		23	670	222	378	LG4X	Subset373
+374	AA	16	314	79	190	JTTDCMUT+G+F	Subset374
+375	AA	6	525	2	518	LG	Subset375
+376		10	462	55	327	LG4X	Subset376
+377	AA	18	494	152	238	LG+G+F	Subset377
+378	AA	5	364	15	274	LG+G	Subset378
+379	AA	27	157	7	137	BLOSUM62+G	Subset379
+380		21	509	67	417	LG4X	Subset380
+381	AA	4	900	5	849	VT	Subset381
+382	AA	9	363	24	308	LG+G	Subset382
+383		16	465	134	275	LG4X	Subset383
+384	AA	14	723	37	574	LG+I+G	Subset384
+385		5	631	54	287	LG4X	Subset385
+386	AA	12	229	3	223	RTREV+G+F	Subset386
+387		28	554	295	207	LG4X	Subset387
+388	AA	16	952	98	660	JTTDCMUT+G+F	Subset388
+389	AA	5	632	12	352	JTTDCMUT+G+F	Subset389
+390	AA	8	469	23	412	JTT+G+F	Subset390
+391	AA	18	155	19	113	HIVB+G	Subset391
+392		7	432	18	394	LG4M+G	Subset392
+393	AA	6	446	57	335	JTTDCMUT	Subset393
+394	AA	8	332	15	301	WAG+G	Subset394
+395	AA	9	557	25	447	LG+G	Subset395
+396	AA	6	949	7	936	HIVB+G+F	Subset396
+397	AA	4	486	0	452	JTT	Subset397
+WARNING: No parsimony-informative sites in partition Subset397
+398	AA	17	805	36	735	JTT+G+F	Subset398
+399	AA	7	1318	93	1122	JTTDCMUT+G	Subset399
+400		8	122	0	111	LG4X	Subset400
+WARNING: No parsimony-informative sites in partition Subset400
+401		17	316	111	148	LG4X	Subset401
+402	AA	27	250	80	139	JTT+G	Subset402
+403	AA	21	210	8	186	LG+I+G	Subset403
+404		8	497	168	221	LG4X	Subset404
+405	AA	7	623	124	309	LG+G+F	Subset405
+406	AA	16	714	174	388	LG+G	Subset406
+407	AA	16	691	65	547	HIVB+G+F	Subset407
+408	AA	8	882	53	751	JTT+G	Subset408
+409	AA	15	928	304	425	CPREV+G+F	Subset409
+410	AA	7	493	61	286	LG+G	Subset410
+411	AA	7	1458	57	830	WAG+G+F	Subset411
+412	AA	16	979	30	856	JTT+G+F	Subset412
+413	AA	26	251	70	102	LG+G	Subset413
+414	AA	6	493	40	412	MTZOA+G+F	Subset414
+415	AA	13	894	29	841	HIVB+G+F	Subset415
+416		24	314	109	163	LG4X	Subset416
+417	AA	6	1195	36	907	JTTDCMUT+G	Subset417
+418	AA	31	482	276	154	JTT+G	Subset418
+419	AA	8	208	4	194	VT+G	Subset419
+420		10	502	47	425	LG4X	Subset420
+421	AA	12	759	19	710	LG+G	Subset421
+422		9	193	22	87	LG4X	Subset422
+423	AA	5	229	4	185	MTZOA	Subset423
+424	AA	7	351	58	257	JTTDCMUT+G+F	Subset424
+425	AA	6	228	0	223	LG	Subset425
+WARNING: No parsimony-informative sites in partition Subset425
+426	AA	10	277	11	161	VT+G	Subset426
+427	AA	6	529	1	526	VT	Subset427
+428	AA	19	477	64	331	LG+G	Subset428
+429	AA	14	213	0	208	LG	Subset429
+WARNING: No parsimony-informative sites in partition Subset429
+430	AA	8	431	9	419	LG+G	Subset430
+431	AA	14	229	89	101	JTTDCMUT+G	Subset431
+432	AA	34	445	114	271	JTTDCMUT+G+F	Subset432
+433	AA	13	285	0	284	LG	Subset433
+WARNING: No parsimony-informative sites in partition Subset433
+434		21	906	338	520	LG4X	Subset434
+435	AA	11	583	18	558	MTZOA+G+F	Subset435
+436	AA	32	110	10	95	RTREV+G+F	Subset436
+437	AA	5	306	6	290	LG+G	Subset437
+438		22	580	203	318	LG4X	Subset438
+439		20	615	259	267	LG4X	Subset439
+440	AA	6	763	90	364	JTTDCMUT+G+F	Subset440
+441		7	215	57	123	LG4X	Subset441
+442	AA	6	831	5	751	JTT+G	Subset442
+443		8	478	42	366	LG4X	Subset443
+444	AA	10	429	1	414	JTT+G	Subset444
+445	AA	33	278	72	188	MTZOA+G	Subset445
+446	AA	5	315	4	287	LG+G	Subset446
+447	AA	18	757	43	699	HIVB+G+F	Subset447
+448	AA	31	228	1	219	JTTDCMUT+G	Subset448
+449	AA	7	553	14	500	JTT+G	Subset449
+450	AA	35	146	38	73	LG+G	Subset450
+451	AA	16	424	77	266	JTTDCMUT+G	Subset451
+452	AA	26	208	40	139	PMB+G	Subset452
+453		26	144	39	82	LG4X	Subset453
+454	AA	34	328	46	255	LG+G	Subset454
+455	AA	16	791	103	467	JTT+G+F	Subset455
+456	AA	9	157	5	143	JTTDCMUT+G+F	Subset456
+457	AA	10	414	23	364	JTT+G	Subset457
+458	AA	9	1519	16	1489	JTT+G+F	Subset458
+459	AA	10	417	126	205	JTT+G	Subset459
+460		27	378	76	244	LG4X	Subset460
+461	AA	4	899	2	859	DAYHOFF+G+F	Subset461
+462	AA	24	171	1	163	LG+G	Subset462
+463	AA	10	296	20	258	JTT	Subset463
+464	AA	15	248	7	184	BLOSUM62+G	Subset464
+465	AA	15	590	99	360	LG+G	Subset465
+466	AA	26	740	162	415	JTT+G+F	Subset466
+467	AA	11	207	27	146	LG+G	Subset467
+468	AA	31	687	191	401	JTTDCMUT+G+F	Subset468
+469	AA	17	116	2	110	FLU+G	Subset469
+470	AA	11	1260	170	935	JTT+G+F	Subset470
+471	AA	5	397	4	295	JTTDCMUT+G	Subset471
+472	AA	10	377	0	374	BLOSUM62	Subset472
+WARNING: No parsimony-informative sites in partition Subset472
+473	AA	8	689	222	363	JTT+G	Subset473
+474	AA	7	158	22	108	CPREV+G	Subset474
+475	AA	8	192	3	179	LG+G	Subset475
+476		6	253	20	215	LG4X	Subset476
+477	AA	24	909	378	421	JTT+G+F	Subset477
+478	AA	23	214	17	185	JTT+G	Subset478
+479		6	225	31	151	LG4X	Subset479
+480		12	163	26	114	LG4X	Subset480
+481	AA	10	774	218	357	JTT+G	Subset481
+482	AA	15	937	262	562	LG+G+F	Subset482
+483		17	232	67	115	LG4M+G	Subset483
+484	AA	26	543	82	353	MTZOA+G+F	Subset484
+485	AA	7	119	4	93	FLU+G	Subset485
+486	AA	14	165	0	154	WAG	Subset486
+WARNING: No parsimony-informative sites in partition Subset486
+487	AA	15	805	28	735	VT+I+G+F	Subset487
+488	AA	19	245	16	175	JTTDCMUT+G	Subset488
+489	AA	14	359	36	255	JTT+G	Subset489
+490		13	1044	133	539	LG4X	Subset490
+491	AA	4	345	1	335	MTZOA+G+F	Subset491
+492		6	661	60	510	LG4X	Subset492
+493		14	836	199	507	LG4X	Subset493
+494	AA	22	529	63	414	JTT+G+F	Subset494
+495		30	326	154	113	LG4X	Subset495
+496		13	171	41	83	LG4X	Subset496
+497	AA	22	250	17	225	LG+G	Subset497
+498		12	327	75	175	LG4X	Subset498
+499	AA	6	195	7	156	JTT+G	Subset499
+500		20	374	137	165	LG4X	Subset500
+501	AA	10	617	173	399	MTZOA+G+F	Subset501
+502		24	450	84	271	LG4X	Subset502
+503	AA	14	623	199	342	JTT+G+F	Subset503
+504	AA	24	726	257	329	JTT+G+F	Subset504
+505	AA	7	476	10	456	LG+G	Subset505
+506	AA	8	331	41	184	JTT+G	Subset506
+507		6	409	93	219	LG4X	Subset507
+508	AA	7	1017	53	856	JTT+G+F	Subset508
+509		17	462	111	258	LG4X	Subset509
+510	AA	15	403	61	280	MTZOA+G+F	Subset510
+511	AA	37	131	16	102	VT+G	Subset511
+512	AA	9	229	33	146	JTTDCMUT+G	Subset512
+513	AA	21	480	240	189	JTT+G+F	Subset513
+514		18	276	108	123	LG4X	Subset514
+515		13	414	89	233	LG4X	Subset515
+516		30	1021	153	830	LG4X	Subset516
+517	AA	14	117	4	108	HIVB+G	Subset517
+518		17	319	24	232	LG4X	Subset518
+519	AA	12	542	81	315	JTT+G	Subset519
+520	AA	15	240	74	126	JTT+G	Subset520
+521		8	815	9	788	LG4X	Subset521
+522	AA	4	985	1	963	CPREV+G	Subset522
+523		4	537	25	365	LG4M+G	Subset523
+524	AA	6	203	4	194	LG+G	Subset524
+525	AA	14	839	119	548	LG+G	Subset525
+526	AA	6	178	2	161	JTT	Subset526
+527		8	188	23	147	LG4X	Subset527
+528		20	332	100	184	LG4X	Subset528
+529		4	389	1	369	LG4X	Subset529
+530	AA	17	120	41	76	JTT+G	Subset530
+531	AA	5	256	42	129	LG+G	Subset531
+532	AA	25	276	118	126	JTTDCMUT+G	Subset532
+533	AA	15	296	7	269	JTT+G	Subset533
+534	AA	21	609	139	388	JTTDCMUT+G	Subset534
+535	AA	3	1263	0	1180	JTT	Subset535
+WARNING: No parsimony-informative sites in partition Subset535
+536	AA	22	802	188	558	LG+G	Subset536
+537		10	249	116	82	LG4X	Subset537
+538	AA	13	737	49	637	JTT+G+F	Subset538
+539	AA	16	416	55	298	JTT+G	Subset539
+540	AA	13	518	1	290	PMB+G+F	Subset540
+541	AA	10	570	142	344	LG+G	Subset541
+542	AA	12	753	31	659	LG+G	Subset542
+543		24	227	74	77	LG4X	Subset543
+544	AA	22	666	128	441	JTT+G	Subset544
+545	AA	5	629	14	592	LG	Subset545
+546		19	341	73	227	LG4X	Subset546
+547	AA	31	518	142	307	LG+G	Subset547
+548	AA	9	156	21	77	CPREV+G	Subset548
+549		28	481	115	262	LG4X	Subset549
+550	AA	22	819	167	535	JTT+G+F	Subset550
+551	AA	13	449	178	128	LG+G	Subset551
+552	AA	9	208	1	193	MTART+G+F	Subset552
+553	AA	17	698	62	614	JTTDCMUT+G	Subset553
+554	AA	8	2983	85	2361	JTTDCMUT+G+F	Subset554
+555		8	302	35	179	LG4X	Subset555
+556		12	353	101	190	LG4M+G	Subset556
+557	AA	29	139	31	83	JTT+G	Subset557
+558	AA	27	394	61	241	LG+G+F	Subset558
+559		11	592	169	328	LG4X	Subset559
+560	AA	11	382	163	171	CPREV+G	Subset560
+561	AA	10	942	10	916	JTT+G+F	Subset561
+562	AA	15	375	19	344	MTREV+G+F	Subset562
+563	AA	20	152	49	79	JTT+G	Subset563
+564	AA	15	955	93	680	JTT+G+F	Subset564
+565	AA	20	346	8	336	JTT+I+G	Subset565
+566	AA	25	222	73	96	LG+G	Subset566
+567		11	599	199	275	LG4X	Subset567
+568		20	1056	168	723	LG4X	Subset568
+569	AA	11	551	51	473	JTT+G	Subset569
+570	AA	8	1131	149	752	JTT+G+F	Subset570
+571	AA	13	227	14	181	JTTDCMUT+G	Subset571
+572	AA	29	813	67	691	DAYHOFF+I+G+F	Subset572
+573	AA	8	256	28	190	WAG+G	Subset573
+574	AA	5	501	6	477	JTT	Subset574
+575	AA	32	368	22	333	LG+I+G	Subset575
+576		13	350	84	193	LG4X	Subset576
+577		4	258	14	114	LG4X	Subset577
+578	AA	6	411	39	360	JTT+G	Subset578
+579		23	306	146	69	LG4X	Subset579
+580		10	1045	55	917	LG4X	Subset580
+581	AA	15	261	9	241	BLOSUM62+G	Subset581
+582	AA	12	179	17	143	HIVB+G	Subset582
+583	AA	6	1143	36	1041	JTTDCMUT+G	Subset583
+584		8	505	93	234	LG4X	Subset584
+585	AA	5	1147	38	813	JTT+G	Subset585
+586	AA	14	360	19	307	VT+G	Subset586
+587		9	245	31	123	LG4X	Subset587
+588	AA	16	139	1	133	DAYHOFF	Subset588
+589	AA	6	870	69	640	DCMUT+G+F	Subset589
+590	AA	12	365	3	360	LG+I+G	Subset590
+591		14	146	1	140	LG4X	Subset591
+592	AA	6	1117	122	557	WAG+G+F	Subset592
+593		14	501	149	333	LG4X	Subset593
+594	AA	5	217	0	205	BLOSUM62	Subset594
+WARNING: No parsimony-informative sites in partition Subset594
+595	AA	20	324	64	218	JTT+G	Subset595
+596	AA	21	496	129	310	JTT+G	Subset596
+597		15	828	71	633	LG4X	Subset597
+598	AA	7	651	115	422	JTT+G+F	Subset598
+599	AA	8	524	24	364	JTT+G	Subset599
+600	AA	5	711	135	419	JTT+G	Subset600
+601		29	470	166	213	LG4X	Subset601
+602	AA	21	1050	186	706	LG+G	Subset602
+603	AA	16	247	48	126	MTZOA+G	Subset603
+604	AA	21	639	128	486	JTTDCMUT+G+F	Subset604
+605	AA	10	218	21	165	JTT+G	Subset605
+606	AA	6	215	2	197	VT+G+F	Subset606
+607	AA	25	212	37	151	JTTDCMUT+G	Subset607
+608		7	272	13	242	LG4X	Subset608
+609	AA	4	574	25	281	LG+G	Subset609
+610	AA	14	353	98	151	JTT+G+F	Subset610
+611		7	472	22	393	LG4X	Subset611
+612	AA	21	1203	65	1091	MTZOA+G+F	Subset612
+613	AA	19	312	73	207	JTTDCMUT+G+F	Subset613
+614		19	795	178	564	LG4X	Subset614
+615	AA	8	721	3	673	JTT+G+F	Subset615
+616	AA	20	699	219	240	VT+G	Subset616
+617	AA	10	474	81	316	JTT+G+F	Subset617
+618		5	559	5	431	LG4X	Subset618
+619		6	653	4	636	LG4X	Subset619
+620	AA	14	220	0	217	MTART+G+F	Subset620
+WARNING: No parsimony-informative sites in partition Subset620
+621		17	181	78	79	LG4X	Subset621
+622		12	400	51	236	LG4X	Subset622
+623	AA	16	633	54	413	JTT+G	Subset623
+624		21	232	113	57	LG4M+G	Subset624
+625	AA	22	242	58	154	JTT+G	Subset625
+626	AA	6	271	5	254	PMB+G	Subset626
+627	AA	8	519	19	460	JTT+G+F	Subset627
+628	AA	10	600	40	414	JTTDCMUT+G+F	Subset628
+629		12	653	273	229	LG4X	Subset629
+630	AA	20	162	26	70	RTREV+G+F	Subset630
+631	AA	4	505	5	482	JTTDCMUT	Subset631
+632	AA	14	1271	47	1144	JTT+G	Subset632
+633	AA	21	272	8	221	VT+G+F	Subset633
+634	AA	7	400	29	239	DAYHOFF+G+F	Subset634
+635	AA	29	192	13	123	JTTDCMUT+G+F	Subset635
+636	AA	23	351	56	269	JTT+G	Subset636
+637	AA	6	526	81	259	DAYHOFF+G+F	Subset637
+638	AA	5	284	4	257	JTT	Subset638
+639		8	670	66	431	LG4X	Subset639
+640		9	491	52	389	LG4X	Subset640
+641	AA	13	626	52	549	JTT+G+F	Subset641
+642		5	308	47	157	LG4X	Subset642
+643	AA	7	453	110	250	LG+G	Subset643
+644	AA	13	362	118	205	LG+G	Subset644
+645	AA	9	1074	241	796	JTTDCMUT+G+F	Subset645
+646	AA	15	374	123	161	LG+G+F	Subset646
+647	AA	6	418	8	325	JTT+G	Subset647
+648	AA	10	225	36	141	LG+G	Subset648
+649	AA	4	557	0	535	LG	Subset649
+WARNING: No parsimony-informative sites in partition Subset649
+650	AA	20	302	127	158	JTT+G	Subset650
+651	AA	9	646	147	385	JTTDCMUT+G	Subset651
+652		19	312	148	123	LG4X	Subset652
+653	AA	5	797	3	632	LG+G	Subset653
+654		6	804	1	795	LG4X	Subset654
+655	AA	20	927	187	569	JTT+G+F	Subset655
+656	AA	25	207	20	159	VT+G	Subset656
+657		6	625	84	449	LG4X	Subset657
+658		10	253	35	62	LG4X	Subset658
+659	AA	28	385	69	234	JTT+G+F	Subset659
+660	AA	22	451	26	395	JTT+G	Subset660
+661	AA	9	236	16	199	JTT+G	Subset661
+662	AA	12	336	100	173	JTTDCMUT+G	Subset662
+663		12	401	17	357	LG4X	Subset663
+664	AA	9	638	45	531	FLU+G+F	Subset664
+665	AA	7	279	11	219	CPREV+G	Subset665
+666	AA	26	373	124	181	JTT+G	Subset666
+667	AA	6	186	12	163	JTT+G	Subset667
+668	AA	15	147	17	109	LG+G	Subset668
+669		21	379	16	354	LG4X	Subset669
+670	AA	7	1211	2	1186	JTT+G+F	Subset670
+671	AA	15	579	35	489	MTZOA+G+F	Subset671
+672		22	164	53	94	LG4X	Subset672
+673		25	399	68	254	LG4X	Subset673
+674	AA	24	128	6	96	FLU+G	Subset674
+675	AA	6	212	12	174	JTTDCMUT+G	Subset675
+676	AA	24	715	133	329	JTT+G+F	Subset676
+677		8	484	35	311	LG4M+G	Subset677
+678	AA	13	642	101	400	JTT+G	Subset678
+679	AA	5	376	8	295	VT+G	Subset679
+680	AA	10	130	52	58	WAG+G	Subset680
+681	AA	8	222	50	106	LG+G	Subset681
+682	AA	18	919	171	681	JTTDCMUT+G+F	Subset682
+683	AA	18	577	137	195	BLOSUM62+G	Subset683
+684	AA	23	1220	185	847	JTT+G+F	Subset684
+685	AA	4	555	36	229	LG+G	Subset685
+686	AA	4	406	8	365	JTT+G	Subset686
+687	AA	14	287	39	204	JTT+G	Subset687
+688	AA	8	1998	1	1989	JTT+G+F	Subset688
+689	AA	17	669	109	433	JTT+G+F	Subset689
+690	AA	15	226	54	129	JTTDCMUT+G+F	Subset690
+691	AA	8	460	26	365	VT+G+F	Subset691
+692		7	221	19	114	LG4X	Subset692
+693	AA	22	487	91	285	JTT+G	Subset693
+694	AA	36	164	16	127	JTT+G	Subset694
+695		9	347	149	107	LG4M+G	Subset695
+696	AA	6	413	1	406	JTT	Subset696
+697	AA	15	747	71	543	JTT+G	Subset697
+698	AA	10	393	89	150	VT+G	Subset698
+699	AA	26	395	109	214	JTT+G	Subset699
+700	AA	5	674	127	275	VT+G	Subset700
+701	AA	28	299	82	192	JTT+G	Subset701
+702	AA	5	527	7	508	FLU+G	Subset702
+703	AA	27	986	152	653	JTT+G+F	Subset703
+704	AA	11	174	7	159	JTTDCMUT+G	Subset704
+705	AA	15	510	11	492	WAG+I+G	Subset705
+706	AA	7	345	20	196	VT+G	Subset706
+707	AA	6	417	2	401	JTTDCMUT	Subset707
+708	AA	11	699	32	508	JTT+G	Subset708
+709	AA	11	191	29	136	BLOSUM62+G	Subset709
+710	AA	7	744	9	547	LG+G	Subset710
+711	AA	7	657	71	458	LG+G	Subset711
+712		13	195	65	92	LG4M+G	Subset712
+713	AA	16	527	224	213	JTT+G+F	Subset713
+714	AA	9	689	140	382	LG+G	Subset714
+715	AA	26	222	49	116	JTT+G	Subset715
+716	AA	15	570	81	322	WAG+G	Subset716
+717	AA	10	146	0	142	DAYHOFF	Subset717
+WARNING: No parsimony-informative sites in partition Subset717
+718	AA	10	1098	150	681	JTT+G+F	Subset718
+719	AA	24	274	66	161	JTTDCMUT+G	Subset719
+720	AA	24	468	165	229	JTTDCMUT+G	Subset720
+721	AA	33	151	48	45	JTTDCMUT+G	Subset721
+722	AA	22	372	31	324	RTREV+I+G+F	Subset722
+723	AA	30	445	20	405	MTART+I+G+F	Subset723
+724	AA	10	456	20	369	JTT+G	Subset724
+725	AA	7	592	99	312	WAG+G	Subset725
+726	AA	23	167	8	140	JTT+G	Subset726
+727	AA	11	753	1	736	MTREV+G+F	Subset727
+728	AA	22	313	80	182	JTTDCMUT+G	Subset728
+729	AA	33	238	23	128	LG+G	Subset729
+730	AA	6	546	8	457	JTT+G+F	Subset730
+731		17	464	135	252	LG4X	Subset731
+732	AA	8	1251	55	1051	JTT+G+F	Subset732
+733	AA	12	327	27	264	JTTDCMUT+G+F	Subset733
+734		9	603	42	436	LG4X	Subset734
+735	AA	9	266	19	170	CPREV+G	Subset735
+736	AA	26	939	253	581	LG+G+F	Subset736
+737	AA	5	371	52	139	JTT+G	Subset737
+738	AA	33	426	84	270	LG+G+F	Subset738
+739	AA	14	836	29	656	JTT+G+F	Subset739
+740		8	225	8	204	LG4X	Subset740
+741	AA	5	518	4	396	JTT+G	Subset741
+742	AA	12	532	70	293	LG+G	Subset742
+743	AA	5	377	18	346	JTTDCMUT	Subset743
+744	AA	8	328	6	304	LG+G	Subset744
+745	AA	11	435	19	402	LG+G	Subset745
+746	AA	10	313	40	247	CPREV+G	Subset746
+747		6	150	3	138	LG4X	Subset747
+748	AA	11	195	4	182	JTTDCMUT	Subset748
+749	AA	9	887	54	581	JTTDCMUT+G	Subset749
+750	AA	31	148	49	81	JTTDCMUT+G	Subset750
+751	AA	13	141	6	130	JTT+G	Subset751
+752	AA	7	697	81	522	LG+G	Subset752
+753	AA	19	457	179	213	JTTDCMUT+G+F	Subset753
+754	AA	14	646	145	309	JTT+G	Subset754
+755		37	258	130	96	LG4X	Subset755
+756	AA	5	532	7	500	HIVB+G+F	Subset756
+757	AA	6	542	19	294	VT	Subset757
+758		8	222	15	198	LG4X	Subset758
+759		29	276	80	157	LG4X	Subset759
+760		10	535	30	499	LG4X	Subset760
+761	AA	16	261	89	136	JTT+G+F	Subset761
+762		10	449	91	258	LG4X	Subset762
+763		26	374	109	225	LG4X	Subset763
+764	AA	12	1147	43	968	LG+G	Subset764
+765	AA	6	340	9	298	LG+G	Subset765
+766	AA	22	440	39	341	JTTDCMUT+I+G+F	Subset766
+767	AA	33	266	18	233	JTT+G	Subset767
+Degree of missing data: 0.715
+Info: multi-threading strategy over partitions
+
+WARNING: States(s) W rarely appear in partition Subset23 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset30 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset37 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset42 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset46 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset49 and may cause numerical problems
+WARNING: States(s) C, W rarely appear in partition Subset63 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset72 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset99 and may cause numerical problems
+NOTE: State(s) W not present in partition Subset109 and thus removed from Markov process to prevent numerical problems
+NOTE: State(s) W not present in partition Subset117 and thus removed from Markov process to prevent numerical problems
+WARNING: States(s) C rarely appear in partition Subset140 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset141 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset181 and may cause numerical problems
+WARNING: States(s) C, W rarely appear in partition Subset183 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset203 and may cause numerical problems
+WARNING: States(s) C, W rarely appear in partition Subset218 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset222 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset241 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset248 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset251 and may cause numerical problems
+WARNING: States(s) P rarely appear in partition Subset265 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset285 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset294 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset327 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset332 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset356 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset400 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset424 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset425 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset432 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset436 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset450 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset462 and may cause numerical problems
+WARNING: States(s) H rarely appear in partition Subset469 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset476 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset479 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset493 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset512 and may cause numerical problems
+WARNING: States(s) C, H, W rarely appear in partition Subset517 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset548 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset557 and may cause numerical problems
+NOTE: State(s) F not present in partition Subset588 and thus removed from Markov process to prevent numerical problems
+WARNING: States(s) C rarely appear in partition Subset634 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset635 and may cause numerical problems
+WARNING: States(s) W, Y rarely appear in partition Subset642 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset656 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset675 and may cause numerical problems
+WARNING: States(s) C, W rarely appear in partition Subset690 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset721 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset738 and may cause numerical problems
+WARNING: States(s) C, H, W rarely appear in partition Subset740 and may cause numerical problems
+WARNING: States(s) C, W rarely appear in partition Subset747 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset751 and may cause numerical problems
+WARNING: States(s) C rarely appear in partition Subset758 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset759 and may cause numerical problems
+WARNING: States(s) W rarely appear in partition Subset760 and may cause numerical problems
+NOTE: 3 states (see above) are not present and thus removed from Markov process to prevent numerical problems
+Reading input tree file euph_rooted_concat.tre ... rooted tree
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4M+G is alias for MIX{LG4M1,LG4M2,LG4M3,LG4M4}*G4+G
+NOTE: both +G and *G were specified, continue with *G
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+Model LG4X is alias for MIX{LG4X1,LG4X2,LG4X3,LG4X4}*R4
+
+NOTE: 1707 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -2224535.013
+Current log-likelihood at step 1: -2180332.665
+Current log-likelihood at step 2: -2178824.126
+Current log-likelihood at step 3: -2178503.237
+Current log-likelihood at step 4: -2178315.961
+Current log-likelihood at step 5: -2178170.705
+Current log-likelihood at step 6: -2178053.908
+Current log-likelihood at step 7: -2177959.932
+Current log-likelihood at step 8: -2177885.267
+Current log-likelihood at step 9: -2177828.214
+Current log-likelihood at step 10: -2177760.635
+Current log-likelihood at step 11: -2177719.081
+Current log-likelihood at step 12: -2177704.172
+Current log-likelihood at step 13: -2177693.907
+Current log-likelihood at step 14: -2177687.026
+Current log-likelihood at step 15: -2177681.698
+Current log-likelihood at step 16: -2177677.021
+Current log-likelihood at step 17: -2177670.949
+Current log-likelihood at step 18: -2177660.694
+Current log-likelihood at step 19: -2177655.454
+Current log-likelihood at step 20: -2177651.669
+Current log-likelihood at step 21: -2177649.309
+Current log-likelihood at step 22: -2177647.387
+Current log-likelihood at step 23: -2177645.314
+Current log-likelihood at step 24: -2177643.127
+Current log-likelihood at step 25: -2177641.030
+Current log-likelihood at step 26: -2177639.429
+Current log-likelihood at step 27: -2177638.414
+Current log-likelihood at step 28: -2177637.634
+Current log-likelihood at step 29: -2177636.923
+Current log-likelihood at step 30: -2177636.239
+Current log-likelihood at step 31: -2177635.612
+Current log-likelihood at step 32: -2177635.080
+Current log-likelihood at step 33: -2177634.642
+Current log-likelihood at step 34: -2177634.275
+Current log-likelihood at step 35: -2177633.953
+Current log-likelihood at step 36: -2177633.662
+Current log-likelihood at step 37: -2177633.396
+Current log-likelihood at step 38: -2177633.148
+Current log-likelihood at step 39: -2177632.916
+Current log-likelihood at step 40: -2177632.698
+Current log-likelihood at step 41: -2177632.491
+Current log-likelihood at step 42: -2177632.299
+Current log-likelihood at step 43: -2177632.117
+Current log-likelihood at step 44: -2177631.946
+Current log-likelihood at step 45: -2177631.784
+Current log-likelihood at step 46: -2177631.631
+Current log-likelihood at step 47: -2177631.487
+Current log-likelihood at step 48: -2177631.350
+Current log-likelihood at step 49: -2177631.220
+Current log-likelihood at step 50: -2177631.095
+Current log-likelihood at step 51: -2177630.976
+Current log-likelihood at step 52: -2177630.861
+Current log-likelihood at step 53: -2177630.751
+Current log-likelihood at step 54: -2177630.645
+Current log-likelihood at step 55: -2177630.543
+Current log-likelihood at step 56: -2177630.445
+Current log-likelihood at step 57: -2177630.350
+Current log-likelihood at step 58: -2177630.258
+Current log-likelihood at step 59: -2177630.168
+Current log-likelihood at step 60: -2177630.081
+Current log-likelihood at step 61: -2177629.997
+Current log-likelihood at step 62: -2177629.916
+Current log-likelihood at step 63: -2177629.839
+Current log-likelihood at step 64: -2177629.764
+Current log-likelihood at step 65: -2177629.693
+Current log-likelihood at step 66: -2177629.623
+Current log-likelihood at step 67: -2177629.559
+Current log-likelihood at step 68: -2177629.497
+Current log-likelihood at step 69: -2177629.438
+Current log-likelihood at step 70: -2177629.380
+Current log-likelihood at step 71: -2177629.326
+Current log-likelihood at step 72: -2177629.276
+Current log-likelihood at step 73: -2177629.226
+Current log-likelihood at step 74: -2177629.178
+Current log-likelihood at step 75: -2177629.132
+Current log-likelihood at step 76: -2177629.087
+Current log-likelihood at step 77: -2177629.044
+Current log-likelihood at step 78: -2177629.002
+Current log-likelihood at step 79: -2177628.960
+Current log-likelihood at step 80: -2177628.919
+Current log-likelihood at step 81: -2177628.879
+Current log-likelihood at step 82: -2177628.841
+Current log-likelihood at step 83: -2177628.803
+Current log-likelihood at step 84: -2177628.765
+Current log-likelihood at step 85: -2177628.727
+Current log-likelihood at step 86: -2177628.691
+Current log-likelihood at step 87: -2177628.655
+Current log-likelihood at step 88: -2177628.619
+Current log-likelihood at step 89: -2177628.583
+Current log-likelihood at step 90: -2177628.547
+Current log-likelihood at step 91: -2177628.514
+Current log-likelihood at step 92: -2177628.479
+Current log-likelihood at step 93: -2177628.445
+Current log-likelihood at step 94: -2177628.410
+Current log-likelihood at step 95: -2177628.377
+Current log-likelihood at step 96: -2177628.345
+Current log-likelihood at step 97: -2177628.311
+Current log-likelihood at step 98: -2177628.278
+Current log-likelihood at step 99: -2177628.245
+Partition-specific rates:  0.220 0.877 0.876 1.468 1.096 0.364 0.487 1.572 1.225 0.256 0.744 0.417 0.291 0.472 0.532 0.046 0.708 1.469 0.521 0.848 0.498 2.690 0.260 0.785 0.576 0.325 0.825 0.341 0.715 1.026 1.164 0.440 0.394 0.213 0.415 1.675 0.795 0.995 0.367 1.503 1.186 0.166 0.458 0.627 1.362 0.732 0.123 0.166 0.030 1.125 0.745 0.097 1.303 2.341 0.106 0.649 0.609 0.397 0.943 3.525 14.933 0.198 0.111 0.965 0.161 1.982 2.555 0.298 5.152 1.287 0.261 0.092 0.235 0.758 2.060 0.610 1.405 0.585 0.828 1.785 0.354 0.543 0.232 1.703 0.521 0.421 0.604 0.659 0.072 0.131 1.170 0.151 1.140 0.505 1.458 0.690 0.378 0.101 0.525 2.213 0.110 0.494 1.232 1.545 2.118 0.341 0.659 0.508 0.415 0.072 1.181 0.727 0.833 1.594 0.824 1.175 0.613 0.650 3.786 1.487 0.545 0.297 0.688 0.138 1.140 0.634 0.509 1.215 1.519 1.873 1.916 0.706 1.325 1.784 0.451 0.890 1.806 0.215 1.428 0.334 1.005 2.632 0.904 0.643 1.130 0.304 0.633 1.104 0.980 1.022 1.217 0.644 0.905 0.315 0.537 0.763 0.227 0.165 1.483 0.588 1.017 0.973 0.700 8.950 16.223 1.057 0.181 4.231 0.477 1.330 0.656 0.440 1.269 1.996 0.755 0.386 0.822 0.587 0.565 0.677 0.204 0.450 0.006 0.500 0.718 0.745 2.623 1.646 0.242 0.729 0.592 0.710 0.871 5.969 0.743 0.865 1.056 0.650 0.359 0.212 0.638 0.642 0.320 0.913 0.885 1.219 0.452 2.026 1.455 0.298 0.357 0.691 0.025 0.219 0.598 0.372 0.173 0.774 0.204 1.392 0.273 0.057 0.557 0.649 1.182 5.092 0.420 0.583 0.891 1.762 1.108 0.084 1.626 0.417 0.760 0.498 0.370 1.017 2.879 0.570 0.884 0.398 0.332 2.725 3.682 0.701 0.971 0.251 0.022 1.242 0.165 1.329 0.594 0.230 0.971 0.109 0.003 0.552 3.609 5.359 1.537 0.544 1.268 1.839 0.044 0.669 0.607 0.168 0.051 2.278 0.348 0.621 0.389 0.718 2.101 1.111 0.850 0.640 1.353 1.324 0.761 0.221 1.227 1.754 0.309 0.750 0.357 0.410 0.366 0.472 3.834 2.917 1.449 0.339 1.120 0.036 0.356 0.504 0.296 0.375 0.316 2.111 0.601 0.367 0.133 0.005 3.065 2.116 4.447 1.298 0.260 1.690 0.604 0.372 1.112 1.594 1.654 0.874 1.336 0.802 0.785 0.247 0.482 1.251 1.074 0.911 1.450 0.156 1.142 0.240 0.108 0.532 0.412 0.744 3.536 0.741 0.768 1.102 2.242 0.360 0.233 0.164 0.152 0.480 1.615 0.760 0.909 0.937 0.666 0.325 0.664 26.705 0.819 1.772 1.369 0.612 0.490 0.930 0.463 0.224 0.570 1.158 0.102 0.270 0.496 1.056 0.685 1.224 1.591 1.512 0.342 0.909 0.988 0.937 0.198 0.500 1.082 0.722 0.125 0.173 0.119 0.206 0.782 0.373 10.802 0.074 1.097 0.714 3.883 0.161 1.499 0.188 1.923 0.525 0.455 0.407 0.355 0.293 1.072 4.339 1.448 0.469 0.327 1.429 1.495 1.695 2.282 0.215 1.818 1.122 1.038 0.203 0.994 0.965 0.756 0.942 0.513 1.609 0.237 0.625 0.201 1.034 0.294 0.656 0.266 0.419 0.183 0.552 0.161 0.061 1.696 0.800 0.034 0.878 0.246 0.131 0.278 0.747 1.392 1.141 1.652 0.161 0.483 0.356 0.405 0.262 0.281 0.052 0.560 1.288 0.707 1.089 0.549 0.502 0.852 0.280 0.144 0.457 0.987 0.555 0.347 0.168 0.501 2.562 0.727 0.758 0.569 1.076 0.201 0.366 0.578 0.083 1.261 2.276 0.085 0.940 1.742 0.293 1.240 0.282 3.771 0.892 1.114 0.683 0.513 0.183 0.893 1.034 1.744 1.201 0.919 8.834 0.688 0.255 1.641 2.366 0.383 0.760 0.631 1.443 0.706 0.665 1.555 1.116 0.230 0.736 0.713 0.883 0.908 0.616 1.556 0.661 1.162 1.203 1.876 0.368 0.629 0.509 0.722 0.750 0.079 0.933 0.516 0.135 0.733 0.223 0.576 0.831 2.065 0.429 1.753 2.156 0.104 0.792 0.854 0.577 4.028 0.657 0.534 3.078 0.764 0.216 2.720 0.637 0.259 0.506 0.665 0.759 1.753 0.615 2.093 0.330 0.550 0.342 0.766 0.768 0.854 0.861 0.700 0.845 0.263 0.955 1.305 0.422 0.109 1.349 2.016 0.577 0.955 0.659 0.494 0.235 0.831 0.105 0.445 1.188 17.059 1.059 3.455 0.161 0.385 0.343 0.153 1.798 0.529 0.777 2.392 0.110 0.730 0.110 0.380 1.737 0.809 1.781 0.849 1.291 0.621 0.436 0.588 0.872 1.035 0.707 1.270 0.557 3.701 0.399 0.305 0.730 1.522 1.913 1.258 0.103 0.592 0.417 0.860 1.581 1.032 0.592 0.142 0.128 1.509 0.939 0.621 1.580 0.537 1.210 0.854 0.912 3.501 1.864 0.265 0.632 0.427 3.649 0.303 0.268 1.720 0.449 0.945 0.322 0.533 2.713 0.694 0.719 0.779 1.136 0.359 2.123 0.324 1.963 1.278 1.439 0.607 0.076 1.008 0.444 0.429 7.861 0.698 0.128 0.683 1.125 1.071 1.594 0.380 1.660 0.730 6.308 0.213 0.429 0.279 0.921 0.548 122.447 0.243 1.650 0.735 0.891 0.326 8.306 2.747 0.341 0.868 0.984 2.609 1.034 0.579 0.086 1.387 0.650 0.366 0.734 0.694 0.254 2.570 0.248 1.459 0.963 1.008 1.869 0.381 1.869 0.782 1.388 0.419 0.592 0.597 0.683 1.033 0.470 0.903 0.801 2.910 0.935 1.118 0.773 0.095 1.884 0.811 1.077 1.009 0.418 0.103 1.193 1.830 0.416 0.133 1.191 0.812 0.489 0.657 0.718 0.411 0.478 1.045 0.791 2.594 0.526 0.382 2.141 0.480 0.900 0.682 0.074 0.205 0.389 0.202 0.269 0.697 0.890 0.248 0.337 1.716 1.511 1.568 1.816 1.096 0.253 0.673 0.253 0.983 0.973 0.741 0.330 0.927 0.726 0.181
+Parameters optimization took 99 rounds (1470.213 sec)
+
+Partition information was printed to ../files/partition_modified.nex.best_model.nex
+BEST SCORE FOUND : -2177628.245
+Total tree length: 2.841
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 1467.809 sec (0h:24m:27s)
+Total wall-clock time used: 1472.019 sec (0h:24m:32s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../files/partition_modified.nex.iqtree
+  Maximum-likelihood tree:       ../files/partition_modified.nex.treefile
+  Screen log file:               ../files/partition_modified.nex.log
+
+--- Start phylogenetic dating ---
+Reading date file dates_file.txt ...
+1 dates extracted
+Building time tree by least-square dating (LSD) with command:
+lsd -i ../files/partition_modified.nex.timetree.subst -s 395232 -o ../files/partition_modified.nex.timetree -r a -d ../files/partition_modified.nex.timetree.date -z 0 
+
+TREE 1
+*PROCESSING:
+Reading the tree ... 
+Collapse 0 (over 44) internal branches having branch length <= 1.27e-06
+ (settable via option -l)
+Parameter to adjust variances was set to 0.0104 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0
+Estimating the root position on all branches using fast method ...
+*RESULTS:
+- Dating results:
+ rate 0.000697035, tMRCA -443.8 , objective function 0.14034
+
+TOTAL ELAPSED TIME: 0.0112 seconds
+LSD results written to:
+  LSD report:                  ../files/partition_modified.nex.timetree.lsd
+  Time tree in nexus format:   ../files/partition_modified.nex.timetree.nex
+  Time tree in newick format:  ../files/partition_modified.nex.timetree.nwk
+
+--- End phylogenetic dating ---
+Date and Time: Sat Jan 30 16:45:47 2021

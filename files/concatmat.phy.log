@@ -88,3 +88,36 @@ Estimate model parameters (epsilon = 1.000)
 8. Current log-likelihood: -2224407.412
 9. Current log-likelihood: -2224404.332
 10. Current log-likelihood: -2224401.467
+11. Current log-likelihood: -2224398.793
+12. Current log-likelihood: -2224396.291
+13. Current log-likelihood: -2224393.944
+14. Current log-likelihood: -2224391.737
+15. Current log-likelihood: -2224389.660
+16. Current log-likelihood: -2224387.699
+17. Current log-likelihood: -2224385.847
+18. Current log-likelihood: -2224384.095
+19. Current log-likelihood: -2224382.435
+20. Current log-likelihood: -2224380.860
+21. Current log-likelihood: -2224379.366
+22. Current log-likelihood: -2224377.947
+23. Current log-likelihood: -2224376.598
+24. Current log-likelihood: -2224375.314
+25. Current log-likelihood: -2224374.092
+26. Current log-likelihood: -2224372.927
+27. Current log-likelihood: -2224371.817
+28. Current log-likelihood: -2224370.759
+29. Current log-likelihood: -2224369.749
+Optimal log-likelihood: -2224368.742
+Proportion of invariable sites: 0.314
+Gamma shape alpha: 0.749
+Parameters optimization took 29 rounds (315.582 sec)
+Time for fast ML tree search: 499.717 seconds
+
+NOTE: ModelFinder requires 12385 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 395232) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            2275184.571  91  4550551.142  4550551.185  4551541.880
+  2  LG+I          2233253.401  92  4466690.801  4466690.845  4467692.426
+  3  LG+G4         2224982.953  92  4450149.905  4450149.949  4451151.530
+  4  LG+I+G4       2224348.666  93  4448883.332  4448883.377  4449895.845
+  5  LG+R2         2225475.437  93  4451136.875  4451136.919  4452149.387

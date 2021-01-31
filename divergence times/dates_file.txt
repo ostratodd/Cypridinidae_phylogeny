@@ -1,0 +1,1 @@
+Cylindroleberidinae_clean.fasta.transdecoder.pep,Vtsu_clean.fasta.transdecoder.pep	-443.8
