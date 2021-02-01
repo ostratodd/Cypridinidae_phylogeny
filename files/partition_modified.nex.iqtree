@@ -4,7 +4,7 @@ Partition file name: ../files/partition_modified.nex
 Input file name: ../files/concatmat.phy
 User tree file name: euph_rooted_concat.tre
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 545447
+Random seed number: 704911
 
 REFERENCES
 ----------
@@ -1707,7 +1707,7 @@ Tree in newick format:
 TIME STAMP
 ----------
 
-Date and time: Sat Jan 30 16:45:47 2021
-Total CPU time used: 1467.81 seconds (0h:24m:27s)
-Total wall-clock time used: 1472.03 seconds (0h:24m:32s)
+Date and time: Mon Feb  1 13:47:21 2021
+Total CPU time used: 1487.26 seconds (0h:24m:47s)
+Total wall-clock time used: 1498.53 seconds (0h:24m:58s)
 

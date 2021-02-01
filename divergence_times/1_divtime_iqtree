@@ -3,4 +3,4 @@
 
 
 #divtime analysis with iqtree2
-iqtree2 -s ../files/concatmat.phy -spp ../files/partition_modified.nex --date dates_file.txt -te euph_rooted_concat.tre --date-tip 0 --redo-tree
+iqtree2 -s ../files/concatmat.phy -spp ../files/partition_modified.nex --date dates_file.txt -te euph_rooted_concat.tre --date-tip 0 --date-ci 100 --redo-tree

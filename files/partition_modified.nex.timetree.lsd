@@ -19,7 +19,9 @@ Parameters:
   r                                             Estimate the root : Use fast method to search on all branches
   w                                       Given substitution rate : No
   n                                             Multiple data set : No
-  f                                  Compute confidence intervals : No
+  f                                  Compute confidence intervals : Yes, sampling 100 times
+  q                  Standard deviation of lognormal relaxed clock: 0.2 (for computing confidence intervals)
+  s                                               Sequence length : 395232
   e                                          Exclude outlier tips : No
   u                Min internal branch length of time scaled tree : 0
   U                Min external branch length of time scaled tree : 0
@@ -35,7 +37,9 @@ Minimum branch length of time scaled tree (settable via option -u and -U): 0
 *RESULTS:
 - Dating results:
  rate 0.000697035, tMRCA -443.8 , objective function 0.14034
+- Results with confidence intervals:
+ rate 0.000697035 [0.000590447; 0.000807277], tMRCA -443.8 [-443.8; -443.8], objective function 0.14034
 
 *********************************************************
 
-TOTAL ELAPSED TIME: 0.011196 seconds
+TOTAL ELAPSED TIME: 0.036629 seconds
