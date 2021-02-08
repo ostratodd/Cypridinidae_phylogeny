@@ -1,0 +1,17 @@
+treefile = euph_rooted_concat.tre
+nthreads = 4
+numsites = 395232
+mrca = MYODOCOPIDA Euph_microasciformis_clean Vtsu_clean.fasta.transdecoder.pep
+min = MYODOCOPIDA 443.8
+max = MYODOCOPIDA 509
+outfile = TREEPL.dated.tre
+#best optimization parameters
+#cross validation analysis 
+randomcv 
+cviter = 5 
+cvsimaniter = 1000000000 
+cvstart = 10000000 
+cvstop = 0.00000000001 
+cvmultstep = 0.1 
+cvoutfile = cv.out0 #outputfile of dating step  
+outfile = treepl_dated.tre

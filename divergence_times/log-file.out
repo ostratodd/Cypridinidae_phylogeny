@@ -1,0 +1,64 @@
+setting the maximum number of threads to 4
+outfile: TREEPL.dated.tre
+finished reading config file
+using system clock for random number seed = 1612813291
+tiny branch length at internal node. setting to 2.5301595e-06
+setting MYODOCOPIDA min: 443.8
+setting MYODOCOPIDA max: 509
+preorder prep
+calculating character durations
+setting min and max
+setting up all constraints
+getting feasible start dates
+start rate 0.00060694791
+numparams:47
+initial calc: 14661144
+LF SIM
+exit siman: 4979124
+nfeval: 62 rc: Linear search failed
+after opt calc1: 534723.22
+nfeval: 66 rc: Linear search failed
+after opt calc2: 534723.22
+LF SIM
+exit siman: 72054.093
+nfeval: 29 rc: Linear search failed
+after opt calc1: 71937.633
+nfeval: 66 rc: Linear search failed
+after opt calc2: 71937.633
+LF SIM
+exit siman: 57847.429
+nfeval: 69 rc: Linear search failed
+after opt calc1: 57847.36
+nfeval: 233 rc: Linear search failed
+after opt calc2: 57327.255
+exited lf converged :0
+lf calc: 57327.255
+numparams:138
+smoothing:10
+57327.264
+exit siman: 55214.163
+nfeval: 335 rc: Linear search failed
+after opt calc1: 54512.736
+nfeval: 67 rc: Linear search failed
+after opt calc2: 54512.736
+exit siman: 54456.11
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54456.11
+nfeval: 124 rc: Linear search failed
+after opt calc2: 54455.898
+exit siman: 54410.243
+nfeval: 1506 rc: Linear search failed
+after opt calc1: 54118.505
+nfeval: 68 rc: Linear search failed
+after opt calc2: 54118.505
+exit siman: 54026.887
+nfeval: 934 rc: Linear search failed
+after opt calc1: 53901.693
+nfeval: 68 rc: Linear search failed
+after opt calc2: 53901.693
+exit siman: 53767.198
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53767.198
+nfeval: 68 rc: Linear search failed
+after opt calc2: 53767.198
+after opt calc: 53767.198
