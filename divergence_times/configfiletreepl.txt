@@ -1,0 +1,7 @@
+treefile = euph_rooted_concat.tre
+nthreads = 4
+numsites = 395232
+mrca = MYODOCOPIDA Euph_microasciformis_clean Vtsu_clean.fasta.transdecoder.pep
+min = MYODOCOPIDA 443.8
+max = MYODOCOPIDA 509
+outfile = TREEPL.dated.tre

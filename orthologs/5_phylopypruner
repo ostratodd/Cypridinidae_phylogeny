@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "*****************/n*******DON'T FORGET conda activate phylopy"
+
+cp ./genetrees/*.iq.fa ./phylopydir/
+cp ./genetrees/*.ft.treefile ./phylopydir/
+
+#Delete empty files (which are written even if they don't make the threhold for OTU number)
+find ./phylopydir/ -size 0 -print -delete
+
+#Format file for phylopypruner format which is species|gene
+
+perl -p -i -e 's/\_OG/\|OG/g' ./phylopydir/*.iq.fa
+perl -p -i -e 's/\_OG/\|OG/g' ./phylopydir/*.ft.treefile
+
+
+phylopypruner --dir phylopydir --min-taxa 5 --min-len 100 --mask pdist --trim-lb 3 --trim-divergent 0.75 --trim-freq-paralogs 7 --min-pdist 0.01 --prune MI --outgroup Dstev_ENA --no-plot --overwrite
+

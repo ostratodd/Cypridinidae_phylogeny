@@ -1,0 +1,6193 @@
+setting the maximum number of threads to 4
+outfile: TREEPL.dated.tre
+cv number of full iterations: 5
+cv number of simulated annealing iterations: 1000000000
+cvstart: 10000000
+cvstop: 1e-11
+cvmultstep: 0.1
+setting the cv outfile to cv.out0
+finished reading config file
+using system clock for random number seed = 1612813443
+tiny branch length at internal node. setting to 2.5301595e-06
+setting MYODOCOPIDA min: 443.8
+setting MYODOCOPIDA max: 509
+preorder prep
+calculating character durations
+setting min and max
+setting up all constraints
+getting feasible start dates
+start rate 0.00059388505
+numparams:47
+initial calc: 14756367
+LF SIM
+exit siman: 5071736.5
+nfeval: 62 rc: Linear search failed
+after opt calc1: 530249.12
+nfeval: 66 rc: Linear search failed
+after opt calc2: 530249.12
+LF SIM
+exit siman: 64479.825
+nfeval: 29 rc: Linear search failed
+after opt calc1: 64471.165
+nfeval: 66 rc: Linear search failed
+after opt calc2: 64471.165
+LF SIM
+exit siman: 57820.139
+nfeval: 36 rc: Linear search failed
+after opt calc1: 57811.74
+nfeval: 66 rc: Linear search failed
+after opt calc2: 57811.74
+exited lf converged :0
+lf calc: 57811.74
+conducting cross validation analysis
+conducting RANDOM SUBSAMPLE cross validation analysis
+sampling 5 tips from 47 total tips 10 times
+--------------
+numparams:138
+smoothing:10000000
+57811.788
+exit siman: 57370.327
+nfeval: 117 rc: Linear search failed
+after opt calc1: 57370.326
+nfeval: 69 rc: Linear search failed
+after opt calc2: 57370.326
+exit siman: 57131.556
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 57131.556
+nfeval: 69 rc: Linear search failed
+after opt calc2: 57131.556
+exit siman: 57085.595
+nfeval: 68 rc: Linear search failed
+after opt calc1: 57085.595
+nfeval: 69 rc: Linear search failed
+after opt calc2: 57085.595
+exit siman: 57062.316
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 57062.316
+nfeval: 69 rc: Linear search failed
+after opt calc2: 57062.316
+exit siman: 57019.683
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 57019.683
+nfeval: 69 rc: Linear search failed
+after opt calc2: 57019.683
+after opt calc: 57019.683
+curcv: 10000000
+cv check: 54978.368
+cv check: cv check: 56741.011
+55295.02
+cv check: 53919.518
+exit siman: 55041.855
+exit siman: 56578.916
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55041.855
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55041.855
+nfeval: 105 rc: Linear search failed
+exit siman: after opt calc1: 52687.655
+56578.916
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56578.916
+nfeval: 116 rc: Linear search failed
+after opt calc1: 52687.655
+exit siman: 53244.061
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52687.655
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53244.061
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53244.061
+exit siman: 55020.304
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55020.304
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55020.304
+exit siman: 56555.087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56555.087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56555.087
+exit siman: 52672.058
+exit siman: 53222.274
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53222.274
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53222.274
+exit siman: 55015.581
+nfeval: 116 rc: Linear search failed
+after opt calc1: 55015.581
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55015.581
+exit siman: 56548.012
+nfeval: 58 rc: Linear search failed
+after opt calc1: 56548.012
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56548.012
+exit siman: 53217.317
+nfeval: 69 rc: Linear search failed
+after opt calc1: 53217.317
+nfeval: 105 rc: Linear search failed
+after opt calc2: 53217.317
+exit siman: 55013.804
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55013.804
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55013.804
+exit siman: 56542.063
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56542.063
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56542.063
+exit siman: 53215.588
+nfeval: 105 rc: Linear search failed
+after opt calc1: 53215.588
+nfeval: 105 rc: Linear search failed
+after opt calc2: 53215.588
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 52672.058
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52672.058
+exit siman: 55012.543
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55012.543
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55012.543
+post opt cv check: 55012.543
+(chisq): 929.90463
+cv: 9
+cv check: 56851.498
+exit siman: 56539.805
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56539.805
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56539.805
+post opt cv check: 56539.805
+(chisq): 287.37924
+cv: 7
+cv check: 55138.151
+exit siman: 53214.971
+nfeval: 58 rc: Linear search failed
+after opt calc1: 53214.971
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53214.971
+post opt cv check: 53214.971
+(chisq): 1269.4274
+cv: 4
+cv check: 48268.28
+exit siman: 52657.865
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 52657.865
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52657.865
+exit siman: 56777.152
+nfeval: 105 rc: Linear search failed
+after opt calc1: 56777.152
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56777.152
+exit siman: 54090.042
+nfeval: 105 rc: Linear search failed
+after opt calc1: 54090.042
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54090.042
+exit siman: 46913.289
+nfeval: 105 rc: Linear search failed
+after opt calc1: 46913.289
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 46913.289
+exit siman: 52651.137
+nfeval: 69 rc: Linear search failed
+after opt calc1: 52651.137
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52651.137
+exit siman: 56764.376
+nfeval: 105 rc: Linear search failed
+after opt calc1: 56764.376
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56764.376
+exit siman: 54067.785
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54067.785
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54067.785
+exit siman: 46905.407
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 46905.407
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 46905.407
+exit siman: 52648.521
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 52648.521
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52648.521
+post opt cv check: 52648.521
+(chisq): 20252.149
+cv: 1
+cv check: 55373.342
+exit siman: 56758.562
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56758.562
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56758.562
+exit siman: 54060.699
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54060.699
+exit siman: 46901.953
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54060.699
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 46901.953
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 46901.953
+exit siman: 55012.58
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55012.58
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55012.58
+exit siman: 56752.582
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56752.582
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56752.582
+exit siman: 54058.285
+exit siman: 46898.49
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54058.285
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 46898.49
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54058.285
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 46898.49
+exit siman: 54996.346
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54996.346
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54996.346
+exit siman: 56751.319
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56751.319
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56751.319
+post opt cv check: 56751.319
+(chisq): 1039.2441
+cv: 10
+exit siman: 46893.267
+exit siman: 54056.731
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 46893.267
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+nfeval: after opt calc1: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 46893.267
+post opt cv check: 46893.267
+(chisq): 54056.7314918.8328
+cv: 5
+
+cv check: 54367.134
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54056.731
+post opt cv check: 54056.731
+(chisq): 2473.0829
+cv: 8
+exit siman: 54990.848
+nfeval: 52 rc: Linear search failed
+after opt calc1: 54990.848
+nfeval: 62 rc: Linear search failed
+after opt calc2: 54990.848
+exit siman: 54185.528
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54185.528
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54185.528
+exit siman: 54988.23
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54988.23
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54988.23
+exit siman: 54183.447
+nfeval: 66 rc: Linear search failed
+after opt calc1: 54183.447
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54183.447
+exit siman: 54987.29
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54987.29
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54987.29
+post opt cv check: 54987.29
+(chisq): 21301.88
+cv: 2
+cv check: 54499.329
+exit siman: 54181.03
+nfeval: 66 rc: Linear search failed
+after opt calc1: 54181.03
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54181.03
+exit siman: 53908.302
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53908.302
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53908.302
+exit siman: 54180.569
+nfeval: 82 rc: Linear search failed
+after opt calc1: 54180.569
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54180.569
+exit siman: 53904.56
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53904.56
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53904.56
+exit siman: 54180.349
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54180.349
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54180.349
+post opt cv check: 54180.349
+(chisq): 6115.628
+cv: 6
+exit siman: 53901.944
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53901.944
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53901.944
+exit siman: 53900.967
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53900.967
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53900.967
+exit siman: 53900.636
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53900.636
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53900.636
+post opt cv check: 53900.636
+(chisq): 22323.29
+cv: 3
+chisq: (10000000) 31951.245
+--------------
+numparams:138
+smoothing:1000000
+57019.683
+exit siman: 57002.736
+nfeval: 70 rc: Linear search failed
+after opt calc1: 57002.729
+nfeval: 69 rc: Linear search failed
+after opt calc2: 57002.729
+exit siman: 56992.121
+nfeval: 84 rc: Linear search failed
+after opt calc1: 56992.119
+nfeval: 68 rc: Linear search failed
+after opt calc2: 56992.119
+exit siman: 56982.184
+nfeval: 73 rc: Linear search failed
+after opt calc1: 56982.183
+nfeval: 68 rc: Linear search failed
+after opt calc2: 56982.183
+exit siman: 56976.192
+nfeval: 101 rc: Linear search failed
+after opt calc1: 56976.192
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56976.192
+exit siman: 56969.772
+nfeval: 101 rc: Linear search failed
+after opt calc1: 56969.772
+nfeval: 70 rc: Linear search failed
+after opt calc2: 56969.772
+after opt calc: 56969.772
+curcv: 1000000
+cv check: cv check: cv check: cv check: 54910.029
+53884.145
+56704.289
+55283.943
+exit siman: 55044.273
+exit siman: 56550.531
+exit siman: exit siman: 52668.931
+53240.049
+nfeval: 52 rc: Linear search failed
+after opt calc1: 56550.531
+nfeval: 103 rc: Linear search failed
+after opt calc1: 55044.272
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53240.049
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56550.531
+nfeval: 106 rc: Linear search failed
+after opt calc1: 52668.931
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53240.049
+nfeval: 116 rc: Linear search failed
+after opt calc2: 55044.271
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52668.931
+exit siman: 55028.944
+exit siman: 53226.979
+exit siman: 56544.696
+exit siman: 52657.635
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55028.944
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53226.979
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56544.696
+nfeval: 52 rc: Linear search failed
+after opt calc1: 52657.635
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55028.944
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53226.979
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56544.696
+exit siman: 55021.635
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55021.635
+exit siman: 53220.377
+exit siman: 56537.764
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55021.635
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53220.377
+nfeval: 69 rc: Linear search failed
+after opt calc1: 56537.763
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53220.377
+nfeval: 116 rc: Linear search failed
+after opt calc2: 56537.762
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52657.635
+exit siman: 55020.211
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55020.211
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55020.211
+exit siman: 56537.567
+exit siman: 53216.797
+nfeval: 87 rc: Linear search failed
+after opt calc1: 56537.567
+nfeval: 92 rc: Linear search failed
+after opt calc1: 53216.796
+nfeval: 87 rc: Linear search failed
+after opt calc2: 56537.567
+nfeval: 116 rc: Linear search failed
+after opt calc2: 53216.795
+exit siman: 52651.901
+exit siman: 55018.697
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55018.697
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55018.697
+post opt cv check: 55018.697
+(chisq): 919.6186
+cv: 9
+cv check: 56814.496
+exit siman: 56537.182
+exit siman: 53215.873
+nfeval: 116 rc: Linear search failed
+after opt calc1: 53215.873
+exit siman: 56757.131
+nfeval: 52 rc: Linear search failed
+after opt calc1: 56757.131
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56757.131
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 52651.901
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56537.182
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53215.873
+post opt cv check: 53215.873
+(chisq): 1261.9814
+cv: 4
+cv check: 48234.365
+exit siman: 56752.363
+nfeval: 69 rc: Linear search failed
+after opt calc1: 56752.362
+exit siman: 46898.001
+nfeval: 113 rc: Linear search failed
+after opt calc1: 46898
+nfeval: 77 rc: Linear search failed
+after opt calc2: 46897.999
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52651.901
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56537.182
+post opt cv check: 56537.182
+(chisq): 290.52183
+cv: 7
+cv check: 55167.882
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56752.362
+exit siman: 46895.855
+nfeval: 73 rc: Linear search failed
+after opt calc1: 46895.854
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 46895.854
+exit siman: 56749.925
+exit siman: 52645.919
+exit siman: 54111.967
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56749.925
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 52645.919
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54111.967
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56749.925
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52645.919
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54111.967
+exit siman: 46894.402
+nfeval: 70 rc: Linear search failed
+after opt calc1: 46894.401
+nfeval: 75 rc: Linear search failed
+after opt calc2: 46894.4
+exit siman: 56748.33
+exit siman: 54082.675
+exit siman: 52643.905
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56748.33
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56748.33
+nfeval: 90 rc: Linear search failed
+after opt calc1: 54082.674
+nfeval: 116 rc: Linear search failed
+after opt calc2: 54082.673
+exit siman: 46893.358
+nfeval: 119 rc: Linear search failed
+after opt calc1: 46893.357
+nfeval: 87 rc: Linear search failed
+after opt calc2: 46893.357
+exit siman: 56747.438
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56747.438
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56747.438
+post opt cv check: 56747.438
+(chisq): 1024.3845
+cv: 10
+exit siman: 54072.362
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54072.362
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54072.362
+exit siman: 46892.879
+nfeval: 52 rc: Linear search failed
+after opt calc1: 46892.879
+nfeval: 93 rc: Linear search failed
+after opt calc2: 46892.878
+post opt cv check: 46892.878
+(chisq): 4908.4406
+cv: 5
+cv check: 54396.225
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 52643.905
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52643.905
+post opt cv check: 52643.905
+(chisq): 20265.851
+cv: 1
+cv check: 55457.678
+exit siman: 54065.21
+exit siman: 54191.037
+nfeval: 69 rc: Linear search failed
+after opt calc1: 54191.036
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54191.036
+exit siman: 55054.516
+nfeval: 68 rc: Linear search failed
+after opt calc1: 55054.514
+nfeval: 107 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55054.514
+exit siman: 54187.825
+nfeval: 116 rc: Linear search failed
+after opt calc1: 54187.824
+nfeval: 70 rc: Linear search failed
+after opt calc2: 54187.824
+exit siman: 55033.083
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55033.083
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54065.21
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55033.083
+exit siman: 54185.852
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54185.852
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54185.852
+exit siman: 54998.731
+nfeval: 69 rc: Linear search failed
+after opt calc1: 54998.73
+nfeval: 72 rc: Linear search failed
+after opt calc2: 54998.729
+exit siman: 54185.057
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54185.057
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54185.057
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54065.21
+exit siman: 54994.355
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54994.355
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54994.355
+exit siman: 54183.725
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54183.725
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54183.725
+post opt cv check: 54183.725
+(chisq): 6098.0632
+cv: 6
+exit siman: 54059.107
+nfeval: 116 rc: Linear search failed
+after opt calc1: 54059.107
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54059.107
+post opt cv check: 54059.107
+(chisq): 2479.0783
+cv: 8
+exit siman: 54991.338
+nfeval: 78 rc: Linear search failed
+after opt calc1: 54991.337
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54991.337
+post opt cv check: 54991.337
+(chisq): 21303.063
+cv: 2
+cv check: 54498.156
+exit siman: 53909.45
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53909.45
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53909.45
+exit siman: 53903.943
+nfeval: 90 rc: Linear search failed
+after opt calc1: 53903.942
+nfeval: 105 rc: Linear search failed
+after opt calc2: 53903.942
+exit siman: 53902.37
+nfeval: 76 rc: Linear search failed
+after opt calc1: 53902.37
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53902.37
+exit siman: 53900.83
+nfeval: 87 rc: Linear search failed
+after opt calc1: 53900.83
+nfeval: 74 rc: Linear search failed
+after opt calc2: 53900.829
+exit siman: 53899.239
+nfeval: 83 rc: Linear search failed
+after opt calc1: 53899.239
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53899.239
+post opt cv check: 53899.239
+(chisq): 22307.529
+cv: 3
+chisq: (1000000) 31909.055
+--------------
+numparams:138
+smoothing:100000
+56969.764
+exit siman: 56964.835
+nfeval: 70 rc: Linear search failed
+after opt calc1: 56964.767
+nfeval: 66 rc: Linear search failed
+after opt calc2: 56964.767
+exit siman: 56962.94
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56962.94
+nfeval: 66 rc: Linear search failed
+after opt calc2: 56962.94
+exit siman: 56955.979
+nfeval: 147 rc: Linear search failed
+after opt calc1: 56955.979
+nfeval: 66 rc: Linear search failed
+after opt calc2: 56955.979
+exit siman: 56954.128
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56954.128
+nfeval: 66 rc: Linear search failed
+after opt calc2: 56954.128
+exit siman: 56953.411
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56953.411
+nfeval: 66 rc: Linear search failed
+after opt calc2: 56953.411
+after opt calc: 56953.411
+curcv: 100000
+cv check: 54880.685
+cv check: 55309.865
+cv check: cv check: 56693.004
+53893.779
+exit siman: 55045.159
+nfeval: 69 rc: Linear search failed
+after opt calc1: 55045.134
+exit siman: 52656.887
+exit siman: 53234.65
+exit siman: 56551.358
+nfeval: 69 rc: Linear search failed
+after opt calc1: 52656.867
+nfeval: 82 rc: Linear search failed
+after opt calc2: 55045.124
+nfeval: 83 rc: Linear search failed
+after opt calc2: 52656.86
+exit siman: 55029.259
+exit siman: 52649.857
+nfeval: 52 rc: Linear search failed
+after opt calc1: 52649.857
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53234.65
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56551.358
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55029.259
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52649.857
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53234.65
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56551.358
+exit siman: 52645.968
+exit siman: 53225.134
+exit siman: 56547.8
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55029.259
+nfeval: 52 rc: Linear search failed
+after opt calc1: 56547.8
+exit siman: 55024.254
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 52645.968
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53225.134
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56547.8
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55024.254
+exit siman: 56541.94
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52645.967
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53225.134
+exit siman: 52643.364
+nfeval: 133 rc: Linear search failed
+after opt calc1: 52643.364
+nfeval: 167 rc: Linear search failed
+after opt calc2: 52643.364
+exit siman: 53217.569
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55024.254
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56541.94
+exit siman: 52641.851
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 52641.851
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52641.851
+post opt cv check: 52641.851
+(chisq): 20266.307
+cv: 1
+cv check: 55500.736
+exit siman: 55020.236
+nfeval: 110 rc: Linear search failed
+after opt calc1: 55020.236
+nfeval: 118 rc: Linear search failed
+after opt calc2: 55020.23
+exit siman: 55056.056
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53217.569
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56541.94
+exit siman: 55018.817
+exit siman: 56538.821
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55056.056
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53217.569
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55018.817
+exit siman: 53215.5
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56538.821
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55056.056
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55018.817
+post opt cv check: 55018.817
+(chisq): 919.0512
+cv: 9
+cv check: 56804.024
+exit siman: 55024.524
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53215.5
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56538.821
+exit siman: 56750.861
+exit siman: 56537.123
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55024.524
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53215.5
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56750.861
+exit siman: 53213.363
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56537.123
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55024.524
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56750.861
+exit siman: 55012.809
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53213.363
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56537.123
+post opt cv check: 56537.123
+(chisq): 286.00338
+cv: 7
+cv check: 55187.17
+exit siman: 56748.064
+exit siman: 54104.799
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55012.809
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53213.363
+post opt cv check: 53213.363
+(chisq): 1260.1749
+cv: 4
+cv check: 48227.644
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56748.064
+exit siman: 46891.969
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54104.799
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55012.809
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56748.064
+exit siman: 54995.606
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 46891.968
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54104.799
+exit siman: 56747.611
+nfeval: 52 rc: Linear search failed
+after opt calc1: 56747.611
+exit siman: 54084.501
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54995.606
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46891.967
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56747.611
+exit siman: 46891.264
+exit siman: 56747.286
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54084.501
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54995.606
+exit siman: 54992.271
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 46891.263
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56747.286
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54084.501
+exit siman: 54076.495
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46891.262
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54992.271
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56747.286
+exit siman: 46889.172
+nfeval: 158 rc: Linear search failed
+after opt calc1: 46889.172
+nfeval: 158 rc: Linear search failed
+after opt calc2: 46889.172
+exit siman: 56746.672
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54076.495
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54992.271
+post opt cv check: 54992.271
+(chisq): 21305.451
+cv: 2
+cv check: 54518.184
+exit siman: 46888.693
+exit siman: 53914.535
+nfeval: 116 rc: Linear search failed
+after opt calc1: 53914.512
+nfeval: 70 rc: Linear search failed
+after opt calc2: 53914.492
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56746.672
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54076.495
+nfeval: 10000 rc: Maximum number of function evaluations reached
+exit siman: 53904.769
+after opt calc1: 46888.693
+nfeval: 116 rc: Linear search failed
+after opt calc1: 53904.76
+nfeval: 69 rc: Linear search failed
+after opt calc2: 53904.75
+exit siman: 54065.092
+exit siman: 53900.432
+nfeval: 69 rc: Linear search failed
+after opt calc1: 53900.423
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53900.423
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56746.672
+post opt cv check: 56746.672
+(chisq): 1024.4102
+cv: 10
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46888.693
+exit siman: 53899.189
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53899.189
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53899.189
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54065.092
+exit siman: 46888.287
+nfeval: 52 rc: Linear search failed
+after opt calc1: 46888.287
+exit siman: 53898.932
+nfeval: 69 rc: Linear search failed
+after opt calc1: 53898.927
+nfeval: 69 rc: Linear search failed
+after opt calc2: 53898.921
+post opt cv check: 53898.921
+(chisq): 22309.943
+cv: 3
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54065.092
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46888.287
+post opt cv check: 46888.287
+(chisq): 4902.891
+cv: 5
+cv check: 54402.448
+exit siman: 54060.851
+exit siman: 54189.296
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54060.851
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54189.296
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54060.851
+post opt cv check: 54060.851
+(chisq): 2466.9466
+cv: 8
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54189.296
+exit siman: 54188.379
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54188.379
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54188.379
+exit siman: 54187.47
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54187.469
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54187.469
+exit siman: 54185.001
+nfeval: 143 rc: Linear search failed
+after opt calc1: 54185.001
+nfeval: 141 rc: Linear search failed
+after opt calc2: 54185.001
+exit siman: 54184.282
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54184.281
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54184.281
+post opt cv check: 54184.281
+(chisq): 6084.453
+cv: 6
+chisq: (100000) 31885.752
+--------------
+numparams:138
+smoothing:10000
+56953.337
+exit siman: 56953.161
+nfeval: 117 rc: Linear search failed
+after opt calc1: 56952.449
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56952.449
+exit siman: 56951.201
+nfeval: 69 rc: Linear search failed
+after opt calc1: 56950.99
+nfeval: 68 rc: Linear search failed
+after opt calc2: 56950.99
+exit siman: 56950.513
+nfeval: 69 rc: Linear search failed
+after opt calc1: 56950.383
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56950.383
+exit siman: 56950.178
+nfeval: 83 rc: Linear search failed
+after opt calc1: 56950.109
+nfeval: 68 rc: Linear search failed
+after opt calc2: 56950.109
+exit siman: 56949.356
+nfeval: 52 rc: Linear search failed
+after opt calc1: 56949.356
+nfeval: 68 rc: Linear search failed
+after opt calc2: 56949.356
+after opt calc: 56949.356
+curcv: 10000
+cv check: cv check: cv check: 54879.003
+cv check: 55316.978
+53891.615
+56691.877
+exit siman: 55069.754
+exit siman: 53226.735
+exit siman: 52655.16
+nfeval: 68 rc: Linear search failed
+after opt calc1: 55069.619
+nfeval: 52 rc: Linear search failed
+after opt calc1: 53226.735
+nfeval: 68 rc: Linear search failed
+after opt calc2: 55069.552
+nfeval: 105 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 52655.16
+nfeval: 105 rc: Linear search failed
+after opt calc2: 53226.638
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52655.16
+exit siman: 56543.121
+nfeval: 98 rc: Linear search failed
+after opt calc1: 56543.028
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56542.972
+exit siman: 55039.208
+exit siman: 53219.273
+nfeval: 108 rc: Linear search failed
+after opt calc1: 53219.108
+exit siman: 52646.754
+nfeval: 69 rc: Linear search failed
+after opt calc2: 53219.028
+nfeval: 68 rc: Linear search failed
+after opt calc1: 52646.683
+exit siman: 56538.584
+nfeval: 117 rc: Linear search failed
+after opt calc2: 52646.683
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56538.584
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56538.584
+exit siman: 53214.648
+nfeval: 52 rc: Linear search failed
+after opt calc1: 53214.648
+nfeval: 52 rc: Linear search failed
+after opt calc2: 53214.648
+exit siman: 52643.469
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 52643.469
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 52643.469
+exit siman: 56536.342
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56536.342
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56536.342
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55039.206
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55039.206
+exit siman: 53214.302
+nfeval: 52 rc: Linear search failed
+after opt calc1: 53214.302
+nfeval: 52 rc: Linear search failed
+after opt calc2: 53214.302
+exit siman: 52642.396
+nfeval: 117 rc: Linear search failed
+after opt calc1: 52642.396
+nfeval: 117 rc: Linear search failed
+after opt calc2: 52642.396
+exit siman: 56535.838
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56535.838
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56535.838
+exit siman: 55030.542
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55030.542
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55030.542
+exit siman: 53213.988
+nfeval: 52 rc: Linear search failed
+after opt calc1: 53213.988
+nfeval: 52 rc: Linear search failed
+after opt calc2: 53213.988
+post opt cv check: 53213.988
+(chisq): 1259.4114
+cv: 4
+cv check: 48224.827
+exit siman: 52640.204
+nfeval: 62 rc: Linear search failed
+after opt calc1: 52640.204
+nfeval: 61 rc: Linear search failed
+after opt calc2: 52640.204
+post opt cv check: 52640.204
+(chisq): 20279.256
+cv: 1
+cv check: 55516.044
+exit siman: 56535.598
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56535.598
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56535.598
+post opt cv check: 56535.598
+(chisq): 286.27708
+cv: 7
+cv check: 55191.337
+exit siman: 55025.373
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55025.373
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55025.373
+exit siman: 46895.662
+nfeval: 118 rc: Linear search failed
+after opt calc1: 46895.59
+nfeval: 118 rc: Linear search failed
+after opt calc2: 46895.535
+exit siman: 55026.373
+nfeval: 81 rc: Linear search failed
+after opt calc1: 55026.194
+nfeval: 75 rc: Linear search failed
+after opt calc2: 55026.102
+exit siman: 54102.673
+nfeval: 68 rc: Linear search failed
+after opt calc1: 54102.553
+nfeval: 68 rc: Linear search failed
+after opt calc2: 54102.468
+exit siman: 55019.427
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55019.427
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55019.427
+post opt cv check: 55019.427
+(chisq): 912.5971
+cv: 9
+cv check: 56801.916
+exit siman: 46893.723
+nfeval: 88 rc: Linear search failed
+after opt calc1: 46893.593
+exit siman: 55016.972
+nfeval: 116 rc: Linear search failed
+after opt calc1: 55016.904
+nfeval: 52 rc: Linear search failed
+after opt calc2: 55016.904
+exit siman: 54079.198
+nfeval: 81 rc: Linear search failed
+after opt calc1: 54079.131
+nfeval: 117 rc: Linear search failed
+after opt calc2: 54078.949
+exit siman: 56746.616
+nfeval: 116 rc: Linear search failed
+after opt calc1: 56746.558
+nfeval: 117 rc: Linear search failed
+after opt calc2: 56746.522
+exit siman: 55008.837
+nfeval: 117 rc: Linear search failed
+after opt calc1: 55008.592
+nfeval: 68 rc: Linear search failed
+after opt calc2: 55008.491
+exit siman: 54069.534
+nfeval: 69 rc: Linear search failed
+after opt calc1: 54069.433
+nfeval: 116 rc: Linear search failed
+after opt calc2: 54069.405
+exit siman: 56744.954
+nfeval: 70 rc: Linear search failed
+after opt calc1: 56744.891
+nfeval: 70 rc: Linear search failed
+after opt calc2: 56744.845
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46893.59
+exit siman: 54991.926
+nfeval: 69 rc: Linear search failed
+after opt calc1: 54991.884
+nfeval: 71 rc: Linear search failed
+after opt calc2: 54991.824
+exit siman: 54066.499
+nfeval: 117 rc: Linear search failed
+after opt calc1: 54066.42
+nfeval: 117 rc: Linear search failed
+after opt calc2: 54066.384
+exit siman: 56743.576
+exit siman: 46887.399
+exit siman: 54989.694
+nfeval: 71 rc: Linear search failed
+after opt calc1: 54989.643
+nfeval: 106 rc: Linear search failed
+after opt calc2: 54989.643
+post opt cv check: 54989.643
+(chisq): 21321.272
+cv: 2
+cv check: 54519.672
+exit siman: 54059.892
+nfeval: 70 rc: Linear search failed
+after opt calc1: 54059.811
+nfeval: 82 rc: Linear search failed
+after opt calc2: 54059.744
+post opt cv check: 54059.744
+(chisq): 2475.7878
+cv: 8
+exit siman: 53912.6
+nfeval: 68 rc: Linear search failed
+after opt calc1: 53912.473
+nfeval: 69 rc: Linear search failed
+after opt calc2: 53912.419
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56743.576
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 46887.395
+exit siman: 53902.952
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53902.952
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53902.952
+exit siman: 53900.485
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53900.485
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53900.485
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56743.576
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46887.391
+exit siman: 53898.757
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53898.757
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53898.757
+exit siman: 56743.425
+exit siman: 46887.243
+nfeval: 132 rc: Linear search failed
+after opt calc1: 46887.238
+exit siman: 53897.642
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 53897.642
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53897.642
+post opt cv check: 53897.642
+(chisq): 22327.163
+cv: 3
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56743.425
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46887.233
+exit siman: 46886.248
+nfeval: 172 rc: Linear search failed
+after opt calc1: 46886.238
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56743.425
+exit siman: 56743.203
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46886.228
+post opt cv check: 46886.228
+(chisq): 4911.1767
+cv: 5
+cv check: 54403.059
+exit siman: 54195.389
+nfeval: 105 rc: Linear search failed
+after opt calc1: 54195.302
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56743.203
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54195.302
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56743.203
+post opt cv check: 56743.203
+(chisq): 1018.2996
+cv: 10
+exit siman: 54190.583
+nfeval: 68 rc: Linear search failed
+after opt calc1: 54190.583
+nfeval: 68 rc: Linear search failed
+after opt calc2: 54190.583
+exit siman: 54186.911
+nfeval: 69 rc: Linear search failed
+after opt calc1: 54186.911
+nfeval: 69 rc: Linear search failed
+after opt calc2: 54186.911
+exit siman: 54185.49
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54185.49
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54185.49
+exit siman: 54184.141
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54184.141
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54184.141
+post opt cv check: 54184.141
+(chisq): 6091.0873
+cv: 6
+chisq: (10000) 31912.338
+--------------
+numparams:138
+smoothing:1000
+56947.926
+exit siman: 56947.126
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56947.126
+nfeval: 70 rc: Linear search failed
+after opt calc2: 56947.126
+exit siman: 56946.707
+nfeval: 70 rc: Linear search failed
+after opt calc1: 56940.878
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56940.878
+exit siman: 56937.181
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56937.179
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56937.179
+exit siman: 56936.521
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56936.521
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56936.521
+exit siman: 56935.943
+nfeval: 70 rc: Linear search failed
+after opt calc1: 56933.271
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56933.271
+after opt calc: 56933.271
+curcv: 1000
+cv check: 54863.083
+cv check: cv check: cv check: 56676.455
+55303.519
+53879.152
+exit siman: 55036.358
+exit siman: 56545.215
+exit siman: 53215.332
+exit siman: 52643.255
+nfeval: 116 rc: Linear search failed
+after opt calc1: 56544.453
+nfeval: 119 rc: Linear search failed
+after opt calc1: 55035.384
+nfeval: 70 rc: Linear search failed
+after opt calc1: 52642.39
+nfeval: 80 rc: Linear search failed
+after opt calc2: 56543.479
+nfeval: 70 rc: Linear search failed
+after opt calc2: 55034.514
+nfeval: 171 rc: Linear search failed
+after opt calc1: 53215.271
+nfeval: 70 rc: Linear search failed
+after opt calc2: 52641.865
+nfeval: 70 rc: Linear search failed
+after opt calc2: 53214.166
+exit siman: 55022.778
+exit siman: 56526.732
+exit siman: 52632.804
+nfeval: 69 rc: Linear search failed
+after opt calc1: 55022.061
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56526.732
+exit siman: 53204.496
+nfeval: 70 rc: Linear search failed
+after opt calc1: 52632.43
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56526.732
+nfeval: 52 rc: Linear search failed
+after opt calc1: 53204.496
+exit siman: 56522.431
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56522.431
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56522.431
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53204.496
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55022.052
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52632.43
+exit siman: 56520.306
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 56520.306
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56520.306
+exit siman: 53198.684
+exit siman: 52628.37
+exit siman: 55013.297
+nfeval: 69 rc: Linear search failed
+after opt calc1: 53197.843
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 55013.297
+nfeval: 70 rc: Linear search failed
+after opt calc1: 52627.995
+nfeval: 68 rc: Linear search failed
+after opt calc2: 53197.487
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 55013.297
+exit siman: 56520.038
+nfeval: 79 rc: Linear search failed
+after opt calc1: 56519.547
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 56519.547
+post opt cv check: 56519.547
+(chisq): 279.80904
+cv: 7
+cv check: 55181.532
+exit siman: 53196.729
+exit siman: 55005.527
+nfeval: 62 rc: Linear search failed
+after opt calc1: 53196.729
+nfeval: 62 rc: Linear search failed
+after opt calc2: 53196.729
+exit siman: 54091.426
+nfeval: 70 rc: Linear search failed
+after opt calc1: 54090.104
+exit siman: 53195.615
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52627.994
+nfeval: 62 rc: Linear search failed
+after opt calc1: 53195.615
+nfeval: 62 rc: Linear search failed
+after opt calc2: 53195.615
+post opt cv check: 53195.615
+(chisq): 1265.8937
+cv: 4
+cv check: 48214.279
+exit siman: 52626.388
+exit siman: 46879.238
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55005.51
+nfeval: 69 rc: Linear search failed
+after opt calc2: 55005.193
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54090.061
+exit siman: 55000.209
+nfeval: 78 rc: Linear search failed
+after opt calc1: 54999.883
+nfeval: 73 rc: Linear search failed
+after opt calc2: 54999.883
+post opt cv check: 54999.883
+(chisq): 914.57631
+cv: 9
+cv check: 56787.02
+exit siman: 54056.085
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54056.085
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54056.085
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 52626.388
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 46879.238
+exit siman: 56732.716
+nfeval: 69 rc: Linear search failed
+after opt calc1: 56731.715
+nfeval: 116 rc: Linear search failed
+after opt calc2: 56731.278
+exit siman: 54048.404
+nfeval: 64 rc: Linear search failed
+after opt calc1: 54048.356
+nfeval: 74 rc: Linear search failed
+after opt calc2: 54047.708
+exit siman: 56726.531
+nfeval: 74 rc: Linear search failed
+after opt calc1: 56726.143
+nfeval: 71 rc: Linear search failed
+after opt calc2: 56725.649
+exit siman: 54041.11
+nfeval: 71 rc: Linear search failed
+after opt calc1: 54039.974
+nfeval: 70 rc: Linear search failed
+after opt calc2: 54039.043
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46879.238
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52626.388
+exit siman: 56724.985
+nfeval: 70 rc: Linear search failed
+after opt calc1: 56724.514
+exit siman: 54035.752
+exit siman: 46877.829
+nfeval: 172 rc: Linear search failed
+after opt calc1: 46877.829
+nfeval: 172 rc: Linear search failed
+after opt calc2: 46877.829
+exit siman: 52625.583
+nfeval: 168 rc: Linear search failed
+after opt calc1: 52625.583
+nfeval: 168 rc: Linear search failed
+after opt calc2: 52625.583
+post opt cv check: 52625.583
+(chisq): 20249.203
+cv: 1
+cv check: 55504.69
+exit siman: 46877.678
+nfeval: 173 rc: Linear search failed
+after opt calc1: 46877.678
+nfeval: 173 rc: Linear search failed
+after opt calc2: 46877.678
+exit siman: 55052.345
+nfeval: 71 rc: Linear search failed
+after opt calc1: 55050.461
+nfeval: 122 rc: Linear search failed
+after opt calc2: 55050.461
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56724.514
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 54035.752
+exit siman: 46877.517
+exit siman: 55023.652
+exit siman: 56724.184
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54035.752
+post opt cv check: 54035.752
+(chisq): 2479.6195
+cv: 8
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 46877.517
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55023.652
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56724.184
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46877.517
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 55023.652
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56724.184
+exit siman: 46877.38
+exit siman: 54996.238
+nfeval: 118 rc: Linear search failed
+after opt calc1: 54995.346
+nfeval: 83 rc: Linear search failed
+after opt calc2: 54994.707
+exit siman: 56724.06
+exit siman: 54980.38
+nfeval: 71 rc: Linear search failed
+after opt calc1: 54979.508
+nfeval: 86 rc: Linear search failed
+after opt calc2: 54978.878
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 46877.38
+exit siman: 54974.313
+nfeval: 118 rc: Linear search failed
+after opt calc1: 54973.684
+nfeval: 105 rc: Linear search failed
+after opt calc2: 54973.684
+post opt cv check: 54973.684
+(chisq): 21276.805
+cv: 2
+cv check: 54505.111
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56724.059
+exit siman: 53899.079
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 46877.38
+post opt cv check: 46877.38
+(chisq): 4909.5952
+cv: 5
+cv check: 54391.095
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56724.059
+post opt cv check: 56724.059
+(chisq): 1020.7285
+cv: 10
+exit siman: 54179.736
+nfeval: 70 rc: Linear search failed
+after opt calc1: 54178.637
+nfeval: 116 rc: Linear search failed
+after opt calc2: 54178.105
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53899.079
+exit siman: 54173.088
+nfeval: 76 rc: Linear search failed
+after opt calc1: 54172.155
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54172.155
+exit siman: 54168.153
+nfeval: 69 rc: Linear search failed
+after opt calc1: 54167.479
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53899.079
+exit siman: 53890.235
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54167.477
+exit siman: 54165.632
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54165.632
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53890.235
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54165.632
+exit siman: 54164.558
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 54164.558
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 54164.558
+post opt cv check: 54164.558
+(chisq): 6098.1114
+cv: 6
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53890.235
+exit siman: 53886.778
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53886.778
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53886.778
+exit siman: 53885.686
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53885.686
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53885.686
+exit siman: 53884.378
+nfeval: 72 rc: Linear search failed
+after opt calc1: 53883.612
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53883.612
+post opt cv check: 53883.612
+(chisq): 22275.883
+cv: 3
+chisq: (1000) 31874.343
+--------------
+numparams:138
+smoothing:100
+56923.354
+exit siman: 56803.017
+nfeval: 52 rc: Linear search failed
+after opt calc1: 56803.017
+nfeval: 69 rc: Linear search failed
+after opt calc2: 56786.728
+exit siman: 56783.78
+nfeval: 111 rc: Linear search failed
+after opt calc1: 56755.21
+nfeval: 75 rc: Linear search failed
+after opt calc2: 56753.532
+exit siman: 56751.818
+nfeval: 90 rc: Linear search failed
+after opt calc1: 56744.263
+nfeval: 73 rc: Linear search failed
+after opt calc2: 56743.349
+exit siman: 56742.926
+nfeval: 85 rc: Linear search failed
+after opt calc1: 56736.11
+nfeval: 75 rc: Linear search failed
+after opt calc2: 56735.571
+exit siman: 56734.953
+nfeval: 52 rc: Linear search failed
+after opt calc1: 56734.953
+nfeval: 125 rc: Linear search failed
+after opt calc2: 56734.093
+after opt calc: 56734.093
+curcv: 100
+cv check: cv check: cv check: 54674.165
+cv check: 53680.62
+55121.159
+56477.471
+exit siman: 54860.208
+exit siman: 52454.848
+exit siman: 53023.28
+exit siman: 56334.478
+nfeval: 71 rc: Linear search failed
+after opt calc1: 53015.988
+nfeval: 97 rc: Linear search failednfeval: 
+after opt calc1: 54848.043
+96 rc: Linear search failed
+after opt calc1: 52442.486
+nfeval: 175 rc: Linear search failed
+after opt calc1: 56319.91
+nfeval: 127 rc: Linear search failed
+after opt calc2: 54832.143
+nfeval: 228 rc: Linear search failed
+after opt calc2: 52416.437
+nfeval: 315 rc: Linear search failed
+after opt calc2: 52977.194
+nfeval: 367 rc: Linear search failed
+after opt calc2: 56254.595
+exit siman: 52965.525
+exit siman: 56248.021
+nfeval: 174 rc: Linear search failed
+after opt calc1: 52949.102
+nfeval: 88 rc: Linear search failed
+after opt calc1: 56244.144
+nfeval: 135 rc: Linear search failed
+after opt calc2: 52945.129
+nfeval: 243 rc: Linear search failed
+after opt calc2: 56235.487
+exit siman: 54811.936
+nfeval: 217 rc: Linear search failed
+after opt calc1: 54802.222
+nfeval: 201 rc: Linear search failed
+after opt calc2: 54794.092
+exit siman: 52410.114
+nfeval: 162 rc: Linear search failed
+after opt calc1: 52402.075
+nfeval: 348 rc: Linear search failed
+after opt calc2: 52374.904
+exit siman: 52942.206
+nfeval: 204 rc: Linear search failed
+after opt calc1: 52913.52
+exit siman: 56233.563
+nfeval: 179 rc: Linear search failed
+after opt calc2: 52907.576
+exit siman: 54783.693
+nfeval: 166 rc: Linear search failed
+after opt calc1: 56227.318
+nfeval: 89 rc: Linear search failed
+after opt calc2: 56224.783
+nfeval: 142 rc: Linear search failed
+after opt calc1: 54764.76
+nfeval: 115 rc: Linear search failed
+after opt calc2: 54759.894
+exit siman: 52370.875
+nfeval: 73 rc: Linear search failed
+after opt calc1: 52370.331
+nfeval: 88 rc: Linear search failed
+after opt calc2: 52368.551
+exit siman: 52906.136
+nfeval: 120 rc: Linear search failed
+after opt calc1: 52900.069
+exit siman: 56223.688
+exit siman: 54756.51
+nfeval: 119 rc: Linear search failed
+after opt calc2: 52898.667
+nfeval: 120 rc: Linear search failed
+after opt calc1: 56222.674
+nfeval: 121 rc: Linear search failed
+after opt calc1: 54755.602
+nfeval: 119 rc: Linear search failed
+after opt calc2: 56221.421
+nfeval: 170 rc: Linear search failed
+after opt calc2: 54747.894
+exit siman: 52366.883
+nfeval: 88 rc: Linear search failed
+after opt calc1: 52365.258
+nfeval: 76 rc: Linear search failed
+after opt calc2: 52364.566
+exit siman: 52896.548
+nfeval: 120 rc: Linear search failed
+after opt calc1: 52895.671
+nfeval: 190 rc: Linear search failed
+after opt calc2: 52893.946
+post opt cv check: 52893.946
+(chisq): 1265.0389
+cv: 4
+cv check: 48150.432
+exit siman: 56221.071
+nfeval: 102 rc: Linear search failed
+after opt calc1: 56218.695
+exit siman: 54741.657
+nfeval: 72 rc: Linear search failed
+after opt calc2: 56217.513
+post opt cv check: 56217.513
+(chisq): 287.71063
+cv: 7
+cv check: 54990.248
+nfeval: 133 rc: Linear search failed
+after opt calc1: 54733.813
+nfeval: 72 rc: Linear search failed
+after opt calc2: 54732.387
+post opt cv check: 54732.387
+(chisq): 920.26728
+cv: 9
+cv check: 56588.805
+exit siman: 52363.571
+exit siman: 46799.719
+nfeval: 52 rc: Linear search failed
+after opt calc1: 46799.719
+nfeval: 164 rc: Linear search failed
+after opt calc2: 46785.094
+exit siman: 53888.26
+nfeval: 222 rc: Linear search failed
+after opt calc1: 53849.607
+exit siman: 56534.662
+nfeval: 86 rc: Linear search failed
+after opt calc1: 56527.076
+nfeval: 176 rc: Linear search failed
+after opt calc2: 53831.128
+nfeval: 175 rc: Linear search failed
+after opt calc2: 56512.074
+exit siman: 46780.931
+nfeval: 299 rc: Linear search failed
+after opt calc1: 46646.551
+exit siman: 53813.703
+nfeval: 52 rc: Linear search failed
+after opt calc1: 53813.703
+exit siman: 56509.167
+nfeval: 127 rc: Linear search failed
+after opt calc2: 53800.047
+nfeval: 10000 rc: Maximum number of function evaluations reached
+nfeval: after opt calc1: 593 rc: Linear search failed
+after opt calc2: 52363.57146535.71
+
+exit siman: 53789.205
+nfeval: 168 rc: Linear search failed
+after opt calc1: 53781.872
+exit siman: 46531.484
+nfeval: 153 rc: Linear search failed
+after opt calc1: 46513.38
+nfeval: 360 rc: Linear search failed
+after opt calc2: 53726.021
+nfeval: 663 rc: Linear search failed
+after opt calc2: 45843.76
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 56509.167
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52363.571
+post opt cv check: 52363.571
+(chisq): 20276.481
+cv: 1
+cv check: 55318.842
+exit siman: 53722.071
+exit siman: 45805.929
+nfeval: 224 rc: Linear search failed
+after opt calc1: 45790.321
+nfeval: 309 rc: Linear search failed
+after opt calc2: 45760.725
+exit siman: 54868.288
+nfeval: 85 rc: Linear search failed
+after opt calc1: 54853.293
+nfeval: 320 rc: Linear search failed
+after opt calc2: 54796.205
+exit siman: 45746.912
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 56509.167
+exit siman: 54736.73
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53722.071
+nfeval: 192 rc: Linear search failed
+after opt calc1: 54720.077
+nfeval: 239 rc: Linear search failed
+after opt calc2: 54694.755
+exit siman: 56508.727
+nfeval: 170 rc: Linear search failed
+after opt calc1: 56498.008
+nfeval: 87 rc: Linear search failed
+after opt calc2: 56492.235
+exit siman: 54688.342
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 45746.912
+nfeval: 696 rc: Linear search failed
+after opt calc1: 54629.17
+nfeval: 116 rc: Linear search failed
+after opt calc2: 54621.147
+exit siman: 56490.692
+nfeval: 232 rc: Linear search failed
+after opt calc1: 56475.082
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53722.071
+nfeval: 214 rc: Linear search failed
+after opt calc2: 56443.197
+exit siman: 54612.521
+nfeval: 94 rc: Linear search failed
+after opt calc1: 54610.243
+nfeval: 71 rc: Linear search failed
+after opt calc2: 54608.321
+exit siman: 56442.926
+exit siman: 53718.112
+nfeval: 92 rc: Linear search failed
+after opt calc1: 56439.18
+nfeval: 72 rc: Linear search failed
+after opt calc2: 56437.824
+post opt cv check: 56437.824
+(chisq): 1026.5206
+cv: 10
+nfeval: 191 rc: Linear search failed
+after opt calc1: 53716.117
+nfeval: 224 rc: Linear search failed
+after opt calc2: 53692.708
+post opt cv check: 53692.708
+(chisq): 2491.1171
+cv: 8
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 45746.912
+post opt cv check: 45746.912
+(chisq): 5314.6039
+cv: 5
+cv check: 54198.838
+exit siman: 54604.729
+nfeval: 102 rc: Linear search failed
+after opt calc1: 54602.32
+exit siman: 53995.199
+nfeval: 52 rc: Linear search failed
+after opt calc1: 53995.199
+nfeval: 215 rc: Linear search failed
+after opt calc2: 53967.005
+exit siman: 53955.366
+nfeval: 159 rc: Linear search failed
+after opt calc1: 53933.665
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 54602.32
+post opt cv check: 54602.32
+(chisq): 21345.82
+cv: 2
+cv check: 54310.877
+nfeval: 146 rc: Linear search failed
+after opt calc2: 53921.288
+exit siman: 53700.104
+exit siman: 53917.423
+nfeval: 190 rc: Linear search failed
+after opt calc1: 53678.898
+nfeval: 184 rc: Linear search failed
+after opt calc1: 53906.17
+nfeval: 173 rc: Linear search failed
+after opt calc2: 53889.464
+nfeval: 436 rc: Linear search failed
+after opt calc2: 53551.258
+exit siman: 53887.977
+exit siman: 53546.965
+nfeval: 188 rc: Linear search failed
+after opt calc1: 53884.167
+nfeval: 132 rc: Linear search failed
+after opt calc1: 53540.337
+nfeval: 101 rc: Linear search failed
+after opt calc2: 53879.973
+nfeval: 192 rc: Linear search failed
+after opt calc2: 53528.58
+exit siman: 53879.075
+nfeval: 117 rc: Linear search failed
+after opt calc1: 53873.853
+exit siman: 53526.362
+nfeval: 243 rc: Linear search failed
+after opt calc2: 53861.315
+post opt cv check: 53861.315
+(chisq): 6503.8701
+cv: 6
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53526.362
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53526.362
+exit siman: 53525.071
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53525.071
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53525.071
+exit siman: 53524.468
+nfeval: 149 rc: Linear search failed
+after opt calc1: 53518.747
+nfeval: 89 rc: Linear search failed
+after opt calc2: 53515.702
+post opt cv check: 53515.702
+(chisq): 22356.985
+cv: 3
+chisq: (100) 32378.493
+--------------
+numparams:138
+smoothing:10
+56572.573
+exit siman: 55124.154
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55124.154
+nfeval: 141 rc: Linear search failed
+after opt calc2: 55111.117
+exit siman: 55068.612
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 55068.612
+nfeval: 126 rc: Linear search failed
+after opt calc2: 55066.993
+exit siman: 55006.054
+nfeval: 977 rc: Linear search failed
+after opt calc1: 54394.252
+nfeval: 67 rc: Linear search failed
+after opt calc2: 54394.252
+exit siman: 54308.27
+nfeval: 846 rc: Linear search failed
+after opt calc1: 54069.212
+nfeval: 73 rc: Linear search failed
+after opt calc2: 54069.212
+exit siman: 53964.427
+nfeval: 348 rc: Linear search failed
+after opt calc1: 53921.875
+nfeval: 67 rc: Linear search failed
+after opt calc2: 53921.875
+after opt calc: 53921.875
+curcv: 10
+cv check: 52087.652
+cv check: 52175.611
+cv check: 53565.684
+cv check: 50653.811
+exit siman: 51915.087
+exit siman: 49968.969
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 51915.087
+exit siman: 53326.907
+exit siman: 49710.358
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 51915.087
+nfeval: 644 rc: Linear search failed
+after opt calc1: 53249.346
+nfeval: 837 rc: Linear search failed
+after opt calc1: 49831.982
+nfeval: 1261 rc: Linear search failed
+after opt calc2: 49666.396
+exit siman: 51900.24
+nfeval: 52 rc: Linear search failed
+after opt calc1: 51900.24
+nfeval: 453 rc: Linear search failed
+after opt calc2: 51798.316
+exit siman: 49538.264
+nfeval: 334 rc: Linear search failed
+after opt calc1: 49532.157
+nfeval: 292 rc: Linear search failed
+after opt calc2: 49526.508
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 49710.358
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53249.346
+exit siman: 51791.885
+exit siman: 49479.248
+nfeval: 386 rc: Linear search failed
+after opt calc1: 49437.046
+nfeval: 222 rc: Linear search failed
+after opt calc2: 49434.778
+exit siman: 53213.216
+nfeval: 704 rc: Linear search failed
+after opt calc1: 53055.449
+nfeval: 482 rc: Linear search failed
+after opt calc2: 53020.456
+exit siman: 49376.184
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 49710.358
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 51791.885
+exit siman: 52903.349
+exit siman: 49644.613
+nfeval: 220 rc: Linear search failed
+after opt calc1: 49580.711
+nfeval: 868 rc: Linear search failed
+after opt calc2: 49470.636
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 49376.184
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 51791.885
+exit siman: 49339.301
+nfeval: 52 rc: Linear search failed
+after opt calc1: 49339.301
+nfeval: 245 rc: Linear search failed
+after opt calc2: 49336.924
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 52903.349
+exit siman: 51787.416
+exit siman: 49275.027
+nfeval: 497 rc: Linear search failed
+after opt calc1: 49243.358
+nfeval: 88 rc: Linear search failed
+after opt calc2: 49242.725
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 49376.184
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 52903.349
+exit siman: 49204.453
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 49204.453
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 49204.453
+post opt cv check: 49204.453
+(chisq): 20104.823
+cv: 1
+cv check: 52112.024
+exit siman: 49343.332
+nfeval: 158 rc: Linear search failed
+after opt calc1: 49340.417
+nfeval: 52 rc: Linear search failed
+after opt calc2: 49340.417
+post opt cv check: 49340.417
+(chisq): 1353.0259
+cv: 4
+cv check: 46406.951
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 51787.416
+exit siman: 52856.199
+nfeval: 501 rc: Linear search failed
+after opt calc1: 52817.958
+nfeval: 353 rc: Linear search failed
+after opt calc2: 52797.577
+exit siman: 51694.661
+exit siman: 44337.607
+nfeval: 551 rc: Linear search failed
+after opt calc1: 51320.88
+exit siman: 52741.683
+nfeval: 533 rc: Linear search failed
+after opt calc1: 52720.505
+nfeval: 298 rc: Linear search failed
+after opt calc2: 52717.627
+post opt cv check: 52717.627
+(chisq): 379.01046
+cv: 7
+cv check: 51827.9
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 51787.416
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 44337.607
+exit siman: 50725.094
+nfeval: 624 rc: Linear search failed
+after opt calc1: 50504.891
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 51320.88
+exit siman: 51784.425
+exit siman: 51270.554
+nfeval: 1075 rc: Linear search failed
+after opt calc1: 51056.736
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 44337.607
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 50504.891
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 51784.425
+exit siman: 44217.628
+nfeval: 633 rc: Linear search failed
+after opt calc1: 43650.582
+exit siman: 50485.216
+nfeval: 52 rc: Linear search failed
+after opt calc1: 50485.216
+nfeval: 1183 rc: Linear search failed
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 51056.736
+after opt calc2: 50222.584
+nfeval: 1988 rc: Linear search failed
+after opt calc2: 43388.906
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 51784.425
+post opt cv check: 51784.425
+(chisq): 936.86151
+cv: 9
+cv check: 53720.021
+exit siman: 50090.422
+exit siman: 50971.443
+exit siman: 43195.793
+nfeval: 837 rc: Linear search failed
+after opt calc1: 42990.867
+nfeval: 119 rc: Linear search failed
+after opt calc2: 42990.458
+exit siman: 53596.22
+nfeval: 682 rc: Linear search failed
+after opt calc1: 53476.356
+exit siman: 42755.31
+nfeval: 737 rc: Linear search failed
+after opt calc1: 42681.574
+nfeval: 667 rc: Linear search failed
+after opt calc2: 42650.753
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 50090.422
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 50971.443
+exit siman: 42526.493
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53476.356
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 50090.422
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 50971.443
+exit siman: 53419.218
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 42526.493
+exit siman: 50034.271
+nfeval: 211 rc: Linear search failed
+after opt calc1: 50032.772
+exit siman: 50946.736
+nfeval: 116 rc: Linear search failed
+after opt calc2: 50030.096
+nfeval: 628 rc: Linear search failed
+after opt calc1: 50889.092
+nfeval: 129 rc: Linear search failed
+after opt calc2: 50887.521
+exit siman: 50002.507
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 53419.218
+nfeval: 661 rc: Linear search failed
+after opt calc1: 49974.611
+exit siman: 50853.936
+nfeval: 117 rc: Linear search failed
+after opt calc2: 49973.319
+post opt cv check: 49973.319
+(chisq): 2824.3805
+cv: 8
+nfeval: 52 rc: Linear search failed
+after opt calc1: 50853.936
+nfeval: 482 rc: Linear search failed
+after opt calc2: 50833.207
+post opt cv check: 50833.207
+(chisq): 21545.401
+cv: 2
+cv check: 51310.781
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 42526.493
+post opt cv check: 42526.493
+(chisq): 6027.3441
+cv: 5
+cv check: 51196.775
+exit siman: 50672.632
+nfeval: 268 rc: Linear search failed
+after opt calc1: 50592.591
+exit siman: 50926.311
+nfeval: 343 rc: Linear search failed
+after opt calc1: 50832.905
+nfeval: 1086 rc: Linear search failed
+after opt calc2: 50666.405
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 53419.218
+exit siman: 50552.772
+nfeval: 52 rc: Linear search failed
+after opt calc1: 50552.772
+nfeval: 1132 rc: Linear search failed
+after opt calc2: 50479.038
+exit siman: 53373.345
+nfeval: 855 rc: Linear search failed
+after opt calc1: 53258.77
+nfeval: 415 rc: Linear search failed
+after opt calc2: 53249.372
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 50592.59
+exit siman: 50420.415
+exit siman: 53201.782
+exit siman: 50571.469
+nfeval: 52 rc: Linear search failed
+after opt calc1: 50571.469
+nfeval: 507 rc: Linear search failed
+after opt calc1: 53157.515
+nfeval: 131 rc: Linear search failed
+after opt calc2: 53156.224
+nfeval: 968 rc: Linear search failed
+after opt calc2: 50398.644
+exit siman: 53084.041
+nfeval: 593 rc: Linear search failed
+exit siman: after opt calc1: 50349.0553058.034
+
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 53058.034
+post opt cv check: 53058.034
+(chisq): 1078.0011
+cv: 10
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 50420.415
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 50349.05
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 50420.415
+exit siman: 50391.811
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 50349.05
+exit siman: 50329.511
+nfeval: 1199 rc: Linear search failed
+after opt calc1: 50258.771
+nfeval: 903 rc: Linear search failed
+after opt calc2: 50192.895
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 50391.811
+exit siman: 50082.285
+nfeval: 226 rc: Linear search failed
+after opt calc1: 50074.767
+nfeval: 87 rc: Linear search failed
+after opt calc2: 50073.819
+post opt cv check: 50073.819
+(chisq): 22684.354
+cv: 3
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 50391.811
+exit siman: 50378.802
+nfeval: 749 rc: Linear search failed
+after opt calc1: 50326.735
+nfeval: 482 rc: Linear search failed
+after opt calc2: 50314.487
+post opt cv check: 50314.487
+(chisq): 7376.2588
+cv: 6
+chisq: (10) 33962.995
+--------------
+numparams:138
+smoothing:1
+52202.98
+exit siman: 45015.142
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 45015.142
+nfeval: 71 rc: Linear search failed
+after opt calc2: 45013.255
+exit siman: 44824.696
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 44824.696
+nfeval: 69 rc: Linear search failed
+after opt calc2: 44823.831
+exit siman: 44701.063
+nfeval: 52 rc: Linear search failed
+after opt calc1: 44701.063
+nfeval: 67 rc: Linear search failed
+after opt calc2: 44697.229
+exit siman: 44630.595
+nfeval: 949 rc: Linear search failed
+after opt calc1: 44419.095
+nfeval: 119 rc: Linear search failed
+after opt calc2: 44419.023
+exit siman: 44282.904
+nfeval: 923 rc: Linear search failed
+after opt calc1: 44227.272
+nfeval: 68 rc: Linear search failed
+after opt calc2: 44227.272
+after opt calc: 44227.272
+curcv: 1
+cv check: 42685.858
+cv check: cv check: 42743.562
+cv check: 40864.716
+43773.88
+exit siman: 42291.771
+exit siman: 43424.801
+exit siman: 40014.159
+exit siman: 40204.563
+nfeval: 363 rc: Linear search failed
+after opt calc1: 43318.89
+nfeval: 479 rc: Linear search failed
+after opt calc1: 42188.252
+nfeval: 658 rc: Linear search failed
+after opt calc1: 39866.1
+nfeval: 577 rc: Linear search failed
+after opt calc2: 43309.869
+nfeval: 559 rc: Linear search failed
+after opt calc2: 42163.555
+nfeval: 419 rc: Linear search failed
+after opt calc2: 39848.183
+exit siman: 43105.869
+exit siman: 41991.022
+exit siman: 39658.199
+nfeval: 453 rc: Linear search failed
+after opt calc1: 41948.024
+nfeval: 932 rc: Linear search failed
+after opt calc1: 43034.142
+nfeval: 196 rc: Linear search failed
+after opt calc2: 43033.493
+nfeval: 482 rc: Linear search failed
+after opt calc2: 41935.19
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 40204.563
+exit siman: 42887.242
+exit siman: 41811.731
+nfeval: 270 rc: Linear search failed
+after opt calc1: 42857.566
+nfeval: 276 rc: Linear search failed
+after opt calc2: 42850.886
+nfeval: 472 rc: Linear search failed
+after opt calc1: 41781.334
+nfeval: 330 rc: Linear search failed
+after opt calc2: 41777.384
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 39658.199
+exit siman: 42715.926
+exit siman: 41689.039
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 40204.563
+exit siman: 40106.384
+nfeval: 52 rc: Linear search failed
+after opt calc1: 40106.384
+nfeval: 558 rc: Linear search failed
+after opt calc2: 39991.186
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 39658.199
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 42715.926
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 41689.039
+exit siman: 39811.631
+exit siman: 39603.637
+nfeval: 689 rc: Linear search failed
+after opt calc1: 39756.191
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 39756.191
+nfeval: 927 rc: Linear search failed
+after opt calc1: 39526.612
+nfeval: 825 rc: Linear search failed
+after opt calc2: 39518.401
+exit siman: 39645.985
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 42715.926
+nfeval: 387 rc: Linear search failed
+after opt calc1: 39603.026
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 41689.039
+exit siman: 39373.197
+nfeval: 405 rc: Linear search failed
+after opt calc1: 39330.038
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 39330.038
+exit siman: 42669.439
+nfeval: 365 rc: Linear search failed
+after opt calc1: 42615.336
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 42615.336
+post opt cv check: 42615.336
+(chisq): 477.69263
+cv: 7
+cv check: 42113.197
+exit siman: 41648.654
+nfeval: 417 rc: Linear search failed
+after opt calc1: 41607.253
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 41607.253
+post opt cv check: 41607.253
+(chisq): 1111.6846
+cv: 9
+cv check: 43996.577
+exit siman: 39235.116
+nfeval: 498 rc: Linear search failed
+after opt calc1: 39204.992
+nfeval: 769 rc: Linear search failed
+after opt calc2: 39198.335
+post opt cv check: 39198.335
+(chisq): 1539.8467
+cv: 4
+cv check: 40049.38
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 39603.026
+exit siman: 40688.355
+nfeval: 527 rc: Linear search failed
+after opt calc1: 40496.23
+exit siman: 43778.6
+nfeval: 650 rc: Linear search failed
+after opt calc1: 43689.335
+nfeval: 660 rc: Linear search failed
+after opt calc2: 43672.48
+exit siman: 37930.1
+nfeval: 52 rc: Linear search failed
+after opt calc1: 37930.1
+nfeval: 394 rc: Linear search failed
+after opt calc2: 37815.294
+exit siman: 39494.28
+nfeval: 866 rc: Linear search failed
+after opt calc1: 39447.094
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 39447.094
+post opt cv check: 39447.094
+(chisq): 19825.724
+cv: 1
+cv check: 42617.954
+exit siman: 43449.655
+nfeval: 343 rc: Linear search failed
+after opt calc1: 43393.813
+exit siman: 37639.396
+nfeval: 512 rc: Linear search failed
+after opt calc2: 43378.838
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 40496.23
+exit siman: 41679.356
+nfeval: 802 rc: Linear search failed
+after opt calc1: 41545.573
+exit siman: 43228.807
+nfeval: 687 rc: Linear search failed
+after opt calc1: 43187.386
+nfeval: 438 rc: Linear search failed
+after opt calc2: 43185.262
+exit siman: 40344.888
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 37639.396
+exit siman: 43063.412
+nfeval: 309 rc: Linear search failed
+after opt calc1: 43034.196
+nfeval: 791 rc: Linear search failed
+after opt calc2: 43029.978
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 41545.573
+exit siman: 42934.85
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 40344.888
+nfeval: 307 rc: Linear search failed
+after opt calc1: 42914.225
+exit siman: 41447.261
+nfeval: 702 rc: Linear search failed
+after opt calc1: 41373.917
+nfeval: 322 rc: Linear search failed
+after opt calc2: 41371.703
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 37639.396
+exit siman: 41227.165
+exit siman: 37579.018
+nfeval: 495 rc: Linear search failed
+after opt calc1: 41187.8
+nfeval: 107 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 41187.371
+nfeval: 589 rc: Linear search failed
+after opt calc1: 37469.773
+nfeval: 868 rc: Linear search failed
+after opt calc2: 37451.597
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 40344.888
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 42914.225
+post opt cv check: 42914.225
+(chisq): 1279.2309
+cv: 10
+exit siman: 41128.313
+exit siman: 37282.221
+nfeval: 578 rc: Linear search failed
+after opt calc1: 37233.512
+nfeval: 690 rc: Linear search failed
+after opt calc2: 37221.833
+exit siman: 40289.227
+nfeval: 1163 rc: Linear search failed
+after opt calc1: 40186.603
+nfeval: 402 rc: Linear search failed
+after opt calc2: 40182.595
+exit siman: 37094.393
+nfeval: 497 rc: Linear search failed
+after opt calc1: 37056.157
+exit siman: 40052.389
+nfeval: 445 rc: Linear search failed
+after opt calc1: 40016.845
+nfeval: 645 rc: Linear search failed
+after opt calc2: 40011.548
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 41128.313
+exit siman: 39892.22
+nfeval: 534 rc: Linear search failed
+after opt calc1: 39852.77
+nfeval: 516 rc: Linear search failed
+after opt calc2: 39847.258
+post opt cv check: 39847.258
+(chisq): 3271.0528
+cv: 8
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 37056.157
+post opt cv check: 37056.157
+(chisq): 5978.5612
+cv: 5
+cv check: 41704.396
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 41128.313
+exit siman: 41096.209
+nfeval: 488 rc: Linear search failed
+after opt calc1: 40982.965
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 40982.965
+exit siman: 41106.43
+nfeval: 711 rc: Linear search failed
+after opt calc1: 41035.093
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 41035.093
+post opt cv check: 41035.093
+(chisq): 21678.478
+cv: 2
+cv check: 41649.282
+exit siman: 40863.933
+nfeval: 1171 rc: Linear search failed
+after opt calc1: 40781.3
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 40781.3
+exit siman: 40804.479
+nfeval: 684 rc: Linear search failed
+after opt calc1: 40699.447
+nfeval: 624 rc: Linear search failed
+after opt calc2: 40676.488
+exit siman: 40649.126
+nfeval: 960 rc: Linear search failed
+after opt calc1: 40602.223
+exit siman: 40544.816
+nfeval: 721 rc: Linear search failed
+after opt calc1: 40504.06
+nfeval: 234 rc: Linear search failed
+after opt calc2: 40502.575
+exit siman: 40340.214
+nfeval: 678 rc: Linear search failed
+after opt calc1: 40298.341
+nfeval: 821 rc: Linear search failed
+after opt calc2: 40289.859
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 40602.223
+exit siman: 40183.162
+nfeval: 524 rc: Linear search failed
+after opt calc1: 40163.689
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 40163.689
+exit siman: 40501.178
+nfeval: 679 rc: Linear search failed
+after opt calc1: 40449.708
+nfeval: 564 rc: Linear search failed
+after opt calc2: 40447.663
+exit siman: 40092.672
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 40092.672
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 40092.672
+post opt cv check: 40092.672
+(chisq): 22933.004
+cv: 3
+exit siman: 40345.584
+nfeval: 728 rc: Linear search failed
+after opt calc1: 40329.763
+nfeval: 699 rc: Linear search failed
+after opt calc2: 40325.736
+post opt cv check: 40325.736
+(chisq): 7581.8266
+cv: 6
+chisq: (1) 35065.114
+--------------
+numparams:138
+smoothing:0.1
+38822.734
+exit siman: 26021.86
+nfeval: 246 rc: Linear search failed
+after opt calc1: 26001.784
+nfeval: 121 rc: Linear search failed
+after opt calc2: 26000.886
+exit siman: 25981.069
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 25981.069
+nfeval: 69 rc: Linear search failed
+after opt calc2: 25980.408
+exit siman: 25978.15
+nfeval: 249 rc: Linear search failed
+after opt calc1: 25977.61
+nfeval: 123 rc: Linear search failed
+after opt calc2: 25977.576
+exit siman: 25975.008
+nfeval: 52 rc: Linear search failed
+after opt calc1: 25975.008
+nfeval: 72 rc: Linear search failed
+after opt calc2: 25974.91
+exit siman: 25973.71
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 25973.71
+nfeval: 72 rc: Linear search failed
+after opt calc2: 25973.673
+after opt calc: 25973.673
+curcv: 0.1
+cv check: cv check: cv check: cv check: 24598.197
+23143.358
+25611.44
+25050.909
+exit siman: 24552.125
+exit siman: 22157.488
+exit siman: 22536.05
+exit siman: 25130.186
+nfeval: 102 rc: Linear search failed
+after opt calc1: 24551.446
+nfeval: 52 rc: Linear search failed
+after opt calc1: 22157.488
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 22536.05
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 24551.446
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22157.488
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22536.05
+nfeval: 68 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 25130.186
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 25130.186
+exit siman: 24538.069
+nfeval: 32 rc: Linear search failed
+after opt calc1: 24538.069
+exit siman: 22528.218
+exit siman: 22147.997
+nfeval: 52 rc: Linear search failed
+after opt calc1: 22528.218
+nfeval: 129 rc: Linear search failed
+after opt calc2: 24537.547
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22528.218
+exit siman: 25083.18
+nfeval: 169 rc: Linear search failed
+after opt calc1: 25082.441
+exit siman: 24518.369
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 24518.369
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+exit siman: after opt calc2: 22521.017
+24518.369
+nfeval: 331 rc: Linear search failed
+after opt calc1: 22518.655
+nfeval: 141 rc: Linear search failed
+after opt calc2: 22517.869
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 25082.441
+exit siman: 24512.346
+nfeval: 42 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 24512.346
+nfeval: 42 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 24512.346
+exit siman: 22511.836
+nfeval: 52 rc: Linear search failed
+after opt calc1: 22511.836
+nfeval: 218 rc: Linear search failed
+after opt calc2: 22511.418
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 22147.997
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22147.997
+exit siman: 25064.302
+nfeval: 37 rc: Linear search failed
+after opt calc1: 25064.302
+nfeval: 39 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 25064.302
+exit siman: 24502.013
+nfeval: 22 rc: Linear search failed
+after opt calc1: 24502.013
+nfeval: 105 rc: Linear search failed
+after opt calc2: 24501.092
+post opt cv check: 24501.092
+(chisq): 2759.2216
+cv: 9
+cv check: 25799.221
+exit siman: 22505.026
+nfeval: 164 rc: Linear search failed
+after opt calc1: 22504.393
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22504.393
+post opt cv check: 22504.393
+(chisq): 21122.849
+cv: 1
+cv check: 25183.096
+exit siman: 22142.93
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 22142.93
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22142.93
+exit siman: 25711.402
+exit siman: 25053.443
+nfeval: 110 rc: Linear search failed
+after opt calc1: 25052.902
+nfeval: 165 rc: Linear search failed
+after opt calc1: 25710.228
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 25052.902
+nfeval: 139 rc: Linear search failed
+after opt calc2: 25709.754
+exit siman: 24500.4
+nfeval: 52 rc: Linear search failed
+after opt calc1: 24500.4
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 24500.4
+exit siman: 22140.214
+exit siman: 25042.829
+exit siman: 25703.873
+nfeval: 154 rc: Linear search failed
+after opt calc1: 25041.91
+nfeval: 132 rc: Linear search failed
+after opt calc1: 25703.602
+nfeval: 85 rc: Linear search failed
+after opt calc2: 25703.462
+nfeval: 170 rc: Linear search failed
+after opt calc2: 25041.714
+post opt cv check: 25041.714
+(chisq): 1437.3388
+cv: 7
+cv check: 24503.253
+exit siman: 24438.534
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 24438.534
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 24438.534
+exit siman: 25701.852
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 25701.852
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 25701.852
+exit siman: 23041.994
+nfeval: 201 rc: Linear search failed
+after opt calc1: 23040.309
+exit siman: 24401.304
+nfeval: 160 rc: Linear search failed
+after opt calc1: 24397.426
+nfeval: 153 rc: Linear search failed
+after opt calc2: 24397.109
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 22140.214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22140.214
+exit siman: 25700.079
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 25700.079
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 25700.079
+exit siman: 24354.033
+nfeval: 150 rc: Linear search failed
+after opt calc1: 24351.206
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 24351.206
+exit siman: 22138.732
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 22138.732
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22138.732
+post opt cv check: 22138.732
+(chisq): 2136.6776
+cv: 4
+cv check: 23680.968
+exit siman: 25697.886
+nfeval: 52 rc: Linear search failed
+after opt calc1: 25697.886
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 23040.309
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 25697.886
+post opt cv check: 25697.886
+(chisq): 3202.2609
+cv: 10
+exit siman: 24333.19
+nfeval: 190 rc: Linear search failed
+after opt calc1: 24331.624
+nfeval: 30 rc: Linear search failed
+after opt calc2: 24331.624
+post opt cv check: 24331.624
+(chisq): 24936.581
+cv: 2
+cv check: 23802.704
+exit siman: 22873.51
+nfeval: 147 rc: Linear search failed
+after opt calc1: 22872.042
+nfeval: 141 rc: Linear search failed
+after opt calc2: 22871.706
+exit siman: 23007.782
+nfeval: 52 rc: Linear search failed
+after opt calc1: 23007.782
+nfeval: 194 rc: Linear search failed
+after opt calc2: 23006.508
+exit siman: 23020.374
+nfeval: 212 rc: Linear search failed
+after opt calc1: 23015.513
+nfeval: 78 rc: Linear search failed
+after opt calc2: 23015.513
+exit siman: 22860.136
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 22860.136
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22860.136
+exit siman: 22997.579
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 22997.579
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22997.579
+exit siman: 23008.583
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 23008.583
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 23008.583
+exit siman: 22857.56
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 22857.56
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22857.56
+exit siman: 22984.256
+nfeval: 52 rc: Linear search failed
+after opt calc1: 22984.256
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22984.256
+exit siman: 23002.735
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 23002.735
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 23002.735
+exit siman: 22854.902
+nfeval: 150 rc: Linear search failed
+after opt calc1: 22854.325
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22854.325
+exit siman: 22973.014
+nfeval: 52 rc: Linear search failed
+after opt calc1: 22973.014
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22973.014
+post opt cv check: 22973.014
+(chisq): 5736.7828
+cv: 8
+exit siman: 22998.489
+nfeval: 131 rc: Linear search failed
+after opt calc1: 22997.789
+nfeval: 58 rc: Linear search failed
+after opt calc2: 22997.789
+exit siman: 22853.009
+nfeval: 129 rc: Linear search failed
+after opt calc1: 22852.886
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 22852.886
+post opt cv check: 22852.886
+(chisq): 6477.3363
+cv: 5
+cv check: 24093.426
+exit siman: 22993.866
+nfeval: 52 rc: Linear search failed
+after opt calc1: 22993.866
+nfeval: 171 rc: Linear search failed
+after opt calc2: 22993.145
+post opt cv check: 22993.145
+(chisq): 27033.983
+cv: 3
+exit siman: 23429.024
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 23429.024
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 23429.024
+exit siman: 23420.227
+nfeval: 156 rc: Linear search failed
+after opt calc1: 23418.921
+nfeval: 124 rc: Linear search failed
+after opt calc2: 23418.753
+exit siman: 23409.534
+nfeval: 21 rc: Linear search failed
+after opt calc1: 23409.534
+nfeval: 113 rc: Linear search failed
+after opt calc2: 23408.746
+exit siman: 23404.528
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 23404.528
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 23404.528
+exit siman: 23401.16
+nfeval: 140 rc: Linear search failed
+after opt calc1: 23400.649
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 23400.649
+post opt cv check: 23400.649
+(chisq): 9517.2322
+cv: 6
+chisq: (0.1) 45490.259
+--------------
+numparams:138
+smoothing:0.01
+17273.117
+exit siman: 7032.3667
+nfeval: 52 rc: Linear search failed
+after opt calc1: 7032.3667
+nfeval: 64 rc: Linear search failed
+after opt calc2: 7031.7012
+exit siman: 6857.2395
+nfeval: 52 rc: Linear search failed
+after opt calc1: 6857.2395
+nfeval: 140 rc: Linear search failed
+after opt calc2: 6856.7253
+exit siman: 6765.6578
+nfeval: 358 rc: Linear search failed
+after opt calc1: 6763.2789
+nfeval: 128 rc: Linear search failed
+after opt calc2: 6763.2619
+exit siman: 6683.47
+nfeval: 24 rc: Linear search failed
+after opt calc1: 6683.47
+nfeval: 124 rc: Linear search failed
+after opt calc2: 6682.8506
+exit siman: 6613.5589
+nfeval: 52 rc: Linear search failed
+after opt calc1: 6613.5589
+nfeval: 126 rc: Linear search failed
+after opt calc2: 6612.9267
+after opt calc: 6612.9267
+curcv: 0.01
+cv check: cv check: cv check: cv check: 6250.5552
+5708.9458
+6279.292
+6306.9759
+exit siman: 6096.4742
+exit siman: 6054.6091
+exit siman: 5581.6611
+exit siman: 5287.8253
+nfeval: 255 rc: Linear search failed
+after opt calc1: 6094.9782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 6094.9782
+nfeval: 155 rc: Linear search failed
+after opt calc1: 5524.8479
+nfeval: 207 rc: Linear search failed
+after opt calc1: 6052.1583
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5524.8479
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 6052.1583
+nfeval: 212 rc: Linear search failed
+after opt calc1: 5286.7508
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5286.7508
+exit siman: 6042.006
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 6042.006
+exit siman: 5391.3813
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 6042.006
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5391.3813
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5391.3813
+exit siman: 6003.8286
+exit siman: 5253.5876
+nfeval: 52 rc: Linear search failed
+after opt calc1: 6003.8286
+nfeval: 162 rc: Linear search failed
+after opt calc1: 5252.8269
+nfeval: 33 rc: Converged (|f_n-f_(n-1)| ~= 0)
+nfeval: 189 rc: Linear search failed
+after opt calc2: 6002.7019
+after opt calc2: 5252.8269
+exit siman: 5995.4726
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5995.4726
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5995.4726
+exit siman: 5357.4818
+exit siman: 5964.369
+exit siman: 5212.1193
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5212.1193
+nfeval: 201 rc: Linear search failed
+after opt calc1: 5963.3807
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5963.3807
+nfeval: 126 rc: Linear search failed
+after opt calc2: 5211.3584
+exit siman: 5953.6113
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5953.6113
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5953.6113
+exit siman: 5198.0726
+exit siman: 5926.2644
+nfeval: 189 rc: Linear search failed
+after opt calc1: 5925.4244
+nfeval: 277 rc: Linear search failed
+after opt calc1: 5197.6869
+nfeval: 52 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5925.4244
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5197.6869
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 5357.4818
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5357.4818
+exit siman: 5915.6144
+exit siman: 5901.7628
+exit siman: 5181.8163
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5181.8163
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5181.8163
+post opt cv check: 5181.8163
+(chisq): 3343.1385
+cv: 4
+cv check: 5960.6326
+nfeval: 255 rc: Linear search failed
+after opt calc1: 5900.6979
+nfeval: 61 rc: Linear search failed
+after opt calc2: 5900.6979
+post opt cv check: 5900.6979
+(chisq): 2676.0289
+cv: 7
+cv check: 5991.6235
+exit siman: 5338.419
+exit siman: 5690.342
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5690.342
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5690.342
+exit siman: 5521.7596
+nfeval: 184 rc: Linear search failed
+after opt calc1: 5520.5955
+nfeval: 76 rc: Linear search failed
+after opt calc2: 5520.5921
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 5915.6144
+exit siman: 5657.3512
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5657.3512
+exit siman: 5464.9473
+nfeval: 192 rc: Linear search failed
+after opt calc1: 5463.6419
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5463.6419
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 5338.419
+nfeval: 41 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5338.419
+exit siman: 5440.5782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5440.5782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5440.5782
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 5915.6144
+post opt cv check: 5915.6144
+(chisq): 4809.7069
+cv: 9
+cv check: 6527.4165
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc2: 5657.3512
+exit siman: 5323.135
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5323.135
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5323.135
+post opt cv check: 5323.135
+(chisq): 24997.715
+cv: 1
+cv check: 6308.0064
+exit siman: 5423.9626
+nfeval: 56 rc: Linear search failed
+after opt calc1: 5423.9626
+nfeval: 38 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5423.9626
+exit siman: 6442.7246
+nfeval: 52 rc: Linear search failed
+after opt calc1: 6442.7246
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 6442.7246
+exit siman: 5621.6777
+exit siman: 6074.5603
+nfeval: 52 rc: Linear search failed
+after opt calc1: 6074.5603
+nfeval: 167 rc: Linear search failed
+after opt calc2: 6071.2036
+exit siman: 5401.7084
+nfeval: 212 rc: Linear search failed
+after opt calc1: 5400.1826
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5400.1826
+post opt cv check: 5400.1826
+(chisq): 9270.1347
+cv: 8
+exit siman: 6390.5434
+nfeval: 161 rc: Linear search failed
+after opt calc1: 6389.5722
+nfeval: 61 rc: Linear search failed
+after opt calc2: 6389.5722
+exit siman: 6022.2604
+exit siman: 6350.452
+nfeval: 171 rc: Linear search failed
+after opt calc1: 6348.7523
+nfeval: 63 rc: Linear search failed
+after opt calc2: 6348.7523
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 5621.6777
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5621.6777
+exit siman: 6311.2
+nfeval: 154 rc: Linear search failed
+after opt calc1: 6310.0727
+nfeval: 180 rc: Linear search failed
+after opt calc2: 6309.9482
+exit siman: 5592.2719
+nfeval: 114 rc: Linear search failed
+after opt calc1: 5592.2719
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5592.2719
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 6022.2604
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 6022.2604
+exit siman: 6275.2309
+nfeval: 151 rc: Linear search failed
+after opt calc1: 6273.9236
+nfeval: 42 rc: Linear search failed
+after opt calc2: 6273.9236
+post opt cv check: 6273.9236
+(chisq): 6006.4954
+cv: 10
+exit siman: 5568.4104
+nfeval: 167 rc: Linear search failed
+after opt calc1: 5567.7813
+nfeval: 196 rc: Linear search failed
+after opt calc2: 5567.7202
+post opt cv check: 5567.7202
+(chisq): 7306.2491
+cv: 5
+cv check: 5992.3605
+exit siman: 5971.9181
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5971.9181
+nfeval: 170 rc: Linear search failed
+after opt calc2: 5969.712
+exit siman: 5715.2633
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5715.2633
+exit siman: 5940.7141
+nfeval: 204 rc: Linear search failed
+after opt calc2: 5710.6962
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5940.7141
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5940.7141
+exit siman: 5661.6488
+exit siman: 5896.2691
+nfeval: 204 rc: Linear search failed
+after opt calc1: 5659.8981
+nfeval: 193 rc: Linear search failed
+after opt calc1: 5895.2532
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5659.8981
+nfeval: 36 rc: Linear search failed
+after opt calc2: 5895.2532
+post opt cv check: 5895.2532
+(chisq): 30661.149
+cv: 2
+cv check: 5958.7555
+exit siman: 5656.9707
+exit siman: 5636.2692
+nfeval: 95 rc: Linear search failed
+after opt calc1: 5656.5173
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5636.2692
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5656.5173
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5636.2692
+exit siman: 5620.3491
+exit siman: 5606.4529
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5620.3491
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5606.4529
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5620.3491
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5606.4529
+exit siman: 5585.5266
+exit siman: 5577.438
+nfeval: 52 rc: Linear search failed
+after opt calc1: 5585.5266
+nfeval: 44 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5577.438
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+nfeval: after opt calc2: 5585.5266
+44 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5577.438
+post opt cv check: 5577.438
+(chisq): 12163.034
+cv: 6
+exit siman: 5557.7523
+nfeval: 81 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 5557.7523
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 5557.7523
+exit siman: 5540.6873
+nfeval: 136 rc: Linear search failed
+after opt calc1: 5540.1447
+nfeval: 46 rc: Linear search failed
+after opt calc2: 5540.1316
+post opt cv check: 5540.1316
+(chisq): 33705.618
+cv: 3
+chisq: (0.01) 61145.282
+--------------
+numparams:138
+smoothing:0.001
+2136.6111
+exit siman: 1238.0694
+nfeval: 54 rc: Linear search failed
+after opt calc1: 1238.0694
+nfeval: 60 rc: Linear search failed
+after opt calc2: 1238.0694
+exit siman: 1236.4665
+nfeval: 175 rc: Linear search failed
+after opt calc1: 1236.4225
+nfeval: 116 rc: Linear search failed
+after opt calc2: 1236.4171
+exit siman: 1235.8505
+nfeval: 145 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1235.8505
+nfeval: 117 rc: Linear search failed
+after opt calc2: 1235.8468
+exit siman: 1235.3477
+nfeval: 174 rc: Linear search failed
+after opt calc1: 1235.2889
+nfeval: 61 rc: Linear search failed
+after opt calc2: 1235.2889
+exit siman: 1234.7183
+nfeval: 213 rc: Linear search failed
+after opt calc1: 1234.6623
+nfeval: 61 rc: Linear search failed
+after opt calc2: 1234.6623
+after opt calc: 1234.6623
+curcv: 0.001
+cv check: cv check: cv check: 1167.87781161.3961
+
+cv check: 1168.9197
+1087.1771
+exit siman: 1154.9546
+nfeval: 28 rc: Linear search failed
+after opt calc1: 1154.9546
+exit siman: 1055.7062
+exit siman: 1101.4376
+exit siman: 1160.3965
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1160.3965
+nfeval: 149 rc: Linear search failed
+after opt calc1: 1055.7062
+nfeval: 176 rc: Linear search failed
+after opt calc2: 1154.723
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1055.7062
+nfeval: 123 rc: Linear search failed
+after opt calc2: 1160.3361
+exit siman: 1153.1143
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1153.1143
+exit siman: 1051.7716
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1153.1143
+exit siman: 1156.2819
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1156.2819
+nfeval: 104 rc: Linear search failed
+after opt calc1: 1051.6819
+nfeval: 40 rc: Linear search failed
+after opt calc2: 1051.6819
+nfeval: 86 rc: Linear search failed
+after opt calc2: 1155.7871
+exit siman: 1152.1913
+exit siman: 1050.2019
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1152.1913
+exit siman: 1150.83
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1152.1913
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1150.83
+nfeval: 137 rc: Linear search failed
+after opt calc1: 1050.1458
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1150.83
+nfeval: 98 rc: Linear search failed
+after opt calc2: 1050.1401
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 1101.4376
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1101.4376
+exit siman: 1150.7656
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1150.7656
+exit siman: 1149.7379
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1150.7656
+exit siman: 1048.5672
+nfeval: 50 rc: Linear search failed
+after opt calc1: 1149.7379
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1048.5672
+nfeval: 70 rc: Linear search failed
+after opt calc2: 1149.7379
+nfeval: 224 rc: Linear search failed
+after opt calc2: 1048.5063
+exit siman: 1084.0103
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1084.0103
+nfeval: 143 rc: Linear search failed
+after opt calc2: 1083.7337
+exit siman: 1147.9377
+exit siman: 1148.9914
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1147.9377
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1148.9914
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1147.9377
+post opt cv check: 1147.9377
+(chisq): 2095.9695
+cv: 7
+cv check: 1132.5186
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1148.9914
+post opt cv check: 1148.9914
+(chisq): 4380.7398
+cv: 9
+cv check: 1199.7943
+exit siman: 1048.0436
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1048.0436
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1048.0436
+post opt cv check: 1048.0436
+(chisq): 3223.4447
+cv: 4
+cv check: 1122.5989
+exit siman: 1074.9577
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1074.9577
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1074.9577
+exit siman: 1197.8237
+exit siman: 1087.0928
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1087.0928
+nfeval: 109 rc: Linear search failed
+after opt calc1: 1197.8237
+nfeval: 53 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1197.8237
+nfeval: 99 rc: Linear search failed
+after opt calc2: 1087.0259
+exit siman: 1104.67
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1104.67
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1104.67
+exit siman: 1066.2688
+nfeval: 186 rc: Linear search failed
+after opt calc1: 1065.9108
+nfeval: 67 rc: Linear search failed
+after opt calc2: 1065.9108
+exit siman: 1197.0198
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1197.0198
+exit siman: 1079.9385
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1197.0198
+nfeval: 118 rc: Linear search failed
+after opt calc1: 1079.8304
+nfeval: 65 rc: Linear search failed
+after opt calc2: 1079.8304
+exit siman: 1103.3769
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1103.3769
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1103.3769
+exit siman: 1060.2361
+exit siman: 1195.8494
+nfeval: 107 rc: Linear search failed
+after opt calc1: 1195.787
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1195.787
+exit siman: 1076.9354
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1076.9354
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1076.9354
+exit siman: 1102.074
+nfeval: 132 rc: Linear search failed
+after opt calc1: 1101.9903
+nfeval: 66 rc: Linear search failed
+after opt calc2: 1101.9903
+exit siman: 1195.23
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1195.23
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1195.23
+exit siman: 1073.8814
+exit siman: 1100.9287
+nfeval: 144 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1073.8814
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1100.9287
+nfeval: 101 rc: Linear search failed
+after opt calc2: 1073.8334
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1100.9287
+nfeval: 10000 rc: Maximum number of function evaluations reached
+after opt calc1: 1060.2361
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1060.2361
+post opt cv check: 1060.2361
+(chisq): 21546.244
+cv: 1
+cv check: 1173.671
+exit siman: 1194.7388
+nfeval: 109 rc: Linear search failed
+after opt calc1: 1194.7388
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1194.7388
+post opt cv check: 1194.7388
+(chisq): 5365.4623
+cv: 10
+exit siman: 1099.9928
+exit siman: 1071.7346
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1071.7346
+nfeval: 142 rc: Linear search failed
+after opt calc1: 1099.8863
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1099.8863
+post opt cv check: 1099.8863
+(chisq): 6780.8889
+cv: 5
+cv check: 1118.5835
+nfeval: 138 rc: Linear search failed
+after opt calc2: 1071.6283
+post opt cv check: 1071.6283
+(chisq): 7936.484
+cv: 8
+exit siman: 1162.7039
+nfeval: 158 rc: Linear search failed
+after opt calc1: 1162.2111
+nfeval: 68 rc: Linear search failed
+after opt calc2: 1162.2111
+exit siman: 1096.3302
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1096.3302
+nfeval: 179 rc: Linear search failed
+after opt calc2: 1096.2537
+exit siman: 1159.3361
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1159.3361
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1159.3361
+exit siman: 1094.4969
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1094.4969
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1094.4969
+exit siman: 1156.2942
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1156.2942
+nfeval: 145 rc: Linear search failed
+after opt calc2: 1155.8105
+exit siman: 1093.8292
+nfeval: 161 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1093.7887
+nfeval: 158 rc: Linear search failed
+after opt calc2: 1093.7887
+exit siman: 1153.7041
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1153.7041
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1153.7041
+exit siman: 1092.5067
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1092.5067
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1092.5067
+exit siman: 1151.8229
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1151.8229
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1151.8229
+post opt cv check: 1151.8229
+(chisq): 26131.931
+cv: 2
+cv check: 1125.5198
+exit siman: 1091.4267
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 1091.4267
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1091.4267
+post opt cv check: 1091.4267
+(chisq): 10414.657
+cv: 6
+exit siman: 1103.8275
+nfeval: 99 rc: Linear search failed
+after opt calc1: 1103.7562
+nfeval: 103 rc: Linear search failed
+after opt calc2: 1103.7328
+exit siman: 1101.1207
+nfeval: 125 rc: Linear search failed
+after opt calc1: 1101.061
+nfeval: 51 rc: Linear search failed
+after opt calc2: 1101.0528
+exit siman: 1100.0992
+nfeval: 129 rc: Linear search failed
+after opt calc1: 1099.9915
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 1099.9915
+exit siman: 1099.2901
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1099.2901
+nfeval: 104 rc: Linear search failed
+after opt calc2: 1099.2434
+exit siman: 1098.3918
+nfeval: 52 rc: Linear search failed
+after opt calc1: 1098.3918
+nfeval: 164 rc: Linear search failed
+after opt calc2: 1098.3532
+post opt cv check: 1098.3532
+(chisq): 28909.156
+cv: 3
+chisq: (0.001) 52625.76
+--------------
+numparams:138
+smoothing:0.0001
+572.90731
+exit siman: 553.27487
+nfeval: 188 rc: Linear search failed
+after opt calc1: 553.18696
+nfeval: 181 rc: Linear search failed
+after opt calc2: 553.18696
+exit siman: 553.13771
+nfeval: 69 rc: Linear search failed
+after opt calc1: 553.13771
+nfeval: 58 rc: Linear search failed
+after opt calc2: 553.13771
+exit siman: 553.10973
+nfeval: 99 rc: Linear search failed
+after opt calc1: 553.10973
+nfeval: 59 rc: Linear search failed
+after opt calc2: 553.10973
+exit siman: 553.09913
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 553.09913
+nfeval: 62 rc: Linear search failed
+after opt calc2: 553.09913
+exit siman: 553.09598
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 553.09598
+nfeval: 62 rc: Linear search failed
+after opt calc2: 553.09598
+after opt calc: 553.09598
+curcv: 0.0001
+cv check: cv check: cv check: cv check: 521.81846
+515.76715
+522.81779
+519.03403
+exit siman: 519.01215
+exit siman: 521.12956
+exit siman: 515.66404
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 519.01215
+nfeval: 54 rc: nfeval: 68 rc: Linear search failed
+after opt calc1: 521.12956
+Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 515.66404
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+exit siman: after opt calc2: 519.01215
+522.79587
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 521.12956
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 515.66404
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 522.79587
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 522.79587
+exit siman: 519.00525
+nfeval: 52 rc: Linear search failed
+after opt calc1: 519.00525
+exit siman: 520.60296
+exit siman: 515.53483
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 519.00525
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 520.60296
+nfeval: 52 rc: Linear search failed
+after opt calc1: 515.53483
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 520.60296
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 515.53483
+exit siman: 522.76928
+nfeval: 61 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 522.76928
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 522.76928
+exit siman: 519.00117
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 519.00117
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 519.00117
+exit siman: 520.02202
+exit siman: 515.32338
+nfeval: 67 rc: Linear search failed
+after opt calc1: 520.02202
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 515.32338
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 520.02202
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 515.32338
+exit siman: 522.76363
+nfeval: 52 rc: Linear search failed
+after opt calc1: 522.76363
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 522.76363
+exit siman: 518.99236
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 518.99236
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 518.99236
+exit siman: 519.66899
+exit siman: 515.229
+nfeval: 52 rc: Linear search failed
+after opt calc1: 519.66899
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 515.229
+nfeval: 67 rc: Linear search failed
+after opt calc2: 519.66899
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 515.229
+exit siman: 522.75941
+nfeval: 52 rc: Linear search failed
+after opt calc1: 522.75941
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 522.75941
+exit siman: 518.98277
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 518.98277
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 518.98277
+post opt cv check: 518.98277
+(chisq): 3622.52
+cv: 9
+cv check: 526.03622
+exit siman: 519.35859
+exit siman: 514.87876
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 519.35859
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 514.87876
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 519.35859
+post opt cv check: 519.35859
+(chisq): 1366.9537
+cv: 1
+cv check: 521.73866
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 514.87876
+post opt cv check: 514.87876
+(chisq): 2510.6686
+cv: 4
+cv check: 516.27698
+exit siman: 522.7201
+nfeval: 123 rc: Linear search failed
+after opt calc1: 522.7201
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 522.7201
+post opt cv check: 522.7201
+(chisq): 1367.77
+cv: 7
+cv check: 519.08764
+exit siman: 526.02886
+nfeval: 52 rc: Linear search failed
+after opt calc1: 526.02886
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 526.02886
+exit siman: 521.71551
+exit siman: 516.06876
+nfeval: 88 rc: Linear search failed
+after opt calc1: 521.71551
+nfeval: 109 rc: Linear search failed
+after opt calc1: 516.05967
+nfeval: 88 rc: Linear search failed
+after opt calc2: 521.71551
+nfeval: 38 rc: Linear search failed
+after opt calc2: 516.05967
+exit siman: 518.48655
+nfeval: 68 rc: Linear search failed
+after opt calc1: 518.48655
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 518.48655
+exit siman: 526.02394
+nfeval: 67 rc: Linear search failed
+after opt calc1: 526.02394
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 526.02394
+exit siman: 521.69727
+nfeval: 52 rc: Linear search failed
+after opt calc1: 521.69727
+exit siman: 515.99667
+nfeval: 114 rc: Linear search failed
+after opt calc2: 521.69727
+exit siman: 518.27649
+nfeval: 112 rc: Linear search failed
+after opt calc1: 515.99319
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 518.27649
+nfeval: 75 rc: Linear search failed
+after opt calc2: 515.98955
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 518.27649
+exit siman: 526.01986
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 526.01986
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 526.01986
+exit siman: 521.66589
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 521.66589
+exit siman: 517.90998
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 521.66589
+exit siman: 515.91079
+nfeval: 138 rc: Linear search failed
+after opt calc1: 517.90998
+nfeval: 52 rc: Linear search failed
+after opt calc1: 515.91079
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 517.90998
+nfeval: 82 rc: Linear search failed
+after opt calc2: 515.9094
+exit siman: 526.01147
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 526.01147
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 526.01147
+exit siman: 517.69457
+exit siman: 521.66413
+nfeval: 52 rc: Linear search failed
+after opt calc1: 517.69457
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 521.66413
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 517.69457
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 521.66413
+exit siman: 515.77251
+nfeval: 61 rc: Linear search failed
+after opt calc1: 515.77251
+nfeval: 61 rc: Linear search failed
+after opt calc2: 515.77251
+exit siman: 526.00674
+nfeval: 88 rc: Linear search failed
+after opt calc1: 526.00674
+nfeval: 29 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 526.00674
+post opt cv check: 526.00674
+(chisq): 4563.6396
+cv: 10
+exit siman: 517.48815
+nfeval: 91 rc: Linear search failed
+after opt calc1: 517.48815
+exit siman: 521.64969
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 521.64969
+nfeval: 91 rc: Linear search failed
+after opt calc2: 517.48815
+post opt cv check: 517.48815
+(chisq): 5049.763
+cv: 8
+exit siman: 515.70273
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 521.64969
+post opt cv check: 521.64969
+(chisq): 4739.2973
+cv: 2
+cv check: 521.08025
+nfeval: 83 rc: Linear search failed
+after opt calc1: 515.70273
+nfeval: 83 rc: Linear search failed
+after opt calc2: 515.70273
+post opt cv check: 515.70273
+(chisq): 5775.1214
+cv: 5
+cv check: 515.66685
+exit siman: 520.98389
+nfeval: 107 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 520.98389
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 520.98389
+exit siman: 515.12287
+nfeval: 52 rc: Linear search failed
+after opt calc1: 515.12287
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 515.12287
+exit siman: 520.81181
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 520.81181
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 520.81181
+exit siman: 514.90909
+nfeval: 52 rc: Linear search failed
+after opt calc1: 514.90909
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 514.90909
+exit siman: 520.75023
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 520.75023
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 520.75023
+exit siman: 514.87973
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 514.87973
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 514.87973
+exit siman: 520.61101
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 520.61101
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 520.61101
+exit siman: 514.79409
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 514.79409
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 514.79409
+exit siman: 520.51924
+nfeval: 24 rc: Linear search failed
+after opt calc1: 520.51924
+nfeval: 37 rc: Linear search failed
+after opt calc2: 520.51924
+post opt cv check: 520.51924
+(chisq): 6913.3695
+cv: 3
+exit siman: 514.7249
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 514.7249
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 514.7249
+post opt cv check: 514.7249
+(chisq): 8766.4029
+cv: 6
+chisq: (0.0001) 25293.175
+--------------
+numparams:138
+smoothing:1e-05
+482.82582
+exit siman: 482.60656
+nfeval: 52 rc: Linear search failed
+after opt calc1: 482.60656
+nfeval: 160 rc: Linear search failed
+after opt calc2: 482.60656
+exit siman: 482.59023
+nfeval: 115 rc: Linear search failed
+after opt calc1: 482.58492
+nfeval: 234 rc: Linear search failed
+after opt calc2: 482.58492
+exit siman: 482.58388
+nfeval: 26 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 482.58388
+nfeval: 172 rc: Linear search failed
+after opt calc2: 482.58388
+exit siman: 482.58303
+nfeval: 27 rc: Linear search failed
+after opt calc1: 482.58303
+nfeval: 172 rc: Linear search failed
+after opt calc2: 482.58303
+exit siman: 482.58277
+nfeval: 27 rc: Linear search failed
+after opt calc1: 482.58277
+nfeval: 172 rc: Linear search failed
+after opt calc2: 482.58277
+after opt calc: 482.58277
+curcv: 1e-05
+cv check: cv check: cv check: cv check: 455.08153
+456.97652
+452.57005
+456.05098
+exit siman: 456.9754
+exit siman: 455.08051
+exit siman: 452.5696
+nfeval: 27 rc: Linear search failed
+nfeval: after opt calc1: 22 rc: 456.9754
+nfeval: Linear search failed
+after opt calc1: 455.08051
+21 rc: Linear search failed
+after opt calc1: 452.5696
+nfeval: 22 rc: Linear search failed
+after opt calc2: 455.08051
+nfeval: 21 rc: Linear search failed
+nfeval: after opt calc2: 452.5696
+27 rc: Linear search failed
+after opt calc2: 456.9754
+exit siman: 456.0508
+nfeval: 45 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 456.0508
+nfeval: 45 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.0508
+exit siman: 452.56933
+nfeval: 28 rc: Linear search failed
+after opt calc1: 452.56933
+exit siman: 456.97527
+nfeval: 28 rc: Linear search failed
+after opt calc2: 452.56933
+exit siman: 455.07896
+nfeval: 25 rc: Linear search failed
+after opt calc1: 456.97527
+nfeval: 25 rc: Linear search failed
+after opt calc2: 456.97527
+exit siman: 456.05059
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 455.07896
+nfeval: 29 rc: Linear search failed
+after opt calc1: 456.05059
+nfeval: 19 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.05059
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.07896
+exit siman: 452.56929
+nfeval: 25 rc: Linear search failed
+after opt calc1: 452.56929
+nfeval: 25 rc: Linear search failed
+after opt calc2: 452.56929
+exit siman: 456.97437
+exit siman: 455.07867
+exit siman: 456.05053
+nfeval: 77 rc: Linear search failed
+after opt calc1: 456.97437
+nfeval: 20 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 456.05053
+nfeval: 20 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.05053
+nfeval: 70 rc: Linear search failed
+after opt calc1: 455.07867
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.97437
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.07867
+exit siman: 452.56903
+nfeval: 71 rc: Linear search failed
+after opt calc1: 452.56903
+nfeval: 71 rc: Linear search failed
+after opt calc2: 452.56903
+exit siman: 456.05043
+nfeval: 28 rc: Linear search failed
+after opt calc1: 456.05043
+exit siman: 456.97431
+nfeval: 28 rc: Linear search failed
+after opt calc2: 456.05043
+exit siman: 455.07816
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 456.97431
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.97431
+nfeval: 151 rc: Linear search failed
+after opt calc1: 455.07816
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.07816
+exit siman: 452.56854
+exit siman: 456.04968
+nfeval: 171 rc: Linear search failed
+after opt calc1: 452.5685
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 456.04968
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 452.5685
+post opt cv check: 452.5685
+(chisq): 3615.5112
+cv: 9
+cv check: 456.33567
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.04968
+post opt cv check: 456.04968
+(chisq): 1345.8035
+cv: 7
+cv check: 455.77568
+exit siman: 455.07809
+exit siman: 456.97397
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 455.07809
+nfeval: 85 rc: Linear search failed
+after opt calc1: 456.97397
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.07809
+post opt cv check: 455.07809
+(chisq): 1069.4509
+cv: 1
+cv check: 454.25184
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.97397
+post opt cv check: 456.97397
+(chisq): 2405.3602
+cv: 4
+cv check: 453.63164
+exit siman: 456.33555
+nfeval: 32 rc: Linear search failed
+after opt calc1: 456.33555
+exit siman: 455.77456
+nfeval: 32 rc: Linear search failed
+after opt calc2: 456.33555
+nfeval: 65 rc: Linear search failed
+after opt calc1: 455.77456
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.77456
+exit siman: 454.25093
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 454.25093
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 454.25093
+exit siman: 453.63118
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 453.63118
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 453.63118
+exit siman: 456.33542
+nfeval: 37 rc: Linear search failed
+after opt calc1: 456.33542
+nfeval: 37 rc: Linear search failed
+after opt calc2: 456.33542
+exit siman: 455.77245
+nfeval: 65 rc: Linear search failed
+after opt calc1: 455.77245
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.77245
+exit siman: 454.25082
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 454.25082
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 454.25082
+exit siman: 453.63114
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 453.63114
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 453.63114
+exit siman: 456.33534
+nfeval: 36 rc: Linear search failed
+after opt calc1: 456.33534
+nfeval: 36 rc: Linear search failed
+after opt calc2: 456.33534
+exit siman: 455.77151
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 455.77151
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.77151
+exit siman: 454.25081
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 454.25081
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 454.25081
+exit siman: 453.63104
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 453.63104
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 453.63104
+exit siman: 456.33467
+nfeval: 67 rc: Linear search failed
+after opt calc1: 456.33467
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.33467
+exit siman: 455.77132
+nfeval: 68 rc: Linear search failed
+after opt calc1: 455.77132
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.77132
+exit siman: 454.25078
+nfeval: 77 rc: Linear search failed
+after opt calc1: 454.25078
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 454.25078
+exit siman: 453.63078
+nfeval: 179 rc: Linear search failed
+after opt calc1: 453.63053
+nfeval: 67 rc: Linear search failed
+after opt calc2: 453.63053
+exit siman: 456.33459
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 456.33459
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 456.33459
+post opt cv check: 456.33459
+(chisq): 4551.4029
+cv: 10
+exit siman: 455.77106
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 455.77106
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 455.77106
+post opt cv check: 455.77106
+(chisq): 4829.7239
+cv: 8
+exit siman: 454.25074
+nfeval: 69 rc: Linear search failed
+after opt calc1: 454.25074
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 454.25074
+post opt cv check: 454.25074
+(chisq): 4409.306
+cv: 2
+cv check: 458.64914
+exit siman: 453.63042
+nfeval: 175 rc: Linear search failed
+after opt calc1: 453.6304
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 453.6304
+post opt cv check: 453.6304
+(chisq): 5626.7267
+cv: 5
+cv check: 453.71819
+exit siman: 458.64897
+nfeval: 26 rc: Linear search failed
+after opt calc1: 458.64897
+nfeval: 26 rc: Linear search failed
+after opt calc2: 458.64897
+exit siman: 453.71734
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 453.71734
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 453.71734
+exit siman: 458.64844
+nfeval: 29 rc: Linear search failed
+after opt calc1: 458.64844
+nfeval: 29 rc: Linear search failed
+after opt calc2: 458.64844
+exit siman: 453.71681
+nfeval: 71 rc: Linear search failed
+after opt calc1: 453.71681
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 453.71681
+exit siman: 458.64841
+nfeval: 40 rc: Linear search failed
+after opt calc1: 458.64841
+nfeval: 40 rc: Linear search failed
+after opt calc2: 458.64841
+exit siman: 453.71632
+nfeval: 71 rc: Linear search failed
+after opt calc1: 453.71632
+nfeval: 71 rc: Linear search failed
+after opt calc2: 453.71632
+exit siman: 458.64829
+nfeval: 36 rc: Linear search failed
+after opt calc1: 458.64829
+nfeval: 36 rc: Linear search failed
+after opt calc2: 458.64829
+exit siman: 453.71627
+nfeval: 71 rc: Linear search failed
+after opt calc1: 453.71627
+nfeval: 71 rc: Linear search failed
+after opt calc2: 453.71627
+exit siman: 458.64714
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 458.64714
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 458.64714
+post opt cv check: 458.64714
+(chisq): 6537.8148
+cv: 3
+exit siman: 453.7162
+nfeval: 71 rc: Linear search failed
+after opt calc1: 453.7162
+nfeval: 71 rc: Linear search failed
+after opt calc2: 453.7162
+post opt cv check: 453.7162
+(chisq): 8542.1172
+cv: 6
+chisq: (1e-05) 24461.059
+--------------
+numparams:138
+smoothing:1e-06
+475.50853
+exit siman: 475.5076
+nfeval: 35 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 475.5076
+nfeval: 162 rc: Linear search failed
+after opt calc2: 475.5076
+exit siman: 475.50688
+nfeval: 31 rc: Linear search failed
+after opt calc1: 475.50688
+nfeval: 193 rc: Linear search failed
+after opt calc2: 475.50688
+exit siman: 475.5067
+nfeval: 41 rc: Linear search failed
+after opt calc1: 475.5067
+nfeval: 193 rc: Linear search failed
+after opt calc2: 475.5067
+exit siman: 475.50623
+nfeval: 29 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 475.50623
+nfeval: 167 rc: Linear search failed
+after opt calc2: 475.50623
+exit siman: 475.50584
+nfeval: 23 rc: Linear search failed
+after opt calc1: 475.50584
+nfeval: 132 rc: Linear search failed
+after opt calc2: 475.50584
+after opt calc: 475.50584
+curcv: 1e-06
+cv check: cv check: cv check: 448.37881445.9005449.35045
+
+
+cv check: 451.08108
+exit siman: 445.89992
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.89992
+exit siman: 451.08052
+exit siman: 448.37874
+nfeval: 24 rc: Linear search failed
+after opt calc1: 448.37874
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.89992
+nfeval: 24 rc: Linear search failed
+after opt calc2: 448.37874
+nfeval: 70 rc: Linear search failed
+after opt calc1: 451.08052
+exit siman: 449.34988
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.08052
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.34988
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.34988
+exit siman: 445.89989
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.89989
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.89989
+exit siman: 448.37864
+exit siman: 451.08047
+nfeval: 126 rc: Linear search failed
+after opt calc1: 448.37864
+nfeval: 70 rc: Linear search failed
+after opt calc1: 451.08047
+nfeval: 25 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.37864
+exit siman: 449.34975
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.08047
+nfeval: 52 rc: Linear search failed
+after opt calc1: 449.34975
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.34975
+exit siman: 445.89988
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.89988
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.89988
+exit siman: 448.37798
+exit siman: 451.08034
+nfeval: 69 rc: Linear search failed
+after opt calc1: 448.37798
+nfeval: 69 rc: Linear search failed
+nfeval: after opt calc1: 451.0803454 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.37798
+
+exit siman: 449.34972
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.08034
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.34972
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.34972
+exit siman: 445.89979
+nfeval: 70 rc: Linear search failed
+after opt calc1: 445.89979
+nfeval: 70 rc: Linear search failed
+after opt calc2: 445.89979
+exit siman: 448.37797
+exit siman: 451.08031
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.37797
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.08031
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.37797
+exit siman: 449.3497
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.08031
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.3497
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.3497
+exit siman: 445.89976
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.89976
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.89976
+post opt cv check: 445.89976
+(chisq): 3614.0949
+cv: 9
+cv check: 449.34051
+exit siman: 449.34964
+exit siman: 448.37796
+nfeval: 70 rc: Linear search failed
+after opt calc1: 449.34964
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.37796
+exit siman: 451.0803
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.34964
+post opt cv check: 449.34964
+(chisq): 1345.3729
+cv: 7
+cv check: 449.41836
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.37796
+post opt cv check: 448.37796
+(chisq): 1067.3645
+cv: 1
+cv check: 447.47844
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.0803
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.0803
+post opt cv check: 451.0803
+(chisq): 2404.1709
+cv: 4
+cv check: 447.3462
+exit siman: 449.34005
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.34005
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.34005
+exit siman: 449.41822
+nfeval: 23 rc: Linear search failed
+after opt calc1: 449.41822
+nfeval: 23 rc: Linear search failed
+after opt calc2: 449.41822
+exit siman: 447.346
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.346
+exit siman: 447.47829
+nfeval: 25 rc: Linear search failed
+after opt calc1: 447.47829
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: nfeval: 447.346
+25 rc: Linear search failed
+after opt calc2: 447.47829
+exit siman: 449.33986
+nfeval: 158 rc: Linear search failed
+after opt calc1: 449.33986
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.33986
+exit siman: 449.41819
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.41819
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.41819
+exit siman: 447.47814
+exit siman: 447.34591
+nfeval: 47 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.47814
+nfeval: 47 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.47814
+nfeval: 70 rc: Linear search failed
+after opt calc1: 447.34591
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.34591
+exit siman: 449.33981
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.33981
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.33981
+exit siman: 449.41801
+nfeval: 52 rc: Linear search failed
+after opt calc1: 449.41801
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.41801
+exit siman: 447.4781
+nfeval: 25 rc: Linear search failed
+after opt calc1: 447.4781
+nfeval: 25 rc: Linear search failed
+after opt calc2: 447.4781
+exit siman: 447.34581
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.34581
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.34581
+exit siman: 449.33976
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.33976
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.33976
+exit siman: 449.418
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.418
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.418
+exit siman: 447.47773
+nfeval: 72 rc: Linear search failed
+after opt calc1: 447.47773
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.47773
+exit siman: 447.3458
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.3458
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.3458
+exit siman: 449.33973
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.33973
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.33973
+post opt cv check: 449.33973
+(chisq): 4550.4045
+cv: 10
+exit siman: 449.41794
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 449.41794
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 449.41794
+post opt cv check: 449.41794
+(chisq): 4826.1115
+cv: 8
+exit siman: 447.47768
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.47768
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.47768
+post opt cv check: 447.47768
+(chisq): 4407.1767
+cv: 2
+exit siman: 447.34572
+cv check: 452.38507
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.34572
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.34572
+post opt cv check: 447.34572
+(chisq): 5624.0716
+cv: 5
+cv check: 447.50384
+exit siman: 452.38485
+nfeval: 25 rc: Linear search failed
+after opt calc1: 452.38485
+nfeval: 25 rc: Linear search failed
+after opt calc2: 452.38485
+exit siman: 447.50328
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.50328
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.50328
+exit siman: 452.3848
+nfeval: 24 rc: Linear search failed
+after opt calc1: 452.3848
+nfeval: 24 rc: Linear search failed
+after opt calc2: 452.3848
+exit siman: 447.50319
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.50319
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.50319
+exit siman: 452.38467
+nfeval: 23 rc: Linear search failed
+after opt calc1: 452.38467
+nfeval: 23 rc: Linear search failed
+after opt calc2: 452.38467
+exit siman: 447.50311
+nfeval: 84 rc: Linear search failed
+after opt calc1: 447.50311
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.50311
+exit siman: 452.38462
+nfeval: 23 rc: Linear search failed
+after opt calc1: 452.38462
+nfeval: 23 rc: Linear search failed
+after opt calc2: 452.38462
+exit siman: 447.50307
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.50307
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.50307
+exit siman: 452.38455
+nfeval: 22 rc: Linear search failed
+after opt calc1: 452.38455
+nfeval: 22 rc: Linear search failed
+after opt calc2: 452.38455
+post opt cv check: 452.38455
+(chisq): 6535.281
+cv: 3
+exit siman: 447.50305
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.50305
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.50305
+post opt cv check: 447.50305
+(chisq): 8538.7007
+cv: 6
+chisq: (1e-06) 24450.498
+--------------
+numparams:138
+smoothing:1e-07
+474.79796
+exit siman: 474.79774
+nfeval: 24 rc: Linear search failed
+after opt calc1: 474.79774
+nfeval: 80 rc: Linear search failed
+after opt calc2: 474.79774
+exit siman: 474.79764
+nfeval: 23 rc: Linear search failed
+after opt calc1: 474.79764
+nfeval: 80 rc: Linear search failed
+after opt calc2: 474.79764
+exit siman: 474.7976
+nfeval: 10 rc: Linear search failed
+after opt calc1: 474.7976
+nfeval: 80 rc: Linear search failed
+after opt calc2: 474.7976
+exit siman: 474.79742
+nfeval: 25 rc: Linear search failed
+after opt calc1: 474.79742
+nfeval: 85 rc: Linear search failed
+after opt calc2: 474.79742
+exit siman: 474.79732
+nfeval: 24 rc: Linear search failed
+after opt calc1: 474.79732
+nfeval: 84 rc: Linear search failed
+after opt calc2: 474.79732
+after opt calc: 474.79732
+curcv: 1e-07
+cv check: cv check: cv check: 445.23275447.70775
+cv check: 450.49078
+
+448.67957
+exit siman: 445.23274
+nfeval: 22 rc: Linear search failed
+after opt calc1: 445.23274
+nfeval: 22 rc: Linear search failed
+after opt calc2: 445.23274
+exit siman: 448.67954
+exit siman: 447.70774
+nfeval: 23 rc: Linear search failed
+after opt calc1: 448.67954
+nfeval: 24 rc: Linear search failed
+after opt calc1: 447.70774
+nfeval: 23 rc: Linear search failed
+after opt calc2: 448.67954
+exit siman: 450.49076
+nfeval: 24 rc: Linear search failed
+after opt calc2: 447.70774
+nfeval: 22 rc: Linear search failed
+after opt calc1: 450.49076
+nfeval: 22 rc: Linear search failed
+after opt calc2: 450.49076
+exit siman: 445.2327
+nfeval: 22 rc: Linear search failed
+after opt calc1: 445.2327
+nfeval: 22 rc: Linear search failed
+after opt calc2: 445.2327
+exit siman: 447.70772
+exit siman: 448.67954
+nfeval: 23 rc: Linear search failed
+after opt calc1: 448.67954
+exit siman: 450.49072
+nfeval: 23 rc: Linear search failed
+after opt calc2: 448.67954
+nfeval: 21 rc: Linear search failed
+after opt calc1: 450.49072
+nfeval: 64 rc: Linear search failed
+after opt calc1: 447.70772
+nfeval: 21 rc: Linear search failed
+after opt calc2: 450.49072
+nfeval: 52 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.70772
+exit siman: 445.23268
+nfeval: 21 rc: Linear search failed
+after opt calc1: 445.23268
+nfeval: 21 rc: Linear search failed
+after opt calc2: 445.23268
+exit siman: 448.67953
+nfeval: 22 rc: Linear search failed
+after opt calc1: 448.67953
+exit siman: 447.70768
+nfeval: 22 rc: Linear search failed
+after opt calc2: 448.67953
+nfeval: 38 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.70768
+nfeval: 38 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.70768
+exit siman: 450.49071
+nfeval: 21 rc: Linear search failed
+after opt calc1: 450.49071
+nfeval: 21 rc: Linear search failed
+after opt calc2: 450.49071
+exit siman: 445.23253
+nfeval: 26 rc: Linear search failed
+after opt calc1: 445.23253
+nfeval: 26 rc: Linear search failed
+after opt calc2: 445.23253
+exit siman: 448.67952
+nfeval: 22 rc: Linear search failed
+after opt calc1: 448.67952
+nfeval: 22 rc: Linear search failed
+after opt calc2: 448.67952
+exit siman: 450.49046
+exit siman: 447.70766
+nfeval: 24 rc: Linear search failed
+after opt calc1: 447.70766
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.49046
+nfeval: 24 rc: Linear search failed
+after opt calc2: 447.70766
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.49046
+exit siman: 445.23228
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.23228
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.23228
+post opt cv check: 445.23228
+(chisq): 3614.8663
+cv: 9
+cv check: 448.64017
+exit siman: 448.67951
+nfeval: 22 rc: Linear search failed
+after opt calc1: 448.67951
+nfeval: 22 rc: Linear search failed
+after opt calc2: 448.67951
+post opt cv check: 448.67951
+(chisq): 1345.4982
+cv: 7
+cv check: 448.78187
+exit siman: 447.70755
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.70755
+exit siman: 450.49046
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.70755
+post opt cv check: 447.70755
+(chisq): 1066.8455
+cv: 1
+cv check: 446.80027
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.49046
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.49046
+post opt cv check: 450.49046
+(chisq): 2404.3783
+cv: 4
+cv check: 446.71697
+exit siman: 448.64014
+nfeval: 23 rc: Linear search failed
+after opt calc1: 448.64014
+nfeval: 23 rc: Linear search failed
+after opt calc2: 448.64014
+exit siman: 448.78185
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.78185
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.78185
+exit siman: 446.71691
+exit siman: 446.80026
+nfeval: 71 rc: Linear search failed
+after opt calc1: 446.71691
+nfeval: 19 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.80026
+nfeval: 19 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.80026
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.71691
+exit siman: 448.64011
+nfeval: 22 rc: Linear search failed
+after opt calc1: 448.64011
+nfeval: 22 rc: Linear search failed
+after opt calc2: 448.64011
+exit siman: 448.78175
+nfeval: 66 rc: Linear search failed
+after opt calc1: 448.78175
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.78175
+exit siman: 446.7169
+exit siman: 446.80024
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.7169
+nfeval: 29 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.80024
+nfeval: 29 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.80024
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.7169
+exit siman: 448.6401
+nfeval: 22 rc: Linear search failed
+after opt calc1: 448.6401
+nfeval: 22 rc: Linear search failed
+after opt calc2: 448.6401
+exit siman: 448.78174
+nfeval: 48 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.78174
+nfeval: 48 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.78174
+exit siman: 446.71689
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.71689
+exit siman: 446.80024
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.71689
+nfeval: 38 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.80024
+nfeval: 38 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.80024
+exit siman: 448.64009
+nfeval: 20 rc: Linear search failed
+after opt calc1: 448.64009
+nfeval: 20 rc: Linear search failed
+after opt calc2: 448.64009
+exit siman: 448.78173
+nfeval: 66 rc: Linear search failed
+after opt calc1: 448.78173
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.78173
+exit siman: 446.71689
+nfeval: 123 rc: Linear search failed
+after opt calc1: 446.71689
+nfeval: 71 rc: Linear search failed
+after opt calc2: 446.71689
+exit siman: 446.80016
+nfeval: 75 rc: Linear search failed
+after opt calc1: 446.80016
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.80016
+exit siman: 448.64009
+nfeval: 20 rc: Linear search failed
+after opt calc1: 448.64009
+nfeval: 20 rc: Linear search failed
+after opt calc2: 448.64009
+post opt cv check: 448.64009
+(chisq): 4551.173
+cv: 10
+exit siman: 448.78169
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.78169
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.78169
+post opt cv check: 448.78169
+(chisq): 4826.2052
+cv: 8
+exit siman: 446.71688
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.71688
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.71688
+post opt cv check: 446.71688
+(chisq): 5624.2614
+cv: 5
+cv check: 446.88173
+exit siman: 446.80015
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.80015
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.80015
+post opt cv check: 446.80015
+(chisq): 4406.6648
+cv: 2
+cv check: 451.75788
+exit siman: 446.88157
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.88157
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.88157
+exit siman: 451.75787
+nfeval: 23 rc: Linear search failed
+after opt calc1: 451.75787
+nfeval: 23 rc: Linear search failed
+after opt calc2: 451.75787
+exit siman: 446.88155
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.88155
+exit siman: 451.75774
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.88155
+nfeval: 75 rc: Linear search failed
+after opt calc1: 451.75774
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.75774
+exit siman: 446.88152
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.88152
+exit siman: 451.75773
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.88152
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.75773
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.75773
+exit siman: 446.8815
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.8815exit siman: 
+451.75773
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.75773
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.8815
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.75773
+exit siman: 446.8815
+exit siman: 451.75772
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.8815
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.75772
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.8815
+post opt cv check: 446.8815
+(chisq): 8538.5014
+cv: 6
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.75772
+post opt cv check: 451.75772
+(chisq): 6534.5619
+cv: 3
+chisq: (1e-07) 24450.442
+--------------
+numparams:138
+smoothing:1e-08
+474.72653
+exit siman: 474.72652
+nfeval: 24 rc: Linear search failed
+after opt calc1: 474.72652
+nfeval: 18 rc: Linear search failed
+after opt calc2: 474.72652
+exit siman: 474.72651
+nfeval: 24 rc: Linear search failed
+after opt calc1: 474.72651
+nfeval: 18 rc: Linear search failed
+after opt calc2: 474.72651
+exit siman: 474.72629
+nfeval: 73 rc: Linear search failed
+after opt calc1: 474.72629
+nfeval: 77 rc: Linear search failed
+after opt calc2: 474.72629
+exit siman: 474.72628
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.72628
+nfeval: 130 rc: Linear search failed
+after opt calc2: 474.72628
+exit siman: 474.72625
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.72625
+nfeval: 78 rc: Linear search failed
+after opt calc2: 474.72625
+after opt calc: 474.72625
+curcv: 1e-08
+cv check: cv check: cv check: 447.64042445.16576448.61226
+
+
+cv check: 450.43154
+exit siman: 445.16573
+exit siman: 450.43152
+nfeval: 73 rc: Linear search failed
+exit siman: 447.64039after opt calc1: 
+445.16573
+exit siman: 448.61224
+nfeval: 52 rc: Linear search failed
+after opt calc1: 450.43152
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.64039
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.16573
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.61224
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.43152
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.64039
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.61224
+exit siman: 445.1657
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.1657
+exit siman: 447.64039
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.1657
+exit siman: 450.43151
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.64039
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.43151
+exit siman: 448.61215
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.64039
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.43151
+nfeval: 73 rc: Linear search failed
+after opt calc1: 448.61215
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.61215
+exit siman: 445.16569
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.16569
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.16569
+exit siman: 450.43149
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.43149
+exit siman: 447.64037
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.43149
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.64037
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.64037
+exit siman: 448.61214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.61214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.61214
+exit siman: 445.16569
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.16569
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.16569
+exit siman: 450.43148
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.43148
+exit siman: 447.64037
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.43148
+nfeval: 73 rc: Linear search failed
+after opt calc1: 447.64037
+nfeval: 73 rc: Linear search failed
+after opt calc2: 447.64037
+exit siman: 448.61214
+nfeval: 52 rc: Linear search failed
+after opt calc1: 448.61214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.61214
+exit siman: 445.16568
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.16568
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.16568
+post opt cv check: 445.16568
+(chisq): 3614.6668
+cv: 9
+cv check: 448.56991
+exit siman: 447.64035
+exit siman: 450.43147
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.64035
+nfeval: 73 rc: Linear search failed
+after opt calc1: 450.43147
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.64035
+post opt cv check: 447.64035
+(chisq): 1067.0241
+cv: 1
+cv check: 446.73223
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.43147
+post opt cv check: 450.43147
+(chisq): 2404.5586
+cv: 4
+cv check: 446.65404
+exit siman: 448.61211
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.61211
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.61211
+post opt cv check: 448.61211
+(chisq): 1345.4323
+cv: 7
+cv check: 448.71801
+exit siman: 448.5699
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.5699
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.5699
+exit siman: 446.65401
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.65401
+exit siman: 446.73221
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.65401
+nfeval: 74 rc: Linear search failed
+after opt calc1: 446.73221
+nfeval: 74 rc: Linear search failed
+after opt calc2: 446.73221
+exit siman: 448.71797
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71797
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71797
+exit siman: 448.56989
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56989
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56989
+exit siman: 446.654
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.654
+exit siman: 446.73218
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.654
+nfeval: 74 rc: Linear search failed
+after opt calc1: 446.73218
+nfeval: 74 rc: Linear search failed
+after opt calc2: 446.73218
+exit siman: 448.71795
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71795
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71795
+exit siman: 448.56989
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56989
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56989
+exit siman: 446.65398
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.65398
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.65398
+exit siman: 446.73216
+exit siman: 448.7179
+nfeval: 74 rc: Linear search failed
+after opt calc1: 446.73216
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.7179
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.73216
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.7179
+exit siman: 448.56979
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56979
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56979
+exit siman: 446.65384
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.65384
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.65384
+exit siman: 448.71789
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71789
+exit siman: 446.73214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71789
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.73214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.73214
+exit siman: 448.56975
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56975
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56975
+post opt cv check: 448.56975
+(chisq): 4550.9727
+cv: 10
+exit siman: 446.65384
+nfeval: 52 rc: Linear search failed
+after opt calc1: 446.65384
+nfeval: 72 rc: Linear search failed
+after opt calc2: 446.65384
+post opt cv check: 446.65384
+(chisq): 5624.4417
+cv: 5
+cv check: 446.81931
+exit siman: 448.71789
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71789
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71789
+post opt cv check: 448.71789
+(chisq): 4826.3106
+cv: 8
+exit siman: 446.73214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.73214
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.73214
+post opt cv check: 446.73214
+(chisq): 4406.1328
+cv: 2
+cv check: 451.69494
+exit siman: 446.8193
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.8193
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.8193
+exit siman: 451.6949
+nfeval: 73 rc: Linear search failed
+after opt calc1: 451.6949
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.6949
+exit siman: 446.81927
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81927
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81927
+exit siman: 451.6949
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.6949
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.6949
+exit siman: 446.81927
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81927
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81927
+exit siman: 451.69489
+nfeval: 74 rc: Linear search failed
+after opt calc1: 451.69489
+nfeval: 74 rc: Linear search failed
+after opt calc2: 451.69489
+exit siman: 446.81926
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81926
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81926
+exit siman: 451.69489
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.69489
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.69489
+exit siman: 446.81923
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81923
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81923
+post opt cv check: 446.81923
+(chisq): 8538.5507
+cv: 6
+exit siman: 451.69488
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.69488
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.69488
+post opt cv check: 451.69488
+(chisq): 6534.0237
+cv: 3
+chisq: (1e-08) 24449.858
+--------------
+numparams:138
+smoothing:1e-09
+474.71917
+exit siman: 474.71917
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71917
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71917
+exit siman: 474.71913
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71913
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71913
+exit siman: 474.71913
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71913
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71913
+exit siman: 474.71913
+nfeval: 73 rc: Linear search failed
+after opt calc1: 474.71913
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71913
+exit siman: 474.71908
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71908
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71908
+after opt calc: 474.71908
+curcv: 1e-09
+cv check: 447.63363
+cv check: cv check: cv check: 445.159
+450.42556
+448.60547
+exit siman: 447.63363
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63363
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63363
+exit siman: 445.159
+nfeval: 52 rc: Linear search failed
+after opt calc1: 445.159
+exit siman: 450.42556
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.159
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42556
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42556
+exit siman: 448.60546
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60546
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60546
+exit siman: 447.63363
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63363
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63363
+exit siman: 445.15899
+nfeval: 71 rc: Linear search failed
+after opt calc1: 445.15899
+exit siman: 450.42556
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15899
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42556
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42556
+exit siman: 448.60545
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60545
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60545
+exit siman: 447.63359
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63359
+exit siman: 445.15896
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63359
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.15896
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15896
+exit siman: 450.42556
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42556
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42556
+exit siman: 448.60545
+nfeval: 71 rc: Linear search failed
+after opt calc1: 448.60545
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60545
+exit siman: 445.15896
+exit siman: 447.63358
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.15896
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63358
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15896
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63358
+exit siman: 450.42555
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42555
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42555
+exit siman: 448.60544
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60544
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60544
+exit siman: 445.15896
+exit siman: 447.63346
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.15896
+nfeval: 71 rc: Linear search failed
+after opt calc1: 447.63346
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15896
+post opt cv check: 445.15896
+(chisq): 3614.6624
+cv: 9
+cv check: 448.56283
+nfeval: 71 rc: Linear search failed
+after opt calc2: 447.63346
+post opt cv check: 447.63346
+(chisq): 1067.0271
+cv: 1
+cv check: 446.72537
+exit siman: 450.42553
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42553
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42553
+post opt cv check: 450.42553
+(chisq): 2404.5473
+cv: 4
+cv check: 446.6477
+exit siman: 448.60544
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60544
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60544
+post opt cv check: 448.60544
+(chisq): 1345.4339
+cv: 7
+cv check: 448.71155
+exit siman: 446.72537
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72537
+exit siman: 448.56283
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72537
+nfeval: 70 rc: Linear search failed
+after opt calc1: 448.56283
+nfeval: 70 rc: Linear search failed
+after opt calc2: 448.56283
+exit siman: 446.6477
+nfeval: 71 rc: Linear search failed
+after opt calc1: 446.6477
+nfeval: 71 rc: Linear search failed
+after opt calc2: 446.6477
+exit siman: 448.71155
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71155
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71155
+exit siman: 446.72536
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72536
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72536
+exit siman: 448.56283
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56283
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56283
+exit siman: 446.64769
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64769
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64769
+exit siman: 448.71155
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71155
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71155
+exit siman: 446.72535
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72535
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72535
+exit siman: 448.56282
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56282
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56282
+exit siman: 446.64769
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64769
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64769
+exit siman: 448.71155
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71155
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71155
+exit siman: 446.72535
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72535
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72535
+exit siman: 448.56271
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56271
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56271
+exit siman: 446.64766
+nfeval: 70 rc: Linear search failed
+after opt calc1: 446.64766
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64766
+exit siman: 448.71154
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71154
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71154
+exit siman: 446.72535
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72535
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72535
+post opt cv check: 446.72535
+(chisq): 4406.1358
+cv: 2
+cv check: 451.68859
+exit siman: 448.56271
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56271
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56271
+post opt cv check: 448.56271
+(chisq): 4550.9668
+cv: 10
+exit siman: 446.64765
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64765
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64765
+post opt cv check: 446.64765
+(chisq): 5624.2776
+cv: 5
+cv check: 446.813
+exit siman: 448.71154
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71154
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71154
+post opt cv check: 448.71154
+(chisq): 4825.9283
+cv: 8
+exit siman: 451.68858
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.68858
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68858
+exit siman: 446.81298
+nfeval: 71 rc: Linear search failed
+after opt calc1: 446.81298
+nfeval: 71 rc: Linear search failed
+after opt calc2: 446.81298
+exit siman: 451.68845
+nfeval: 72 rc: Linear search failed
+after opt calc1: 451.68845
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68845
+exit siman: 446.81298
+nfeval: 71 rc: Linear search failed
+after opt calc1: 446.81298
+nfeval: 71 rc: Linear search failed
+after opt calc2: 446.81298
+exit siman: 451.68845
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.68845
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68845
+exit siman: 446.81298
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81298
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81298
+exit siman: 451.68844
+nfeval: 71 rc: Linear search failed
+after opt calc1: 451.68844
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68844
+exit siman: 446.81295
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81295
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81295
+exit siman: 451.6884
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.6884
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.6884
+post opt cv check: 451.6884
+(chisq): 6534.0317
+cv: 3
+exit siman: 446.81294
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81294
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81294
+post opt cv check: 446.81294
+(chisq): 8538.4657
+cv: 6
+chisq: (1e-09) 24449.392
+--------------
+numparams:138
+smoothing:1e-10
+474.71837
+exit siman: 474.71837
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71837
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71837
+exit siman: 474.71836
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71836
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71836
+exit siman: 474.71836
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71836
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71836
+exit siman: 474.71836
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71836
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71836
+exit siman: 474.71835
+nfeval: 70 rc: Linear search failed
+after opt calc1: 474.71835
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71835
+after opt calc: 474.71835
+curcv: 1e-10
+cv check: cv check: cv check: 447.63293cv check: 445.15831
+
+448.60478
+450.42495
+exit siman: 445.15831
+exit siman: 447.63292
+nfeval: 70 rc: Linear search failed
+after opt calc1: 445.15831
+nfeval: 70 rc: Linear search failed
+after opt calc1: 447.63292
+nfeval: 70 rc: Linear search failed
+after opt calc2: 445.15831
+exit siman: 448.60476
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63292
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60476
+exit siman: 450.42495
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60476
+nfeval: 70 rc: Linear search failed
+after opt calc1: 450.42495
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42495
+exit siman: 445.15823
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.15823
+exit siman: 447.63288
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15823
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63288
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63288
+exit siman: 448.60476
+nfeval: 69 rc: Linear search failed
+after opt calc1: 448.60476
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60476
+exit siman: 450.42494
+nfeval: 70 rc: Linear search failed
+after opt calc1: 450.42494
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42494
+exit siman: 445.15822
+nfeval: 73 rc: Linear search failed
+after opt calc1: 445.15822
+exit siman: 447.63285
+nfeval: 73 rc: Linear search failed
+after opt calc2: 445.15822
+nfeval: 73 rc: Linear search failed
+after opt calc1: 447.63285
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63285
+exit siman: 448.60466
+nfeval: 73 rc: Linear search failed
+after opt calc1: 448.60466
+nfeval: 73 rc: Linear search failed
+after opt calc2: 448.60466
+exit siman: 450.42494
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42494
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42494
+exit siman: 445.15819
+nfeval: 72 rc: Linear search failed
+after opt calc1: 445.15819
+exit siman: 447.63281
+nfeval: 72 rc: Linear search failed
+after opt calc2: 445.15819
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63281
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63281
+exit siman: 448.60466
+nfeval: 73 rc: Linear search failed
+after opt calc1: 448.60466
+nfeval: 73 rc: Linear search failed
+after opt calc2: 448.60466
+exit siman: 450.42494
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42494
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42494
+exit siman: 445.15818
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.15818
+exit siman: 447.63281
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15818
+post opt cv check: 445.15818
+(chisq): 3614.6705
+cv: 9
+cv check: 448.56211
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63281
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63281
+post opt cv check: 447.63281
+(chisq): 1066.4022
+cv: 1
+cv check: 446.72467
+exit siman: 448.60464
+nfeval: 72 rc: Linear search failed
+after opt calc1: 448.60464
+nfeval: 72 rc: Linear search failed
+after opt calc2: 448.60464
+post opt cv check: 448.60464
+(chisq): 1345.4544
+cv: 7
+cv check: 448.71089
+exit siman: 450.42493
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42493
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42493
+post opt cv check: 450.42493
+(chisq): 2404.5728
+cv: 4
+cv check: 446.64705
+exit siman: 448.5621
+nfeval: 70 rc: Linear search failed
+after opt calc1: 448.5621
+exit siman: 446.72467
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.5621
+nfeval: 71 rc: Linear search failed
+after opt calc1: 446.72467
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72467
+exit siman: 448.71088
+exit siman: 446.64705
+nfeval: 71 rc: Linear search failed
+after opt calc1: 448.71088
+nfeval: 70 rc: Linear search failed
+after opt calc1: 446.64705
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71088
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64705
+exit siman: 448.5621
+exit siman: 446.72466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.5621
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.5621
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72466
+exit siman: 448.71087
+exit siman: 446.64704
+nfeval: 70 rc: Linear search failed
+after opt calc1: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64704
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64704
+exit siman: 448.5621
+exit siman: 446.72466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.5621
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.5621
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72466
+exit siman: 446.64701
+exit siman: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64701
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64701
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71087
+exit siman: 448.56209
+exit siman: 446.72465
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56209
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72465
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56209
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72465
+exit siman: 448.71087
+exit siman: 446.64701
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64701
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64701
+exit siman: 448.56208
+exit siman: 446.72465
+nfeval: 71 rc: Linear search failed
+after opt calc1: 448.56208
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72465
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56208
+post opt cv check: 448.56208
+(chisq): 4550.977
+cv: 10
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72465
+post opt cv check: 446.72465
+(chisq): 4405.992
+cv: 2
+cv check: 451.68794
+exit siman: 446.64701
+exit siman: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64701
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71087
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64701
+post opt cv check: 446.64701
+(chisq): 5624.4144
+cv: 5
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71087
+cv check: post opt cv check: 446.81236
+448.71087
+(chisq): 4826.4335
+cv: 8
+exit siman: 451.68793
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.68793
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68793
+exit siman: 446.81236
+nfeval: 71 rc: Linear search failed
+after opt calc1: 446.81236
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81236
+exit siman: 451.68791
+nfeval: 69 rc: Linear search failed
+after opt calc1: 451.68791
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68791
+exit siman: 446.81235
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81235
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81235
+exit siman: 451.68791
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.68791
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68791
+exit siman: 446.81235
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81235
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81235
+exit siman: 451.6879
+nfeval: 69 rc: Linear search failed
+after opt calc1: 451.6879
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.6879
+exit siman: 446.81234
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81234
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81234
+exit siman: 451.6879
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.6879
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.6879
+post opt cv check: 451.6879
+(chisq): 6533.8901
+cv: 3
+exit siman: 446.81234
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81234
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81234
+post opt cv check: 446.81234
+(chisq): 8538.7553
+cv: 6
+chisq: (1e-10) 24450.056
+--------------
+numparams:138
+smoothing:1e-11
+474.71828
+exit siman: 474.71827
+nfeval: 70 rc: Linear search failed
+after opt calc1: 474.71827
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71827
+exit siman: 474.71825
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71825
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71825
+exit siman: 474.71824
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71824
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71824
+exit siman: 474.71824
+nfeval: 69 rc: Linear search failed
+after opt calc1: 474.71824
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71824
+exit siman: 474.71823
+nfeval: 52 rc: Linear search failed
+after opt calc1: 474.71823
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71823
+after opt calc: 474.71823
+curcv: 1e-11
+cv check: cv check: 447.63282
+cv check: 450.42484445.1582
+
+cv check: 448.60467
+exit siman: 445.1582
+exit siman: 447.63282
+nfeval: 69 rc: Linear search failed
+after opt calc1: 445.1582
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63282
+nfeval: 69 rc: Linear search failed
+after opt calc2: 445.1582
+exit siman: 450.42484
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63282
+nfeval: 69 rc: Linear search failed
+after opt calc1: 450.42484
+exit siman: 448.60467
+nfeval: 69 rc: Linear search failed
+after opt calc2: 450.42484
+nfeval: 69 rc: Linear search failed
+after opt calc1: 448.60467
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60467
+exit siman: 445.1582
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.1582
+exit siman: 447.63282
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.1582
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63282
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63282
+exit siman: 448.60466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60466
+exit siman: 450.42482
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42482
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42482
+exit siman: 445.1582
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.1582
+exit siman: 447.63257
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.1582
+nfeval: 72 rc: Linear search failed
+after opt calc1: 447.63257
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63257
+exit siman: 448.60466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60466
+exit siman: 450.42482
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42482
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42482
+exit siman: 445.15818
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.15818
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15818
+exit siman: 447.63253
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63253
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63253
+exit siman: 448.60466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60466
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60466
+exit siman: 450.42474
+nfeval: 72 rc: Linear search failed
+after opt calc1: 450.42474
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42474
+exit siman: 445.15818
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 445.15818
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 445.15818
+post opt cv check: 445.15818
+(chisq): 3614.6736
+cv: 9
+cv check: 448.56199
+exit siman: 447.63252
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 447.63252
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 447.63252
+post opt cv check: 447.63252
+(chisq): 1067.3464
+cv: 1
+cv check: 446.72456
+exit siman: 448.60465
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.60465
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.60465
+post opt cv check: 448.60465
+(chisq): 1345.6023
+cv: 7
+cv check: 448.71079
+exit siman: 450.42474
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 450.42474
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 450.42474
+post opt cv check: 450.42474
+(chisq): 2404.5705
+cv: 4
+cv check: 446.64694
+exit siman: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56199
+exit siman: 446.72456
+nfeval: 71 rc: Linear search failed
+after opt calc1: 446.72456
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72456
+exit siman: 448.71079
+nfeval: 71 rc: Linear search failed
+after opt calc1: 448.71079
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71079
+exit siman: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64694
+exit siman: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56199
+exit siman: 446.72452
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72452
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72452
+exit siman: 448.7107
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.7107
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.7107
+exit siman: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64694
+exit siman: 448.56199
+nfeval: 52 rc: Linear search failed
+after opt calc1: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56199
+exit siman: 446.72452
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72452
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72452
+exit siman: 448.71068
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71068
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71068
+exit siman: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64694
+exit siman: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56199
+exit siman: 446.72451
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72451
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72451
+exit siman: 448.71068
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71068
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71068
+exit siman: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64694
+exit siman: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.56199
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.56199
+post opt cv check: 448.56199
+(chisq): 4550.977
+cv: 10
+exit siman: 446.72447
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.72447
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.72447
+post opt cv check: 446.72447
+(chisq): 4406.8857
+cv: 2
+cv check: 451.68783
+exit siman: 448.71068
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 448.71068
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 448.71068
+post opt cv check: 448.71068
+(chisq): 4826.3797
+cv: 8
+exit siman: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.64694
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.64694
+post opt cv check: 446.64694
+(chisq): 5624.4056
+cv: 5
+cv check: 446.81225
+exit siman: 451.68783
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.68783
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68783
+exit siman: 446.81225
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81225
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81225
+exit siman: 451.68783
+nfeval: 69 rc: Linear search failed
+after opt calc1: 451.68783
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68783
+exit siman: 446.81225
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81225
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81225
+exit siman: 451.68782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.68782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68782
+exit siman: 446.81224
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81224
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81224
+exit siman: 451.68782
+nfeval: 71 rc: Linear search failed
+after opt calc1: 451.68782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68782
+exit siman: 446.81224
+nfeval: 70 rc: Linear search failed
+after opt calc1: 446.81224
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81224
+exit siman: 451.68782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 451.68782
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 451.68782
+post opt cv check: 451.68782
+(chisq): 6534.7828
+cv: 3
+exit siman: 446.81224
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 446.81224
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc2: 446.81224
+post opt cv check: 446.81224
+(chisq): 8538.5113
+cv: 6
+chisq: (1e-11) 24450.651
+--------------
+check:474.71823
+numparams:138
+smoothing:1e-09
+474.71901
+exit siman: 474.71901
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71901
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71901
+exit siman: 474.71901
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.71901
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71901
+exit siman: 474.71901
+nfeval: 69 rc: Linear search failed
+after opt calc1: 474.71901
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.71901
+exit siman: 474.719
+nfeval: 54 rc: Converged (|f_n-f_(n-1)| ~= 0)
+after opt calc1: 474.719
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.719
+exit siman: 474.719
+nfeval: 68 rc: Linear search failed
+after opt calc1: 474.719
+nfeval: 12 rc: Linear search failed
+after opt calc2: 474.719
+after opt calc: 474.719

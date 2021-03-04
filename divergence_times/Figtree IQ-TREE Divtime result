@@ -1,0 +1,149 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=47;
+	taxlabels
+	'AllBzSVU_clean.fasta.transdecoder.pep'
+	'AllBzVAD_clean.fasta.transdecoder.pep'
+	'AllRoDU_clean.fasta.transdecoder.pep'
+	'AllRoRD_clean.fasta.transdecoder.pep'
+	'Allmacelroy_clean.fasta.transdecoder.pep'
+	'AltLiz_clean.fasta.transdecoder.pep'
+	'BothGPH_clean.fasta.transdecoder.pep'
+	'BothJaJimGun_clean.fasta.transdecoder.pep'
+	'BothJaLSZZ_clean.fasta.transdecoder.pep'
+	'BothJaOBD_clean.fasta.transdecoder.pep'
+	'BothJaSVD_clean.fasta.transdecoder.pep'
+	'BothJaVAD_clean.fasta.transdecoder.pep'
+	'BothJamescasei_clean.fasta.transdecoder.pep'
+	'BothPara_w_clean.fasta.transdecoder.pep'
+	'BothPmorini_clean.fasta.transdecoder.pep'
+	'BothRoCMU_clean.fasta.transdecoder.pep'
+	'BothRoODH_clean.fasta.transdecoder.pep'
+	'BothSVD_clean.fasta.transdecoder.pep'
+	'BothVhilg_shim_clean.fasta.transdecoder.pep'
+	'Chlorica_clean.fasta.transdecoder.pep'
+	'Cylindroleberidinae_clean.fasta.transdecoder.pep'
+	Euph_microasciformis_clean
+	FatWhiteEye_clean
+	Gigantocypris_clean
+	GlovSkog_clean
+	'Gruber_Pannecohenae_clean.fasta.transdecoder.pep'
+	'Harb_slatteryi_clean.fasta.transdecoder.pep'
+	JaAU_S56
+	JaWLU_S67
+	JaWTF_S54
+	'Jp_Melavar22_clean.fasta.transdecoder.pep'
+	K_marleyi_clean
+	'Korn_hast_c_clean.fasta.transdecoder.pep'
+	LIRSCyp1_clean
+	LIRSCyp2_clean
+	'LongWhiteEye_clean.fasta.transdecoder.pep'
+	'PMMFU_clean.fasta.transdecoder.pep'
+	'PRLMH_clean.fasta.transdecoder.pep'
+	'PSKO_clean.fasta.transdecoder.pep'
+	RO-AG_S10
+	ROWLU_2018
+	RoIR_S66
+	'Vhilg_clean.fasta.transdecoder.pep'
+	'Vtsu_clean.fasta.transdecoder.pep'
+	WhiteVanessaLIRS_clean
+	'curacao_clean.fasta.transdecoder.pep'
+	'jpcyp2b_clean.fasta.transdecoder.pep'
+;
+end;
+
+begin trees;
+	tree _1 = [&R] (((((Euph_microasciformis_clean[&date=0]:17.4979,'Harb_slatteryi_clean.fasta.transdecoder.pep'[&date=0]:17.4979)[&label="100/100",date="-17.4979",CI_height={10.0538,24.3169},CI_date="{-24.3169,-10.0538}"]:204.272,'Chlorica_clean.fasta.transdecoder.pep'[&date=0]:221.77)[&label="100/100",date="-221.77",CI_height={180.457,261.882},CI_date="{-261.882,-180.457}"]:74.979,'AltLiz_clean.fasta.transdecoder.pep'[&date=0]:296.749)[&label="100/100",date="-296.749",CI_height={258.368,329.849},CI_date="{-329.849,-258.368}"]:142.508,'Cylindroleberidinae_clean.fasta.transdecoder.pep'[&date=0]:439.258)[&label="100/100",date="-439.258",CI_height={433.622,443.8},CI_date="{-443.8,-433.622}"]:4.54229,((((((((((((JaAU_S56[&date=0,!color=#800080]:4.66944,'BothJaVAD_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:4.66944)[&date="-4.66944",CI_height={3.57312,6.12968},CI_date="{-6.12968,-3.57312}",!color=#800080]:2.65485,'BothJaLSZZ_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:7.32429)[&label="100/100",date="-7.32429",CI_height={5.6748,9.38474},CI_date="{-9.38474,-5.6748}",!color=#800080]:5.29365,(((('AllRoDU_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:2.82613,'AllRoRD_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:2.82613)[&label="98/95",date="-2.82613",CI_height={2.20638,3.7636},CI_date="{-3.7636,-2.20638}",!color=#800080]:2.76756,'BothJaOBD_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:5.59369)[&label="100/100",date="-5.59369",CI_height={4.27759,6.90815},CI_date="{-6.90815,-4.27759}",!color=#800080]:4.51148,'BothRoODH_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:10.1052)[&label="99.9/100",date="-10.1052",CI_height={8.4522,12.3117},CI_date="{-12.3117,-8.4522}",!color=#800080]:1.1347,(((JaWTF_S54[&date=0,!color=#800080]:2.90749,JaWLU_S67[&date=0,!color=#800080]:2.90749)[&label="100/100",date="-2.90749",CI_height={2.22948,4.17416},CI_date="{-4.17416,-2.22948}",!color=#800080]:3.35402,'BothJaSVD_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:6.26151)[&label="100/100",date="-6.26151",CI_height={4.9761,8.47711},CI_date="{-8.47711,-4.9761}",!color=#800080]:3.95937,('AllBzVAD_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:5.85362,'BothSVD_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:5.85362)[&label="100/100",date="-5.85362",CI_height={4.42948,7.81073},CI_date="{-7.81073,-4.42948}",!color=#800080]:4.36726)[&label="99.1/97",date="-10.2209",CI_height={8.73764,12.3501},CI_date="{-12.3501,-8.73764}",!color=#800080]:1.019)[&label="100/100",date="-11.2399",CI_height={9.58059,13.5218},CI_date="{-13.5218,-9.58059}",!color=#800080]:1.37806)[&label="100/100",date="-12.6179",CI_height={10.0992,15.3743},CI_date="{-15.3743,-10.0992}",!color=#800080]:14.1253,((RO-AG_S10[&date=0,!color=#800080]:6.50094,RoIR_S66[&date=0,!color=#800080]:6.50094)[&label="100/100",date="-6.50094",CI_height={4.33766,8.73918},CI_date="{-8.73918,-4.33766}",!color=#800080]:9.34638,'AllBzSVU_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:15.8473)[&label="100/100",date="-15.8473",CI_height={11.7072,20.3483},CI_date="{-20.3483,-11.7072}",!color=#800080]:10.8959)[&label="100/100",date="-26.7432",CI_height={21.2571,33.2636},CI_date="{-33.2636,-21.2571}",!color=#800080]:19.4624,('PMMFU_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:32.5501,'Vtsu_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:32.5501)[&label="100/100",date="-32.5501",CI_height={25.6784,41.9806},CI_date="{-41.9806,-25.6784}",!color=#800080]:13.6555)[&label="100/100",date="-46.2057",CI_height={37.1662,56.9063},CI_date="{-56.9063,-37.1662}",!color=#800080]:33.1551,(((ROWLU_2018[&date=0,!color=#800080]:6.66895,'BothPmorini_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:6.66895)[&label="99/91",date="-6.66895",CI_height={5.14163,9.13655},CI_date="{-9.13655,-5.14163}",!color=#800080]:7.22169,'Allmacelroy_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:13.8906)[&label="41.9/29",date="-13.8906",CI_height={10.8184,18.2133},CI_date="{-18.2133,-10.8184}",!color=#800080]:0.706431,('BothGPH_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:11.4518,('Gruber_Pannecohenae_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:6.20033,'BothJamescasei_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:6.20033)[&label="44.3/34",date="-6.20033",CI_height={4.79603,8.55625},CI_date="{-8.55625,-4.79603}",!color=#800080]:5.25144)[&label="100/51",date="-11.4518",CI_height={8.89556,15.426},CI_date="{-15.426,-8.89556}",!color=#800080]:3.1453)[&label="100/100",date="-14.5971",CI_height={11.3082,21.0781},CI_date="{-21.0781,-11.3082}",!color=#800080]:64.7637)[&label="100/100",date="-79.3607",CI_height={64.1937,99.2657},CI_date="{-99.2657,-64.1937}",!color=#800080]:10.1804,('curacao_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:68.291,((('Korn_hast_c_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:9.33942,'BothRoCMU_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:9.33942)[&label="98.2/100",date="-9.33942",CI_height={6.68624,14.3756},CI_date="{-14.3756,-6.68624}",!color=#800080]:26.6485,K_marleyi_clean[&date=0,!color=#800080]:35.9879)[&label="93.2/97",date="-35.9879",CI_height={27.5997,49.0966},CI_date="{-49.0966,-27.5997}",!color=#800080]:7.46067,'PRLMH_clean.fasta.transdecoder.pep'[&date=0,!color=#800080]:43.4486)[&label="100/100",date="-43.4486",CI_height={36.0826,60.3623},CI_date="{-60.3623,-36.0826}",!color=#800080]:24.8424)[&label="100/100",date="-68.291",CI_height={55.7468,91.7502},CI_date="{-91.7502,-55.7468}",!color=#800080]:21.2502)[&label="100/100",date="-89.5412",CI_height={73.5177,108.154},CI_date="{-108.154,-73.5177}",!color=#800080]:30.7694,(LIRSCyp2_clean[&date=0,!color=#0000ff]:81.8772,(('BothVhilg_shim_clean.fasta.transdecoder.pep'[&date=0,!color=#0000ff]:3.12135,'Vhilg_clean.fasta.transdecoder.pep'[&date=0,!color=#0000ff]:3.12135)[&label="100/100",date="-3.12135",CI_height={0.543313,5.46374},CI_date="{-5.46374,-0.543313}",!color=#0000ff]:37.2519,LIRSCyp1_clean[&date=0,!color=#0000ff]:40.3732)[&label="100/100",date="-40.3732",CI_height={30.5918,53.9558},CI_date="{-53.9558,-30.5918}",!color=#0000ff]:41.504)[&label="100/100",date="-81.8772",CI_height={67.586,102.205},CI_date="{-102.205,-67.586}",!color=#0000ff]:38.4333)[&label="100/100",date="-120.311",CI_height={100.617,144.123},CI_date="{-144.123,-100.617}",!color=#0000ff]:47.1907,'BothJaJimGun_clean.fasta.transdecoder.pep'[&date=0]:167.501)[&label="100/100",date="-167.501",CI_height={132.406,196.756},CI_date="{-196.756,-132.406}"]:16.5309,'jpcyp2b_clean.fasta.transdecoder.pep'[&date=0]:184.032)[&label="90.3/85",date="-184.032",CI_height={148.103,217.159},CI_date="{-217.159,-148.103}"]:20.4254,Gigantocypris_clean[&date=0]:204.458)[&label="100/100",date="-204.458",CI_height={163.452,242.214},CI_date="{-242.214,-163.452}"]:19.5672,(((((FatWhiteEye_clean[&date=0]:6.52753,WhiteVanessaLIRS_clean[&date=0]:6.52753)[&label="100/100",date="-6.52753",CI_height={3.79804,9.26427},CI_date="{-9.26427,-3.79804}"]:41.5602,'LongWhiteEye_clean.fasta.transdecoder.pep'[&date=0]:48.0878)[&label="100/100",date="-48.0878",CI_height={32.9186,61.3042},CI_date="{-61.3042,-32.9186}"]:27.4878,('PSKO_clean.fasta.transdecoder.pep'[&date=0]:43.6661,GlovSkog_clean[&date=0]:43.6661)[&label="100/100",date="-43.6661",CI_height={31.6624,63.1939},CI_date="{-63.1939,-31.6624}"]:31.9095)[&label="99/97",date="-75.5756",CI_height={59.6352,93.147},CI_date="{-93.147,-59.6352}"]:13.8933,'Jp_Melavar22_clean.fasta.transdecoder.pep'[&date=0]:89.4689)[&label="86.7/81",date="-89.4689",CI_height={70.4692,116.408},CI_date="{-116.408,-70.4692}"]:12.035,'BothPara_w_clean.fasta.transdecoder.pep'[&date=0]:101.504)[&label="100/100",date="-101.504",CI_height={80.0536,131.593},CI_date="{-131.593,-80.0536}"]:122.521)[&label="28.5/55",date="-224.025",CI_height={176.826,266.63},CI_date="{-266.63,-176.826}"]:219.775)[&date="-443.8",CI_height={443.8,443.8},CI_date="{-443.8,-443.8}"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=4.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="CI_date";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="CI_height";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="CI_date";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=100.0;
+	set scaleAxis.minorTicks=50.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

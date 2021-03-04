@@ -1,0 +1,2 @@
+*.fa filter=lfs diff=lfs merge=lfs -text
+supermatrix.fas filter=lfs diff=lfs merge=lfs -text
