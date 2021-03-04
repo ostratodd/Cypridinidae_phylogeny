@@ -1,0 +1,60 @@
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /Users/oakley/Documents/GitHub/Cypridinidae_phylogeny/orthologs/phylopydir/phylopypruner_output/supermatrix.fas
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Jones-Taylor-Thorton, CAT approximation with 20 rate categories
+      0.52 seconds: Identified unique sequences
+Ignored unknown character X (seen 295788555 times)
+     17.93 seconds: Checking top hits for      1 of     51 seqs
+Initial topology in 202.93 seconds
+Refining topology: 23 rounds ME-NNIs, 2 rounds ME-SPRs, 11 rounds ML-NNIs
+    202.93 seconds: ME NNI round 1 of 23, 1 of 49 splits
+    221.42 seconds: ME NNI round 2 of 23, 1 of 49 splits
+    237.84 seconds: ME NNI round 3 of 23, 1 of 49 splits
+    249.25 seconds: ME NNI round 4 of 23, 1 of 49 splits
+    257.32 seconds: SPR round   1 of   2, 1 of 100 nodes
+    793.73 seconds: ME NNI round 8 of 23, 1 of 49 splits
+    809.88 seconds: SPR round   2 of   2, 1 of 100 nodes
+   1335.60 seconds: ME NNI round 15 of 23, 1 of 49 splits
+Total branch-length 3.382 after 1371.63 sec
+   1374.89 seconds: ML Lengths 1 of 49 splits
+   3481.23 seconds: ML NNI round 1 of 11, 1 of 49 splits
+ML-NNI round 1: LogLk = -44428269.958 NNIs 8 max delta 7471.37 Time 9537.56
+   9652.26 seconds: Site likelihoods with rate category 1 of 20
+   9766.69 seconds: Site likelihoods with rate category 2 of 20
+   9881.38 seconds: Site likelihoods with rate category 3 of 20
+   9996.10 seconds: Site likelihoods with rate category 4 of 20
+  10110.78 seconds: Site likelihoods with rate category 5 of 20
+  10225.54 seconds: Site likelihoods with rate category 6 of 20
+  10340.22 seconds: Site likelihoods with rate category 7 of 20
+  10454.89 seconds: Site likelihoods with rate category 8 of 20
+  10569.62 seconds: Site likelihoods with rate category 9 of 20
+  10684.48 seconds: Site likelihoods with rate category 10 of 20
+  10799.19 seconds: Site likelihoods with rate category 11 of 20
+  10913.97 seconds: Site likelihoods with rate category 12 of 20
+  11028.81 seconds: Site likelihoods with rate category 13 of 20
+  11143.65 seconds: Site likelihoods with rate category 14 of 20
+  11258.55 seconds: Site likelihoods with rate category 15 of 20
+  11373.36 seconds: Site likelihoods with rate category 16 of 20
+  11488.34 seconds: Site likelihoods with rate category 17 of 20
+  11603.22 seconds: Site likelihoods with rate category 18 of 20
+  11718.26 seconds: Site likelihoods with rate category 19 of 20
+  11833.21 seconds: Site likelihoods with rate category 20 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.703 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+  12052.52 seconds: ML NNI round 2 of 11, 1 of 49 splits
+ML-NNI round 2: LogLk = -42555098.610 NNIs 4 max delta 1248.56 Time 14805.60
+  14805.60 seconds: ML NNI round 3 of 11, 1 of 49 splits
+ML-NNI round 3: LogLk = -42554486.493 NNIs 3 max delta 416.21 Time 16114.64
+  16114.64 seconds: ML NNI round 4 of 11, 1 of 49 splits
+ML-NNI round 4: LogLk = -42554435.850 NNIs 2 max delta 15.19 Time 16977.08
+  16977.07 seconds: ML NNI round 5 of 11, 1 of 49 splits
+ML-NNI round 5: LogLk = -42554428.403 NNIs 0 max delta 0.00 Time 17712.12
+Turning off heuristics for final round of ML NNIs (converged)
+  17712.12 seconds: ML NNI round 6 of 11, 1 of 49 splits
+ML-NNI round 6: LogLk = -42553384.163 NNIs 0 max delta 0.00 Time 24299.23 (final)
+  24299.23 seconds: ML Lengths 1 of 49 splits
+Optimize all lengths: LogLk = -42553306.313 Time 26361.39
