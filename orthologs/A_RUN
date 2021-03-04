@@ -1,0 +1,8 @@
+echo "conda activate phylogeny"
+#./1_DownloadNorth
+
+
+./2_CreateSQL
+./3_genetrees
+./4_astral
+cat astral.tre
