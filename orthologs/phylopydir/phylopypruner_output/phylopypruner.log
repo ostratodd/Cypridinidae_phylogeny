@@ -1,32 +1,32 @@
 PhyloPyPruner version 0.9.7
-Tuesday, 02. March 2021 11:22AM
--------------------------------
+Sunday, 07. March 2021 10:35PM
+------------------------------
 
 
 Alignment statistics:
   Description                        Input      Output  
-  No. of alignments                     8256      12144
-  No. of sequences                    470617     165991
+  No. of alignments                     8256       2690
+  No. of sequences                    470617      72962
   No. of OTUs                             51         51
-  Avg no. of sequences / alignment        57         13
-  Avg no. of OTUs / alignment             32         13
-  Avg sequence length (ungapped)         276        295
+  Avg no. of sequences / alignment        57         27
+  Avg no. of OTUs / alignment             32         27
+  Avg sequence length (ungapped)         276        265
   Shortest sequence (ungapped)            84        100
-  Longest sequence (ungapped)          12246      11931
-  % missing data                       69.30      84.10
-  Concatenated alignment length      6827034    7697091
+  Longest sequence (ungapped)          12246       5068
+  % missing data                       69.30      65.20
+  Concatenated alignment length      6831485    1298677
 
 Methods summary:
   Description                   No. removed    % of input
   Short sequences                4734             1.01
-  Long branches                 42804             9.10
-  Ultrashort distance pairs     24765             5.26
-  Divergent sequences          163356            34.71
-  Collapsed nodes                   0             0.00
+  Long branches                 41400             8.80
+  Ultrashort distance pairs     24682             5.24
+  Divergent sequences          156404            33.23
+  Collapsed nodes               90005            19.12
   OTUs < occupancy threshold        0             0.00
   Genes < occupancy threshold       0             0.00
 
 Reuse these parameters:
-/Users/oakley/anaconda3/envs/phylopy/lib/python3.6/site-packages/phylopypruner/__main__.py --dir /Users/oakley/Documents/GitHub/Cypridinidae_phylogeny/orthologs/phylopydir --min-taxa 5 --min-len 100 --mask pdist --trim-lb 3 --trim-divergent 0.75 --trim-freq-paralogs 7 --min-pdist 0.01 --prune MI --outgroup Dstev_ENA --no-plot --overwrite
+/Users/oakley/anaconda3/envs/phylopy/lib/python3.6/site-packages/phylopypruner/__main__.py --dir /Users/oakley/Documents/GitHub/Cypridinidae_phylogeny/orthologs/phylopydir --min-taxa 20 --min-support 0.7 --min-len 100 --mask pdist --trim-lb 3 --trim-divergent 0.75 --trim-freq-paralogs 7 --min-pdist 0.01 --prune LS --outgroup Dstev_ENA --no-plot --overwrite
 
-completed in 4542.49 seconds
+completed in 2874.15 seconds
