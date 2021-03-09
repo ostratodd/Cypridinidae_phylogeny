@@ -1,0 +1,163 @@
+IQ-TREE 2.1.2 COVID-edition built Oct 22 2020
+
+Input file name: ../orthologs/phylopydir/phylopypruner_output/supermatrix.fas
+Type of analysis: tree reconstruction
+Random seed number: 623958
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 51 sequences with 1298677 amino-acid sites
+Number of constant sites: 651913 (= 50.1982% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 651913 (= 50.1982% of all sites)
+Number of parsimony informative sites: 358419
+Number of distinct site patterns: 856306
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: WAG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -12468548.7333 (s.e. 9762.4954)
+Unconstrained log-likelihood (without tree): -16299729.6657
+Number of free parameters (#branches + #model parameters): 99
+Akaike information criterion (AIC) score: 24937295.4665
+Corrected Akaike information criterion (AICc) score: 24937295.4818
+Bayesian information criterion (BIC) score: 24938491.0753
+
+Total tree length (sum of branch lengths): 4.3076
+Sum of internal branch lengths: 1.5293 (35.5020% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'JaWTF_S54' is drawn at root
+
++--JaWTF_S54
+| (1)
+|              +--BothJaOBD
+|           +--| (1)
+|           |  |  +--AllRoRD
+|           |  +--| (1)
+|           |     +--AllRoDU
+|        +--| (0.93)
+|        |  +--BothRoODH
+|     +--| (1)
+|     |  |                 +---curacao
+|     |  |              +--| (1)
+|     |  |              |  |        +--Korn_hast_c
+|     |  |              |  |     +--|
+|     |  |              |  |     |  +--BothRoCMU
+|     |  |              |  |  +--| (1)
+|     |  |              |  |  |  +--K_marleyi
+|     |  |              |  +--| (1)
+|     |  |              |     +--PRLMH
+|     |  |           +--| (1)
+|     |  |           |  |                 +--------------------------------Dstev_ENA
+|     |  |           |  |           +-----| (1)
+|     |  |           |  |           |     |          +---------Chlorica
+|     |  |           |  |           |     |      +---| (1)
+|     |  |           |  |           |     |      |   |       +--Euph_microasciformis
+|     |  |           |  |           |     |      |   +-------| (1)
+|     |  |           |  |           |     |      |           +--Harb_slatteryi
+|     |  |           |  |           |     |  +---| (1)
+|     |  |           |  |           |     |  |   +----------AltLiz
+|     |  |           |  |           |     +--| (1)
+|     |  |           |  |           |        +-------------Cylindroleberidinae
+|     |  |           |  |        +--| (1)
+|     |  |           |  |        |  |               +--FatWhiteEye
+|     |  |           |  |        |  |            +--| (1)
+|     |  |           |  |        |  |            |  +--WhiteVanessaLIRS
+|     |  |           |  |        |  |         +--| (1)
+|     |  |           |  |        |  |         |  +--LongWhiteEye
+|     |  |           |  |        |  |  +------| (1)
+|     |  |           |  |        |  |  |      |     +--GlovSkog
+|     |  |           |  |        |  |  |      |  +--| (1)
+|     |  |           |  |        |  |  |      |  |  +--PSKO
+|     |  |           |  |        |  |  |      +--| (1)
+|     |  |           |  |        |  |  |         |  +---Jp_Melavar22
+|     |  |           |  |        |  |  |         +--| (1)
+|     |  |           |  |        |  |  |            +-----BothPara_w
+|     |  |           |  |        |  +--| (0.63)
+|     |  |           |  |        |     +--------Gigantocypris
+|     |  |           |  |     +--| (1)
+|     |  |           |  |     |  +---------jpcyp2b
+|     |  |           |  |  +--| (1)
+|     |  |           |  |  |  +-------BothJaJimGun
+|     |  |           |  +--| (1)
+|     |  |           |     |  +-----LIRSCyp2
+|     |  |           |     +--| (1)
+|     |  |           |        |  +--LIRSCyp1
+|     |  |           |        +--| (1)
+|     |  |           |           |  +--Vhilg
+|     |  |           |           +--| (1)
+|     |  |           |              +--BothVhilg_shim
+|     |  |        +--| (1)
+|     |  |        |  |                   +--EGD_Niko
+|     |  |        |  |                +--| (1)
+|     |  |        |  |                |  +--SFM_Niko
+|     |  |        |  |             +--| (1)
+|     |  |        |  |             |  +--NOL_Niko
+|     |  |        |  |          +--| (1)
+|     |  |        |  |          |  +--Gruber_Pannecohenae
+|     |  |        |  |       +--| (1)
+|     |  |        |  |       |  +--BothGPH
+|     |  |        |  |    +--| (0.59)
+|     |  |        |  |    |  |     +--ROWLU_2018
+|     |  |        |  |    |  |  +--| (0.98)
+|     |  |        |  |    |  |  |  +--BothPmorini
+|     |  |        |  |    |  +--| (0.97)
+|     |  |        |  |    |     +--BothJamescasei
+|     |  |        |  +----| (1)
+|     |  |        |       +--Allmacelroy
+|     |  |     +--| (1)
+|     |  |     |  |  +--PMMFU
+|     |  |     |  +--| (1)
+|     |  |     |     +--Vtsu
+|     |  |  +--| (1)
+|     |  |  |  |     +--RO-AG_S10
+|     |  |  |  |  +--| (1)
+|     |  |  |  |  |  +--RoIR_S66
+|     |  |  |  +--| (1)
+|     |  |  |     +--AllBzSVU
+|     |  +--| (1)
+|     |     |     +--BothJaVAD
+|     |     |  +--| (1)
+|     |     |  |  +--JaAU_S56
+|     |     +--| (1)
+|     |        +--BothJaLSZZ
+|  +--| (1)
+|  |  |  +--BothSVD
+|  |  +--| (1)
+|  |     +--AllBzVAD
++--| (1)
+|  +--BothJaSVD
+|
++--JaWLU_S67
+
+Tree in newick format:
+
+(JaWTF_S54:0.0032613234,(((((BothJaOBD:0.0114927727,(AllRoRD:0.0047366608,AllRoDU:0.0053143909)1:0.0048128030)1:0.0081618870,BothRoODH:0.0176238382)0.93:0.0020294373,((((((curacao:0.0750965897,(((Korn_hast_c:0.0066722399,BothRoCMU:0.0058771684):0.0078361937,K_marleyi:0.0164348639)1:0.0228604691,PRLMH:0.0620302598)1:0.0409279774)1:0.0357425181,(((((Dstev_ENA:0.5686662522,(((Chlorica:0.1741056291,(Euph_microasciformis:0.0117181483,Harb_slatteryi:0.0464688367)1:0.1536250750)1:0.0686570545,AltLiz:0.1884176098)1:0.0690839919,Cylindroleberidinae:0.2540412703)1:0.0311519946)1:0.1181386126,((((FatWhiteEye:0.0129369955,WhiteVanessaLIRS:0.0092521281)1:0.0609555244,LongWhiteEye:0.0669462289)1:0.0396442511,((GlovSkog:0.0449187196,PSKO:0.0402705969)1:0.0276735067,(Jp_Melavar22:0.0751288860,BothPara_w:0.1053299786)1:0.0231563758)1:0.0159213090)1:0.1204282589,Gigantocypris:0.1555605666)0.63:0.0233988549)1:0.0355498086,jpcyp2b:0.1813829885)1:0.0360228029,BothJaJimGun:0.1494564001)1:0.0536723141,(LIRSCyp2:0.1056303522,(LIRSCyp1:0.0461210115,(Vhilg:0.0039971739,BothVhilg_shim:0.0066545704)1:0.0409836214)1:0.0380714994)1:0.0469836037)1:0.0563492756)1:0.0206550211,((((((EGD_Niko:0.0126674889,SFM_Niko:0.0060931452)1:0.0015640440,NOL_Niko:0.0062632145)1:0.0048249633,Gruber_Pannecohenae:0.0125337849)1:0.0029414172,BothGPH:0.0150269499)1:0.0038634811,((ROWLU_2018:0.0167366836,BothPmorini:0.0154909210)0.98:0.0004997444,BothJamescasei:0.0225020408)0.97:0.0045400807)0.59:0.0025291456,Allmacelroy:0.0208050681)1:0.1000757824)1:0.0540883792,(PMMFU:0.0383002344,Vtsu:0.0415129914)1:0.0198809950)1:0.0303802851,((RO-AG_S10:0.0061738856,RoIR_S66:0.0037587179)1:0.0103346807,AllBzSVU:0.0263586737)1:0.0206298503)1:0.0259763777,((BothJaVAD:0.0050255567,JaAU_S56:0.0036024495)1:0.0064327227,BothJaLSZZ:0.0181789432)1:0.0071748740)1:0.0033012774)1:0.0026467239,(BothSVD:0.0128017808,AllBzVAD:0.0117808730)1:0.0063227402)1:0.0111462614,BothJaSVD:0.0229828306)1:0.0076285605,JaWLU_S67:0.0041622760)1;
+
+TIME STAMP
+----------
+
+Date and time: Mon Mar  8 13:01:01 2021
+Total CPU time used: 1820.144 seconds (0h:30m:20s)
+Total wall-clock time used: 1866.92516 seconds (0h:31m:6s)
+
